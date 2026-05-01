@@ -41,7 +41,7 @@
 - **Dave Long**, Release manager (Drupal), gov
 - **Louis Escher**
 - **Louis Goddard**, Head of Research (Data Desk)
-- **dr Luca cerina**, researcher
+- **Dr Luca Cerina**, researcher
 - **Luke Kirkpatrick**, CTO (AIP, Paloma)
 - **Martin van IJcken**, gov
 - **Matthew Bristow**
