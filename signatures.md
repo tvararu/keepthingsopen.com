@@ -72,3 +72,70 @@
 - **Vad Khory**
 - **Vlad-Stefan Harbuz**, Maintainer (Open Source Pledge)
 - **Zach Leatherman**, Creator of 11ty, gov
+- **Craig Sturdy**
+- **Liza McCarron**
+- **Tom Bannister**, Software engineer
+- **Yannick Retel Helmrich**
+- **Fergus Leahy**, Software engineer
+- **Anonymous**, Node.js core collaborator (OpenJS)
+- **Daniel Schuller**, Software Engineering Manager (Unity)
+- **Nigel Kendrick**, gov
+- **Theodor Everley Rohrkasten**
+- **Anonymous**
+- **Harriet Boeing**
+- **Antony  Mackenzie-Jones**, CTO (Beyonk Ltd)
+- **Isaac Esden**, platform engineer
+- **Duncan Gough**
+- **Roman Kornikov**
+- **Chris Fishlock**
+- **Anonymous**, Lead Software Engineer
+- **Malcolm Powell**
+- **Jakob Felix Eugen Rössner**
+- **Anonymous**
+- **Danny O’Brien**, Senior Fellow (Filecoin Foundation), gov
+- **Jeremy Taylor**
+- **James Gunn**, Tech lead (DfE), gov
+- **Dani Brown**, Software Developer
+- **Alex Palcuie**, Member of Technical Staff (Anthropic PBC)
+- **Oliver Turner**, Software engineer
+- **Adam Ashton**
+- **Peter Miller**
+- **Anonymous**, Technical Specialist (North West Anglia NHS Foundation Trust)
+- **Steven Ross**
+- **Nikita Karamov**, Open-Source Software Developer
+- **chris clemson**
+- **Lindsay Wardell**
+- **Matthew Fennell**
+- **Abigail Pain**
+- **Sam Martin**, Principal Cybersecurity Engineer
+- **Luke LaValva**, SWE Open Source (eBay)
+- **Anonymous**
+- **Jamie Tanna**, Open Source maintainer (Renovate), gov
+- **Xiyue Zhang**
+- **Peter Murray**, Principal Consultant (Contino), gov
+- **Richard Robinson**
+- **Phil Milburn**
+- **Andrew Morgan**, Senior Software Engineer (Element)
+- **Richard Bensley**, DBA
+- **Justine Pocock**, (Chicken Digital Limited), gov
+- **Keri Szafir**
+- **Barry Fisher**, CEO (Pivale)
+- **Anonymous**
+- **Ben Brown**, Engineer
+- **Simon Green**, gov
+- **David Boutcher**, Distinguished Engineer (Ocient UK Limited)
+- **Rob Tagg**, Software Engineer
+- **Oliver Lane**, Software Developer
+- **Kanthan Theivendran**
+- **Rui Duarte**
+- **Chris Berry**
+- **Dave Mee**
+- **Calum Robinson**, gov
+- **Chad Whitacre**
+- **Nick Sargeant**, Technical Archittec (Mr)
+- **Rob Aley**, Digital Project Lead (Oxford Vaccine Group, University of Oxford), gov
+- **Nicola Rennie**
+- **Tim Clark**
+- **Mathieu Pasquet**, Software engineer (Doccla)
+- **James Abley**, Architect (NHS England), gov
+- **Richard Towers**, gov
