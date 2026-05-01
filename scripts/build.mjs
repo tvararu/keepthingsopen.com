@@ -9,7 +9,8 @@ const OUT_DIR = "dist";
 const OUT = join(OUT_DIR, "index.html");
 const OG_SVG = join(STATIC_DIR, "og.svg");
 const OG_PNG = join(OUT_DIR, "og.png");
-const MARKER_CARDS = "<!-- SIGNATURES -->";
+const MARKER_SIGS = "<!-- SIGNATURES -->";
+const MARKER_ANON = "<!-- ANON -->";
 const MARKER_COUNT = "__SIG_COUNT__";
 const MARKER_TURNSTILE = "__TURNSTILE_SITE_KEY__";
 const MARKER_OG_NSIGS = "{{N_SIGS}}";
@@ -42,16 +43,19 @@ const sigs = (
   )
 ).filter(Boolean);
 
-const html = await readFile(SOURCE, "utf8");
-const cards = sigs.length
-  ? sigs.map(renderCard).join("\n")
+const named = sigs.filter((s) => s.name !== "Anonymous");
+const anonCount = sigs.length - named.length;
+const grid = sigs.length
+  ? `<div class="sig-grid">\n${named.map(renderCard).join("\n")}\n</div>`
   : `<div class="sig-empty">Be the first to sign — see below.</div>`;
+const anon = anonCount > 0 ? renderAnonymousGroup(anonCount) : "";
 
+const html = await readFile(SOURCE, "utf8");
 const out = html
-  .replace(MARKER_CARDS, cards)
+  .replace(MARKER_SIGS, grid)
+  .replace(MARKER_ANON, anon)
   .replace(MARKER_COUNT, String(sigs.length))
   .replaceAll(MARKER_TURNSTILE, process.env.TURNSTILE_SITE_KEY || TURNSTILE_PROD);
-
 await writeFile(OUT, out);
 
 const nSigsLabel = `${sigs.length} ${sigs.length === 1 ? "signatory" : "signatories"}`;
@@ -67,7 +71,14 @@ function parseLine(text) {
   if (!line.startsWith("- ")) return null;
   const m = line.slice(2).match(/^\*\*(.+?)\*\*(?:, (.+))?$/);
   if (!m) return null;
-  return { name: m[1], rest: (m[2] || "").trim() };
+  let rest = (m[2] || "").trim();
+  let gov = false;
+  const govSuffix = /(?:^|,\s*)gov$/i;
+  if (govSuffix.test(rest)) {
+    gov = true;
+    rest = rest.replace(govSuffix, "").trim();
+  }
+  return { name: m[1], rest, gov };
 }
 
 function escapeHtml(s) {
@@ -80,8 +91,13 @@ function escapeHtml(s) {
 }
 
 function renderCard(s) {
-  const subtitle = s.rest
-    ? `<div class="sig-role">${escapeHtml(s.rest)}</div>`
+  const crown = s.gov
+    ? `<img src="/crown.svg" alt="" class="sig-crown" title="Has contributed to UK public-sector software"><span class="govuk-visually-hidden">Has contributed to UK public-sector software</span>`
     : "";
-  return `<div class="sig"><strong>${escapeHtml(s.name)}</strong>${subtitle}</div>`;
+  return `<div class="sig"><strong>${escapeHtml(s.name)}</strong>${crown}</div>`;
+}
+
+function renderAnonymousGroup(n) {
+  const mult = n > 1 ? `<span class="sig-anon-mult">&times; ${n}</span>` : "";
+  return `<div class="sig sig--anon"><strong>Anonymous</strong></div>${mult}`;
 }

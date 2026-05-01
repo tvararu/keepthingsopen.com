@@ -304,6 +304,9 @@
         }
       }
       .sig {
+        display: flex;
+        align-items: center;
+        gap: 8px;
         padding: 14px 16px;
         border-right: 1px solid var(--kto-rule);
         border-bottom: 1px solid var(--kto-rule);
@@ -314,10 +317,56 @@
       .sig strong {
         font-weight: 700;
       }
-      .sig-role {
+      .sig-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        border-left: 1px solid var(--kto-rule);
+        margin-top: 12px;
+        row-gap: 8px;
+      }
+      @media (min-width: 769px) {
+        .sig-bottom {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+      }
+      .sig--anon {
+        border-top: 1px solid var(--kto-rule);
+        border-right: 1px solid var(--kto-rule);
+        border-bottom: 1px solid var(--kto-rule);
+      }
+      .sig-anon-mult {
+        padding-left: 12px;
+        font-size: 16px;
         color: var(--kto-muted);
+      }
+      .sig-legend {
+        grid-column: 1 / -1;
+        margin: 0;
+        padding: 0 12px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
         font-size: 14px;
-        margin-top: 2px;
+      }
+      .sig-legend__phrase {
+        white-space: nowrap;
+      }
+      @media (min-width: 769px) {
+        .sig-legend {
+          grid-column: 4 / 5;
+        }
+      }
+      .sig-legend__crown {
+        width: 18px;
+        height: 18px;
+      }
+      .sig-crown {
+        width: 18px;
+        height: 18px;
+        margin-left: auto;
+        flex-shrink: 0;
       }
       .sig-empty {
         padding: 20px;
@@ -410,7 +459,14 @@
               <strong>__SIG_COUNT__</strong> &nbsp;signatures so far
             </div>
           </div>
-          <div class="sig-grid"><!-- SIGNATURES --></div>
+          <!-- SIGNATURES -->
+          <div class="sig-bottom">
+            <!-- ANON -->
+            <p class="sig-legend">
+              <img src="/crown.svg" alt="" class="sig-legend__crown">
+              <span>Has contributed to <span class="sig-legend__phrase">UK public-sector software</span></span>
+            </p>
+          </div>
         </section>
 
         <section class="kto-section govuk-grid-row" id="manifesto">
