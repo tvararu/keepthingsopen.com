@@ -24,7 +24,3 @@ run = "wrangler dev --var TURNSTILE_SECRET:$TURNSTILE_SECRET"
 description = "Manual deploy. Cloudflare Workers Builds also deploys on push to main."
 depends = ["build"]
 run = "wrangler deploy"
-
-[tasks.og]
-description = "Regenerate static/og.png from scripts/og.html (macOS, needs Chrome)"
-run = '"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu --hide-scrollbars --window-size=1200,630 --screenshot=static/og.png "file://$PWD/scripts/og.html"'

@@ -164,5 +164,5 @@
        y="772.46677"
        id="tspan10"><tspan
          style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
-         id="tspan9">{{SIG_COUNT}}</tspan></tspan></text>
+         id="tspan9">{{N_SIGS}}</tspan></tspan></text>
 </svg>

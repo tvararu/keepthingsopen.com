@@ -4,6 +4,7 @@ tmp/*
 .claude/worktrees
 .playwright-mcp
 dist
+node_modules
 
 # wrangler files
 .wrangler
