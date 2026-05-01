@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="630"
+   version="1.1"
+   viewBox="0 0 317.5 166.69"
+   id="svg943"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="183.73661"
+       y="744.46648"
+       width="1006.2674"
+       height="355.09719"
+       id="rect950" />
+    <clipPath
+       id="blob-grad-dots-03_clip">
+      <rect
+         width="160"
+         height="200"
+         fill="#fff"
+         id="rect1" />
+    </clipPath>
+    <linearGradient
+       id="blob-grad-dots-03_gradient"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#50f"
+         offset="0"
+         id="stop1" />
+      <stop
+         stop-color="#9c85f1"
+         offset=".33"
+         id="stop2" />
+      <stop
+         stop-color="#6dffd4"
+         offset=".66"
+         id="stop3" />
+      <stop
+         stop-color="#10f310"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <clipPath
+       id="clip0_677_39">
+      <rect
+         width="211"
+         height="363"
+         fill="#fff"
+         id="rect4" />
+    </clipPath>
+    <clipPath
+       id="blob-grad-dots-01_clip">
+      <rect
+         width="194"
+         height="222"
+         fill="#fff"
+         id="rect5" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient470"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#blob-grad-dots-03_gradient" />
+    <clipPath
+       id="clip0_677_39-6">
+      <rect
+         width="211"
+         height="363"
+         fill="#fff"
+         id="rect6" />
+    </clipPath>
+  </defs>
+  <rect
+     y="2.2698963e-08"
+     width="317.5"
+     height="166.69"
+     fill="#080e17"
+     stroke-width="0.26458"
+     style="fill:#0b0c0c;fill-opacity:1;paint-order:stroke fill markers"
+     id="rect7"
+     x="0" />
+  <text
+     x="-5.4951377"
+     y="131.62184"
+     font-size="28.222px"
+     stroke-width="0.26458"
+     text-align="center"
+     text-anchor="middle"
+     style="font-size:9.87793px;line-height:1.25;font-variation-settings:'wght' 600;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1"
+     xml:space="preserve"
+     id="text14-3"><tspan
+       x="101.01261"
+       y="131.62184"
+       fill="#ffffff"
+       font-size="28.222px"
+       stroke-width="0.26458"
+       text-align="center"
+       text-anchor="middle"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87793px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f47738;fill-opacity:1"
+       id="tspan14-5">An open letter to <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#f47738;fill-opacity:1"
+   id="tspan953">NHS England</tspan>.</tspan></text>
+  <text
+     transform="scale(0.26458)"
+     font-size="50.362px"
+     text-align="center"
+     style="line-height:1.25;font-variation-settings:'wght' 400;white-space:pre;shape-inside:url(#rect3);display:inline"
+     xml:space="preserve"
+     id="text15" />
+  <rect
+     style="opacity:1;fill:none;stroke:#ffffff;stroke-width:3.17504762;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect943"
+     width="8.0604143"
+     height="8.0604143"
+     x="23.810478"
+     y="23.812855" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.2645873,0,0,0.2645873,-16.706199,-144.3976)"
+     id="text950"
+     style="font-size:100px;line-height:1;font-family:'Amarelle Serif Trial';-inkscape-font-specification:'Amarelle Serif Trial, Normal';text-align:start;white-space:pre;shape-inside:url(#rect950);display:inline"
+     x="-340.81714"
+     y="0"><tspan
+       x="183.73633"
+       y="819.4668"
+       id="tspan2"><tspan
+         style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff"
+         id="tspan1">Keep things open:
+</tspan></tspan><tspan
+       x="183.73633"
+       y="924.18567"
+       id="tspan4"><tspan
+         style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff"
+         id="tspan3">it makes things better.</tspan></tspan></text>
+</svg>
