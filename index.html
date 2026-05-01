@@ -81,9 +81,8 @@
 
       /* Topbar */
       .kto-topbar {
-        background: var(--kto-ink);
-        color: #fff;
-        border-bottom: 8px solid var(--kto-orange);
+        background: var(--kto-orange);
+        color: var(--kto-ink);
       }
       .kto-topbar-inner {
         display: flex;
@@ -96,7 +95,7 @@
         display: inline-flex;
         align-items: baseline;
         gap: 8px;
-        color: #fff;
+        color: var(--kto-ink);
         text-decoration: none;
         font-weight: 700;
         font-size: 17px;
@@ -105,7 +104,7 @@
         display: inline-block;
         width: 20px;
         height: 20px;
-        background: #fff;
+        background: var(--kto-ink);
         position: relative;
         transform: translateY(3px);
       }
@@ -113,7 +112,7 @@
         content: "";
         position: absolute;
         inset: 5px;
-        background: var(--kto-ink);
+        background: var(--kto-orange);
       }
       .kto-wordmark strong {
         font-weight: 800;
@@ -141,7 +140,7 @@
         gap: 16px;
       }
       .kto-nav a {
-        color: #fff;
+        color: var(--kto-ink);
         text-decoration: none;
         font-weight: 500;
         font-size: 16px;
@@ -328,6 +327,21 @@
       }
       .js .govuk-radios__conditional--hidden {
         display: none;
+      }
+
+      /* Primary button: black on orange instead of GDS green */
+      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning) {
+        background-color: var(--kto-orange);
+        color: var(--kto-ink);
+        box-shadow: 0 2px 0 #b85d2c;
+        text-shadow: none;
+      }
+      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):hover {
+        background-color: #d96222;
+        color: var(--kto-ink);
+      }
+      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):focus {
+        color: var(--kto-ink);
       }
 
       /* Footer */
