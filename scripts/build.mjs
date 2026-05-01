@@ -1,7 +1,8 @@
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
 const SIGS_DIR = "signatures";
+const STATIC_DIR = "static";
 const SOURCE = "index.html";
 const OUT_DIR = "dist";
 const OUT = join(OUT_DIR, "index.html");
@@ -11,6 +12,16 @@ const MARKER_TURNSTILE = "__TURNSTILE_SITE_KEY__";
 const TURNSTILE_PROD = "0x4AAAAAADE1JMgbZ9iIeWgm";
 
 await mkdir(OUT_DIR, { recursive: true });
+
+let staticFiles = [];
+try {
+  staticFiles = await readdir(STATIC_DIR);
+} catch (e) {
+  if (e.code !== "ENOENT") throw e;
+}
+await Promise.all(
+  staticFiles.map((f) => copyFile(join(STATIC_DIR, f), join(OUT_DIR, f))),
+);
 
 let files = [];
 try {
