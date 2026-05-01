@@ -1,1 +1,1 @@
-- **Vlad-Stefan Harbuz**, Maintainer, Open Source Pledge
+- **Vlad-Stefan Harbuz**, Maintainer (Open Source Pledge)

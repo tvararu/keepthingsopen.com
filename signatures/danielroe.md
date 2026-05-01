@@ -1,1 +1,1 @@
-- **Daniel Roe**, Core team lead, Nuxt
+- **Daniel Roe**, Core team lead (Nuxt)

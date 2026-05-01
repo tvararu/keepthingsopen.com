@@ -186,7 +186,10 @@ function buildMime({ data, from, to, ip, ua }) {
 }
 
 function buildCardLine({ name, role, org }) {
-  const tail = [role, org].filter(Boolean).join(", ");
+  let tail = "";
+  if (role && org) tail = `${role} (${org})`;
+  else if (role) tail = role;
+  else if (org) tail = `(${org})`;
   const display = tail ? `**${name}**, ${tail}` : `**${name}**`;
   return `- ${display}`;
 }
