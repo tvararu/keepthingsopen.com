@@ -2,7 +2,7 @@
 
 An open letter to NHS England technical leadership asking them to reaffirm "make new source code open" as a default.
 
-Live at [keepthingsopen.com](https://keepthingsopen.com) (gated behind basic auth pre-launch).
+Live at [keepthingsopen.com](https://keepthingsopen.com).
 
 ## Development
 
