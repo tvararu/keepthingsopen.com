@@ -321,9 +321,9 @@
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         align-items: center;
-        border-left: 1px solid var(--kto-rule);
         margin-top: 12px;
-        row-gap: 8px;
+        row-gap: 16px;
+        padding-left: 1px;
       }
       @media (min-width: 769px) {
         .sig-bottom {
@@ -331,9 +331,7 @@
         }
       }
       .sig--anon {
-        border-top: 1px solid var(--kto-rule);
-        border-right: 1px solid var(--kto-rule);
-        border-bottom: 1px solid var(--kto-rule);
+        border: 1px solid var(--kto-rule);
       }
       .sig-anon-mult {
         padding-left: 12px;
@@ -343,12 +341,12 @@
       .sig-legend {
         grid-column: 1 / -1;
         margin: 0;
-        padding: 0 12px;
+        padding: 0 16px;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
         gap: 10px;
         font-size: 14px;
+        line-height: 1.4;
       }
       .sig-legend__phrase {
         white-space: nowrap;
@@ -361,6 +359,7 @@
       .sig-legend__crown {
         width: 18px;
         height: 18px;
+        flex-shrink: 0;
       }
       .sig-crown {
         width: 18px;
