@@ -1,0 +1,1 @@
+- **Joachim Liptrot Sand**, Software Engineer (Apple)
