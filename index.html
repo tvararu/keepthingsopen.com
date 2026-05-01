@@ -316,6 +316,9 @@
       .kto-evidence {
         min-height: 8em;
       }
+      .cf-turnstile {
+        margin-bottom: 20px;
+      }
       .kto-confirm {
         padding: 16px 20px;
         border-left: 4px solid var(--kto-blue);
@@ -336,9 +339,18 @@
         display: none;
       }
 
+      /* Primary button: NHS blue instead of GDS green */
+      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning) {
+        background-color: #0054af;
+        box-shadow: 0 2px 0 #002347;
+      }
+      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):hover {
+        background-color: #003e85;
+      }
+
       /* Footer */
       .govuk-footer {
-        border-top: 8px solid #00703c;
+        border-top: 8px solid #0054af;
       }
     </style>
   </head>
@@ -638,6 +650,7 @@
               class="cf-turnstile kto-js-only"
               id="turnstile-widget"
               data-sitekey="__TURNSTILE_SITE_KEY__"
+              data-appearance="interaction-only"
             ></div>
 
             <div class="govuk-button-group">
