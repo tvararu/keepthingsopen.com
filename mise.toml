@@ -16,9 +16,12 @@ description = "Render dist/index.html from index.html + signatures/*.md"
 run = "bun scripts/build.mjs"
 
 [tasks.dev]
-description = "Run a local Worker dev server"
-depends = ["build"]
-run = "wrangler dev --var TURNSTILE_SECRET:$TURNSTILE_SECRET"
+description = "Run a local Worker dev server with file watching"
+run = """
+trap 'kill 0' EXIT INT TERM
+bun scripts/build.mjs --watch &
+wrangler dev --var TURNSTILE_SECRET:$TURNSTILE_SECRET
+"""
 
 [tasks.deploy]
 description = "Manual deploy. Cloudflare Workers Builds also deploys on push to main."
