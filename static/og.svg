@@ -5,9 +5,36 @@
    version="1.1"
    viewBox="0 0 317.5 166.69"
    id="svg943"
+   sodipodi:docname="og.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   inkscape:export-filename="og.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.0504167"
+     inkscape:cx="561.20587"
+     inkscape:cy="313.20904"
+     inkscape:window-width="3840"
+     inkscape:window-height="2160"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg943" />
   <defs
      id="defs6">
     <rect
@@ -72,6 +99,12 @@
          fill="#fff"
          id="rect6" />
     </clipPath>
+    <rect
+       x="183.7366"
+       y="744.46649"
+       width="639.74618"
+       height="62.832224"
+       id="rect950-7" />
   </defs>
   <rect
      y="2.2698963e-08"
@@ -82,27 +115,6 @@
      style="fill:#0b0c0c;fill-opacity:1;paint-order:stroke fill markers"
      id="rect7"
      x="0" />
-  <text
-     x="-5.4951377"
-     y="131.62184"
-     font-size="28.222px"
-     stroke-width="0.26458"
-     text-align="center"
-     text-anchor="middle"
-     style="font-size:9.87793px;line-height:1.25;font-variation-settings:'wght' 600;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1"
-     xml:space="preserve"
-     id="text14-3"><tspan
-       x="101.01261"
-       y="131.62184"
-       fill="#ffffff"
-       font-size="28.222px"
-       stroke-width="0.26458"
-       text-align="center"
-       text-anchor="middle"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87793px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f47738;fill-opacity:1"
-       id="tspan14-5">An open letter to <tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#f47738;fill-opacity:1"
-   id="tspan953">NHS England</tspan>.</tspan></text>
   <text
      transform="scale(0.26458)"
      font-size="50.362px"
@@ -119,20 +131,38 @@
      y="23.812855" />
   <text
      xml:space="preserve"
-     transform="matrix(0.2645873,0,0,0.2645873,-16.706199,-144.3976)"
+     transform="matrix(0.2645873,0,0,0.2645873,-16.706199,-150.26721)"
      id="text950"
-     style="font-size:100px;line-height:1;font-family:'Amarelle Serif Trial';-inkscape-font-specification:'Amarelle Serif Trial, Normal';text-align:start;white-space:pre;shape-inside:url(#rect950);display:inline"
+     style="font-size:85.3333px;line-height:1;font-family:'Amarelle Serif Trial';-inkscape-font-specification:'Amarelle Serif Trial, Normal';text-align:start;white-space:pre;shape-inside:url(#rect950);display:inline"
      x="-340.81714"
      y="0"><tspan
        x="183.73633"
-       y="819.4668"
-       id="tspan2"><tspan
-         style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff"
-         id="tspan1">Keep things open:
-</tspan></tspan><tspan
-       x="183.73633"
-       y="924.18567"
+       y="808.46677"
        id="tspan4"><tspan
          style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff"
-         id="tspan3">it makes things better.</tspan></tspan></text>
+         id="tspan1">An open letter
+</tspan></tspan><tspan
+       x="183.73633"
+       y="897.82682"
+       id="tspan6"><tspan
+         style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff"
+         id="tspan5">asking NHS England
+</tspan></tspan><tspan
+       x="183.73633"
+       y="987.18686"
+       id="tspan8"><tspan
+         style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff"
+         id="tspan7">to keep its code open.</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.2645873,0,0,0.2645873,-16.629028,-65.58516)"
+     id="text950-5"
+     style="font-size:37.3333px;line-height:1;font-family:'Amarelle Serif Trial';-inkscape-font-specification:'Amarelle Serif Trial, Normal';text-align:start;white-space:pre;shape-inside:url(#rect950-7);display:inline"
+     x="-340.81714"
+     y="0"><tspan
+       x="183.73633"
+       y="772.46677"
+       id="tspan10"><tspan
+         style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#ffffff"
+         id="tspan9">{{SIG_COUNT}}</tspan></tspan></text>
 </svg>
