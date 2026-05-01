@@ -139,3 +139,98 @@
 - **Mathieu Pasquet**, Software engineer (Doccla)
 - **James Abley**, Architect (NHS England), gov
 - **Richard Towers**, gov
+- **Anonymous**
+- **Joseph Holland**
+- **Nathan Gill**
+- **Kaspar Bumke**
+- **Raza Toosy**
+- **Frazer Smith**, gov
+- **Michael Barton**, gov
+- **Charles Brent**
+- **Anonymous**
+- **Niels Mokkenstorm**, Software Engineer (Riotbyte)
+- **Cory Hall**
+- **Anonymous**
+- **Jordan Dalton**, Senior Software Engineer (Dsposal)
+- **Anonymous**
+- **Simon Holloway**
+- **Anonymous**, software developer (drug and alcohol rehabilitation software)
+- **John Knott**
+- **Keith Lewis**
+- **Dan Abramov**
+- **Anonymous**
+- **Anonymous**
+- **Tim Wisniewski**, gov
+- **Gavin Laking**, Engineering Manager
+- **H pragt**
+- **Benjamin Warrington**
+- **Anonymous**, UX Engineer (Freelance)
+- **Isabel Roses**
+- **Gareth Williams**, Software Developer
+- **Anonymous**
+- **Ben Lefroy**
+- **Anton Macmillan-Parks**, gov
+- **Anonymous**
+- **Barnaby Mannerings**
+- **José Miguel Martinez**, Engineer, gov
+- **Anonymous**, Software Architect
+- **Jamie Scaife**, Security Engineer, gov
+- **Rowan Sil**, Chief clinical information officer (Leicestershire Leicester and Rutland ICB), gov
+- **Daniel Brownlow**
+- **William Burton**
+- **Jan Hancic**
+- **Anonymous**
+- **David Daniel Lowe**
+- **Nick Savage**
+- **Anonymous**
+- **Jonny Rylands**, gov
+- **Nancy Pickering**, Data Engineer (UKHSA), gov
+- **Anonymous**, Sysadmin (Self)
+- **Anonymous**
+- **Graham Pengelly**, Engineering lead (NHS England), gov
+- **Ali Asad Lotia**, Team Lead (former) - HMRC Transaction Monitoring (HMRC), gov
+- **Anonymous**
+- **bob walker**, gov
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, Developer
+- **Lucas Hill**
+- **Colin Byrne**
+- **Andrei Jiroh Halili**, Open-source Developer (Recap Time Squad)
+- **Luke Warlow**, Web Platform Engineer
+- **Philip Norton**, Web Developer (Code Enigma), gov
+- **Luke Roslanowski**, Cloud Engineer (eMed)
+- **Hakan Ensari**
+- **Darren Hoyland**
+- **James Doc**, Software Engineer
+- **Yevhenii Kurtov**, Lead Engineer (Dayd AI)
+- **Alex Tingle**
+- **Anonymous**
+- **Anonymous**
+- **Alex Manning**, gov
+- **Ashley Rolfmore**, gov
+- **Chris Nesbitt-Smith**, gov
+- **Tao Bojlén**
+- **Amir Akrari**
+- **Michael Jesse Maximillian Davis**, Software Director (PsiQuantum)
+- **Paul Johnston**, Subject Matter Expert for Serverless at One Login (GDS), gov
+- **Sven Döring**, Owner (moorwald | sven döring)
+- **Faiz Saleem**, CTO
+- **Reupen Shah**, gov
+- **Anonymous**
+- **Anonymous**
+- **James Addison**
+- **Ritesh Sinha**
+- **Anonymous**
+- **Brussel Been**
+- **David Lantos**, gov
+- **Tim Loukes**
+- **Bela Juhasz**, Software Developer (EMBL-EBI)
+- **Anonymous**
+- **Anonymous**, gov
+- **Anonymous**
+- **Anonymous**
+- **Iestyn Gage**, Software Engineer
+- **Anonymous**
+- **Elly Loel**
+- **András Bárány**
