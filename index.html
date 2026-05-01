@@ -340,9 +340,9 @@
       .sig-legend {
         grid-column: 1 / -1;
         margin: 0;
-        padding: 0 16px;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         gap: 10px;
         font-size: 14px;
         line-height: 1.4;
@@ -352,7 +352,8 @@
       }
       @media (min-width: 769px) {
         .sig-legend {
-          grid-column: 4 / 5;
+          grid-column: 3 / 5;
+          justify-content: flex-end;
         }
       }
       .sig-legend__crown {
