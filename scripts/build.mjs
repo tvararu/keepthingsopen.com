@@ -43,9 +43,9 @@ async function build() {
 
   const html = await readFile(SOURCE, "utf8");
   const out = html
-    .replace(MARKER_SIGS, grid)
-    .replace(MARKER_ANON, anon)
-    .replace(MARKER_COUNT, String(sigs.length))
+    .replaceAll(MARKER_SIGS, grid)
+    .replaceAll(MARKER_ANON, anon)
+    .replaceAll(MARKER_COUNT, String(sigs.length))
     .replaceAll(MARKER_TURNSTILE, process.env.TURNSTILE_SITE_KEY || TURNSTILE_PROD);
   await writeFile(OUT, out);
 
