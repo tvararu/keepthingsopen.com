@@ -329,24 +329,9 @@
         display: none;
       }
 
-      /* Primary button: black on orange instead of GDS green */
-      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning) {
-        background-color: var(--kto-orange);
-        color: var(--kto-ink);
-        box-shadow: 0 2px 0 #b85d2c;
-        text-shadow: none;
-      }
-      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):hover {
-        background-color: #d96222;
-        color: var(--kto-ink);
-      }
-      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):focus {
-        color: var(--kto-ink);
-      }
-
       /* Footer */
       .govuk-footer {
-        border-top: 8px solid var(--kto-orange);
+        border-top: 8px solid #00703c;
       }
     </style>
   </head>
@@ -354,38 +339,11 @@
   <body class="govuk-template__body">
     <a href="#main" class="govuk-skip-link">Skip to main content</a>
 
-    <header class="kto-topbar">
-      <div class="govuk-width-container kto-topbar-inner">
-        <a class="kto-wordmark" href="/">
-          <span class="kto-glyph" aria-hidden="true"></span>
-          <span class="kto-name">Keep things <strong>open</strong></span>
-        </a>
-        <span class="kto-spacer"></span>
-        <nav class="kto-nav" aria-label="Primary">
-          <a href="#sign">Sign this</a>
-        </nav>
-      </div>
-    </header>
-
-    <div class="govuk-width-container">
-      <div class="govuk-phase-banner">
-        <p class="govuk-phase-banner__content">
-          <strong class="govuk-tag govuk-tag--orange govuk-phase-banner__content__tag"
-            >Open letter</strong
-          >
-          <span class="govuk-phase-banner__text">
-            An open letter to NHS England technical leadership.
-            <a class="govuk-link" href="#sign">Add your signature</a>.
-          </span>
-        </p>
-      </div>
-    </div>
-
     <div class="govuk-width-container">
       <main class="govuk-main-wrapper" id="main">
         <section class="kto-hero">
           <h1 class="govuk-heading-xl">
-            Keep things open:<br />it makes things better.
+            An open letter asking NHS England to keep its code open
           </h1>
           <p class="govuk-body-l kto-lede">
             Code paid for with public money should be open to the public. This
@@ -407,6 +365,16 @@
               <dd>Open for signatures</dd>
             </div>
           </dl>
+        </section>
+
+        <section class="kto-section" id="signatures">
+          <div class="kto-sig-head">
+            <h2 class="govuk-heading-l">Signatures</h2>
+            <div class="kto-sig-count">
+              <strong>__SIG_COUNT__</strong> &nbsp;signatures so far
+            </div>
+          </div>
+          <div class="sig-grid"><!-- SIGNATURES --></div>
         </section>
 
         <section class="kto-section govuk-grid-row" id="manifesto">
@@ -452,83 +420,11 @@
             </div>
 
             <p>
-              If you agree, please sign your name using the form below.
+              If you agree, sign your name using the form below.
               Submissions are reviewed by hand and you&rsquo;ll appear on the
               page once approved.
             </p>
           </div>
-
-          <aside
-            class="govuk-grid-column-one-third kto-aside"
-            aria-label="Asks and references"
-          >
-            <h3 class="kto-aside-heading">References</h3>
-            <ul class="govuk-list kto-ref-list">
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/"
-                  >NHS Goes To War Against Open Source</a
-                >
-              </li>
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://www.newscientist.com/article/2524962-nhs-england-rushes-to-hide-software-over-ai-hacking-fears/"
-                  >NHS England rushes to hide software over AI hacking fears</a
-                >
-              </li>
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://service-manual.nhs.uk/standards-and-technology/service-standard-points/12-make-new-source-code-open"
-                  >NHS Service Standard &mdash; Principle 12: Make new source
-                  code open</a
-                >
-              </li>
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://www.digitalhealth.net/2025/12/nhs-england-quietly-removes-open-source-policy-web-pages/"
-                  >NHS England quietly removes open source policy web pages
-                  (Digital Health)</a
-                >
-              </li>
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/"
-                  >Don&rsquo;t be afraid to code in the open: how to do it
-                  securely (GOV.UK)</a
-                >
-              </li>
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/"
-                  >Does Mythos mean shutting down your open source repos?
-                  (shkspr.mobi)</a
-                >
-              </li>
-              <li>
-                <a
-                  class="govuk-link"
-                  href="https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/"
-                  >Discourse is not going closed source (Discourse)</a
-                >
-              </li>
-            </ul>
-          </aside>
-        </section>
-
-        <section class="kto-section" id="signatures">
-          <div class="kto-sig-head">
-            <h2 class="govuk-heading-l">Signatures</h2>
-            <div class="kto-sig-count">
-              <strong>__SIG_COUNT__</strong> &nbsp;signatures so far
-            </div>
-          </div>
-          <div class="sig-grid"><!-- SIGNATURES --></div>
         </section>
 
         <section class="kto-section govuk-grid-row" id="sign">
@@ -766,6 +662,65 @@
             </p>
           </div>
           </div>
+        </section>
+
+        <section class="kto-section" id="references">
+          <h2 class="govuk-heading-l">References</h2>
+          <ul class="govuk-list kto-ref-list">
+            <li>
+              <a
+                class="govuk-link"
+                href="https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/"
+                >NHS Goes To War Against Open Source</a
+              >
+            </li>
+            <li>
+              <a
+                class="govuk-link"
+                href="https://www.newscientist.com/article/2524962-nhs-england-rushes-to-hide-software-over-ai-hacking-fears/"
+                >NHS England rushes to hide software over AI hacking fears</a
+              >
+            </li>
+            <li>
+              <a
+                class="govuk-link"
+                href="https://service-manual.nhs.uk/standards-and-technology/service-standard-points/12-make-new-source-code-open"
+                >NHS Service Standard &mdash; Principle 12: Make new source
+                code open</a
+              >
+            </li>
+            <li>
+              <a
+                class="govuk-link"
+                href="https://www.digitalhealth.net/2025/12/nhs-england-quietly-removes-open-source-policy-web-pages/"
+                >NHS England quietly removes open source policy web pages
+                (Digital Health)</a
+              >
+            </li>
+            <li>
+              <a
+                class="govuk-link"
+                href="https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/"
+                >Don&rsquo;t be afraid to code in the open: how to do it
+                securely (GOV.UK)</a
+              >
+            </li>
+            <li>
+              <a
+                class="govuk-link"
+                href="https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/"
+                >Does Mythos mean shutting down your open source repos?
+                (shkspr.mobi)</a
+              >
+            </li>
+            <li>
+              <a
+                class="govuk-link"
+                href="https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/"
+                >Discourse is not going closed source (Discourse)</a
+              >
+            </li>
+          </ul>
         </section>
       </main>
     </div>
