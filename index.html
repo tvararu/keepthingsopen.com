@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keep things open: it makes things better</title>
+    <meta
+      name="description"
+      content="An open letter to NHS England technical leadership: code paid for with public money should, by default, be open to the public."
+    />
+
+    <meta property="og:title" content="Keep things open: it makes things better" />
+    <meta
+      property="og:description"
+      content="An open letter to NHS England technical leadership: code paid for with public money should, by default, be open to the public."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://keepthingsopen.com/" />
+    <meta name="twitter:card" content="summary" />
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230b0c0c'/><rect x='6' y='6' width='20' height='20' fill='%23ffffff'/><rect x='11' y='11' width='10' height='10' fill='%230b0c0c'/></svg>"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/govuk-frontend@5/dist/govuk/govuk-frontend.min.css"
+    />
+
+    <script
+      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+      async
+      defer
+    ></script>
+
+    <style>
+      :root {
+        --kto-ink: #0b0c0c;
+        --kto-paper-dim: #f3f2f1;
+        --kto-rule: #b1b4b6;
+        --kto-muted: #505a5f;
+        --kto-blue: #1d70b8;
+        --kto-focus: #ffdd00;
+        --kto-orange: #f47738;
+        --kto-sans:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        --kto-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+      }
+
+      .govuk-template__body,
+      .govuk-body,
+      .govuk-body-l,
+      .govuk-body-m,
+      .govuk-body-s,
+      .govuk-heading-xl,
+      .govuk-heading-l,
+      .govuk-heading-m,
+      .govuk-heading-s,
+      .govuk-button,
+      .govuk-input,
+      .govuk-label,
+      .govuk-hint,
+      .govuk-tag,
+      .govuk-warning-text__text,
+      .govuk-inset-text,
+      .govuk-list,
+      .govuk-link,
+      .govuk-phase-banner__content,
+      .govuk-footer,
+      .govuk-footer__link,
+      .govuk-skip-link {
+        font-family: var(--kto-sans);
+      }
+
+      /* Topbar */
+      .kto-topbar {
+        background: var(--kto-ink);
+        color: #fff;
+        border-bottom: 8px solid var(--kto-orange);
+      }
+      .kto-topbar-inner {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+      }
+      .kto-wordmark {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 8px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 17px;
+      }
+      .kto-wordmark .kto-glyph {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        position: relative;
+        transform: translateY(3px);
+      }
+      .kto-wordmark .kto-glyph::after {
+        content: "";
+        position: absolute;
+        inset: 5px;
+        background: var(--kto-ink);
+      }
+      .kto-wordmark strong {
+        font-weight: 800;
+      }
+      .kto-wordmark:focus {
+        outline: 3px solid var(--kto-focus);
+        outline-offset: 0;
+        background: var(--kto-focus);
+        color: var(--kto-ink);
+        box-shadow:
+          0 -2px var(--kto-focus),
+          0 4px var(--kto-ink);
+      }
+      .kto-wordmark:focus .kto-glyph {
+        background: var(--kto-ink);
+      }
+      .kto-wordmark:focus .kto-glyph::after {
+        background: var(--kto-focus);
+      }
+      .kto-spacer {
+        flex: 1;
+      }
+      .kto-nav {
+        display: flex;
+        gap: 16px;
+      }
+      .kto-nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+      }
+      .kto-nav a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+      }
+      .kto-nav a:focus {
+        outline: 3px solid var(--kto-focus);
+        background: var(--kto-focus);
+        color: var(--kto-ink);
+        box-shadow:
+          0 -2px var(--kto-focus),
+          0 4px var(--kto-ink);
+        text-decoration: none;
+      }
+
+      /* Hero */
+      .kto-hero {
+        padding-bottom: 32px;
+        border-bottom: 1px solid var(--kto-rule);
+        margin-bottom: 40px;
+      }
+      .kto-hero .kto-lede {
+        max-width: 38rem;
+      }
+      .kto-meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px 40px;
+        margin: 32px 0 0;
+      }
+      .kto-meta-row dt {
+        color: var(--kto-muted);
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 4px;
+      }
+      .kto-meta-row dd {
+        font-weight: 700;
+        margin: 0;
+      }
+
+      /* Manifesto body */
+      .kto-manifesto p,
+      .kto-manifesto .govuk-inset-text {
+        font-size: 19px;
+        line-height: 1.6;
+      }
+      .kto-manifesto .govuk-inset-text {
+        font-weight: 600;
+      }
+
+      /* Aside */
+      .kto-aside-heading {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--kto-muted);
+        margin: 0 0 12px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--kto-ink);
+        font-weight: 700;
+      }
+      .kto-aside-heading + ul,
+      .kto-aside-heading + ol {
+        margin-top: 0;
+      }
+      .kto-aside ul + .kto-aside-heading,
+      .kto-aside ol + .kto-aside-heading {
+        margin-top: 32px;
+      }
+      .kto-ref-list li {
+        padding: 10px 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.4;
+        border-bottom: 1px solid var(--kto-rule);
+      }
+      .kto-ref-list li:last-child {
+        border-bottom: 0;
+      }
+      .kto-ref-list .govuk-link,
+      .kto-ref-list .govuk-link:visited {
+        color: var(--kto-blue);
+      }
+      .kto-ref-list .govuk-link:hover {
+        color: var(--kto-ink);
+      }
+
+      /* Two-column section spacing */
+      .kto-section {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid var(--kto-rule);
+      }
+      .kto-section:last-of-type {
+        border-bottom: 0;
+      }
+
+      /* Signatures section head */
+      .kto-sig-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+      .kto-sig-head h2 {
+        margin: 0;
+      }
+      .kto-sig-count {
+        font-family: var(--kto-mono);
+        font-size: 15px;
+        color: var(--kto-muted);
+      }
+      .kto-sig-count strong {
+        color: var(--kto-ink);
+        font-size: 22px;
+      }
+
+      /* Signatures grid: 2 cols mobile, 4 cols desktop */
+      .sig-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        border-top: 1px solid var(--kto-rule);
+        border-left: 1px solid var(--kto-rule);
+      }
+      @media (min-width: 769px) {
+        .sig-grid {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+      }
+      .sig {
+        padding: 14px 16px;
+        border-right: 1px solid var(--kto-rule);
+        border-bottom: 1px solid var(--kto-rule);
+        font-size: 16px;
+        line-height: 1.4;
+        background: #fff;
+      }
+      .sig strong {
+        font-weight: 700;
+      }
+      .sig .govuk-link,
+      .sig .govuk-link:visited {
+        color: var(--kto-blue);
+      }
+      .sig .govuk-link:hover {
+        color: var(--kto-ink);
+      }
+      .sig-role {
+        color: var(--kto-muted);
+        font-size: 14px;
+        margin-top: 2px;
+      }
+      .sig-empty {
+        padding: 20px;
+        background: var(--kto-paper-dim);
+        color: var(--kto-muted);
+        font-size: 16px;
+      }
+
+      /* Sign form */
+      .kto-optional {
+        font-weight: 400;
+        color: var(--kto-muted);
+      }
+      .kto-evidence {
+        min-height: 8em;
+      }
+      .kto-confirm {
+        padding: 16px 20px;
+        border-left: 4px solid var(--kto-blue);
+        background: var(--kto-paper-dim);
+        font-size: 17px;
+        line-height: 1.5;
+      }
+      .kto-confirm > :last-child {
+        margin-bottom: 0;
+      }
+      .no-js .kto-js-only {
+        display: none;
+      }
+      .js .kto-no-js-only {
+        display: none;
+      }
+      .js .govuk-radios__conditional--hidden {
+        display: none;
+      }
+
+      /* Footer */
+      .govuk-footer {
+        border-top: 8px solid var(--kto-orange);
+      }
+    </style>
+  </head>
+
+  <body class="govuk-template__body">
+    <a href="#main" class="govuk-skip-link">Skip to main content</a>
+
+    <header class="kto-topbar">
+      <div class="govuk-width-container kto-topbar-inner">
+        <a class="kto-wordmark" href="/">
+          <span class="kto-glyph" aria-hidden="true"></span>
+          <span class="kto-name">Keep things <strong>open</strong></span>
+        </a>
+        <span class="kto-spacer"></span>
+        <nav class="kto-nav" aria-label="Primary">
+          <a href="#sign">Sign this</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="govuk-width-container">
+      <div class="govuk-phase-banner">
+        <p class="govuk-phase-banner__content">
+          <strong class="govuk-tag govuk-tag--orange govuk-phase-banner__content__tag"
+            >Open letter</strong
+          >
+          <span class="govuk-phase-banner__text">
+            An open letter to NHS England technical leadership.
+            <a class="govuk-link" href="#sign">Add your signature</a>.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="govuk-width-container">
+      <main class="govuk-main-wrapper" id="main">
+        <section class="kto-hero">
+          <h1 class="govuk-heading-xl">
+            Keep things open:<br />it makes things better.
+          </h1>
+          <p class="govuk-body-l kto-lede">
+            Code paid for with public money should be open to the public. This
+            principle is enshrined in the UK Government Design Principles and
+            the NHS Service Standard. It is now being walked back. We are
+            signing this to restate the case.
+          </p>
+          <dl class="kto-meta-row">
+            <div>
+              <dt>Published</dt>
+              <dd>1 May 2026</dd>
+            </div>
+            <div>
+              <dt>Addressed to</dt>
+              <dd>NHS England</dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd>Open for signatures</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="kto-section govuk-grid-row" id="manifesto">
+          <div class="govuk-grid-column-two-thirds kto-manifesto">
+            <h2 class="govuk-heading-l">Statement</h2>
+
+            <p>
+              We disagree with the NHS technical leadership&rsquo;s decision to
+              hide the source code of all of their repositories.
+            </p>
+
+            <p>
+              Making code open source requires more work than keeping it closed.
+              <strong>That hard work is the point.</strong>
+            </p>
+
+            <p>
+              It requires a higher bar of quality. It requires processes to
+              proactively find, fix, and monitor for vulnerabilities. It
+              requires identifying risk, and putting barriers in place to
+              contain any damage when things go wrong.
+            </p>
+
+            <p>
+              But it works like the human immune system: being exposed to
+              threats hardens the attack surface.
+            </p>
+
+            <p>
+              Closed source allows that work to be skipped. It substitutes
+              obscurity for depth, and obscurity buys you precious little
+              when a sufficiently motivated attacker is involved.
+            </p>
+
+            <div class="govuk-warning-text">
+              <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+              <strong class="govuk-warning-text__text">
+                <span class="govuk-visually-hidden">Warning</span>
+                We call on NHS England to withdraw the SDLC-8 red line and
+                reaffirm its commitment to the NHS Service Standard Principle
+                12: &ldquo;Make new source code open.&rdquo;
+              </strong>
+            </div>
+
+            <p>
+              If you agree, please sign your name using the form below.
+              Submissions are reviewed by hand and you&rsquo;ll appear on the
+              page once approved.
+            </p>
+          </div>
+
+          <aside
+            class="govuk-grid-column-one-third kto-aside"
+            aria-label="Asks and references"
+          >
+            <h3 class="kto-aside-heading">References</h3>
+            <ul class="govuk-list kto-ref-list">
+              <li>
+                <a
+                  class="govuk-link"
+                  href="https://service-manual.nhs.uk/standards-and-technology/service-standard-points/12-make-new-source-code-open"
+                  >NHS Service Standard &mdash; Principle 12: Make new source
+                  code open</a
+                >
+              </li>
+              <li>
+                <a
+                  class="govuk-link"
+                  href="https://www.digitalhealth.net/2025/12/nhs-england-quietly-removes-open-source-policy-web-pages/"
+                  >NHS England quietly removes open source policy web pages
+                  (Digital Health)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="govuk-link"
+                  href="https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/"
+                  >Don&rsquo;t be afraid to code in the open: how to do it
+                  securely (GOV.UK)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="govuk-link"
+                  href="https://shkspr.mobi/blog/2026/04/does-mythos-mean-you-need-to-shut-down-your-open-source-repos/"
+                  >Does Mythos mean shutting down your open source repos?
+                  (shkspr.mobi)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="govuk-link"
+                  href="https://blog.discourse.org/2026/04/discourse-is-not-going-closed-source/"
+                  >Discourse is not going closed source (Discourse)</a
+                >
+              </li>
+            </ul>
+          </aside>
+        </section>
+
+        <section class="kto-section" id="signatures">
+          <div class="kto-sig-head">
+            <h2 class="govuk-heading-l">Signatures</h2>
+            <div class="kto-sig-count">
+              <strong>__SIG_COUNT__</strong> &nbsp;signatures so far
+            </div>
+          </div>
+          <div class="sig-grid"><!-- SIGNATURES --></div>
+        </section>
+
+        <section class="kto-section govuk-grid-row" id="sign">
+          <div class="govuk-grid-column-two-thirds">
+            <h2 class="govuk-heading-l">Add your signature</h2>
+
+          <div
+            class="govuk-error-summary kto-js-only"
+            id="error-summary"
+            tabindex="-1"
+            hidden
+          >
+            <div role="alert">
+              <h2 class="govuk-error-summary__title">There is a problem</h2>
+              <div class="govuk-error-summary__body">
+                <ul
+                  class="govuk-list govuk-error-summary__list"
+                  id="error-summary-list"
+                ></ul>
+              </div>
+            </div>
+          </div>
+
+          <form id="sign-form" novalidate>
+            <div class="govuk-form-group" id="g-name">
+              <label class="govuk-label govuk-label--s" for="f-name"
+                >Name</label
+              >
+              <p class="govuk-error-message" id="e-name" hidden>
+                <span class="govuk-visually-hidden">Error:</span>
+                <span data-error></span>
+              </p>
+              <input
+                class="govuk-input govuk-input--width-30"
+                id="f-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                maxlength="80"
+                required
+              />
+            </div>
+
+            <div class="govuk-form-group" id="g-email">
+              <label class="govuk-label govuk-label--s" for="f-email"
+                >Email address</label
+              >
+              <div class="govuk-hint">
+                We&rsquo;ll only use this to contact you about your signature. Not published.
+              </div>
+              <p class="govuk-error-message" id="e-email" hidden>
+                <span class="govuk-visually-hidden">Error:</span>
+                <span data-error></span>
+              </p>
+              <input
+                class="govuk-input govuk-input--width-30"
+                id="f-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                spellcheck="false"
+                maxlength="200"
+                required
+              />
+            </div>
+
+            <div class="govuk-form-group" id="g-contributed">
+              <fieldset
+                class="govuk-fieldset"
+                aria-describedby="contributed-hint"
+              >
+                <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
+                  Have you contributed to UK public-sector software?
+                </legend>
+                <div class="govuk-hint" id="contributed-hint">
+                  This can be technical or non-technical, public or private.
+                </div>
+                <p class="govuk-error-message" id="e-contributed" hidden>
+                  <span class="govuk-visually-hidden">Error:</span>
+                  <span data-error></span>
+                </p>
+                <div class="govuk-radios">
+                  <div class="govuk-radios__item">
+                    <input
+                      class="govuk-radios__input"
+                      id="f-contributed-yes"
+                      name="contributed"
+                      type="radio"
+                      value="yes"
+                      data-aria-controls="conditional-contributed-yes"
+                    />
+                    <label
+                      class="govuk-label govuk-radios__label"
+                      for="f-contributed-yes"
+                    >
+                      Yes
+                    </label>
+                  </div>
+                  <div
+                    class="govuk-radios__conditional govuk-radios__conditional--hidden"
+                    id="conditional-contributed-yes"
+                  >
+                    <div class="govuk-form-group" id="g-details">
+                      <label
+                        class="govuk-label govuk-label--s"
+                        for="f-details"
+                      >
+                        Tell us about your contribution
+                      </label>
+                      <div class="govuk-hint">
+                        A link to a commit or profile is enough. Not published.
+                      </div>
+                      <p class="govuk-error-message" id="e-details" hidden>
+                        <span class="govuk-visually-hidden">Error:</span>
+                        <span data-error></span>
+                      </p>
+                      <textarea
+                        class="govuk-textarea kto-evidence"
+                        id="f-details"
+                        name="details"
+                        maxlength="2000"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="govuk-radios__item">
+                    <input
+                      class="govuk-radios__input"
+                      id="f-contributed-no"
+                      name="contributed"
+                      type="radio"
+                      value="no"
+                    />
+                    <label
+                      class="govuk-label govuk-radios__label"
+                      for="f-contributed-no"
+                    >
+                      No
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="govuk-form-group" id="g-role">
+              <label class="govuk-label govuk-label--s" for="f-role">
+                Role <span class="kto-optional">(optional)</span>
+              </label>
+              <p class="govuk-error-message" id="e-role" hidden>
+                <span class="govuk-visually-hidden">Error:</span>
+                <span data-error></span>
+              </p>
+              <input
+                class="govuk-input govuk-input--width-20"
+                id="f-role"
+                name="role"
+                type="text"
+                maxlength="80"
+              />
+            </div>
+
+            <div class="govuk-form-group" id="g-org">
+              <label class="govuk-label govuk-label--s" for="f-org">
+                Organisation <span class="kto-optional">(optional)</span>
+              </label>
+              <p class="govuk-error-message" id="e-org" hidden>
+                <span class="govuk-visually-hidden">Error:</span>
+                <span data-error></span>
+              </p>
+              <input
+                class="govuk-input govuk-input--width-20"
+                id="f-org"
+                name="org"
+                type="text"
+                maxlength="80"
+              />
+            </div>
+
+            <div class="govuk-form-group">
+              <fieldset class="govuk-fieldset">
+                <legend class="govuk-fieldset__legend govuk-visually-hidden">
+                  Anonymity
+                </legend>
+                <div class="govuk-checkboxes">
+                  <div class="govuk-checkboxes__item">
+                    <input
+                      class="govuk-checkboxes__input"
+                      id="f-anonymous"
+                      name="anonymous"
+                      type="checkbox"
+                    />
+                    <label
+                      class="govuk-label govuk-checkboxes__label"
+                      for="f-anonymous"
+                    >
+                      Sign anonymously
+                    </label>
+                    <div class="govuk-hint govuk-checkboxes__hint">
+                      Your signature will appear as &ldquo;Anonymous&rdquo;,
+                      followed by your role and organisation if provided.
+                      Personal data is deleted within 24 hours of verification.
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+
+            <div
+              class="cf-turnstile kto-js-only"
+              id="turnstile-widget"
+              data-sitekey="__TURNSTILE_SITE_KEY__"
+            ></div>
+
+            <div class="govuk-button-group">
+              <button
+                type="submit"
+                class="govuk-button kto-js-only"
+                id="sign-btn"
+              >
+                Submit signature
+              </button>
+              <a
+                class="govuk-button govuk-button--secondary kto-no-js-only"
+                id="email-btn"
+                href="mailto:signatures@keepthingsopen.com"
+              >
+                Sign by email
+              </a>
+            </div>
+          </form>
+
+          <div class="kto-confirm" id="confirm-panel" hidden>
+            <p class="govuk-body">
+              Thank you, your submission has been accepted. We will review it
+              by hand and contact you if we need any further information.
+            </p>
+          </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="govuk-footer">
+      <div class="govuk-width-container">
+        <div class="govuk-footer__meta">
+          <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+            <h2 class="govuk-visually-hidden">Support links</h2>
+            <ul class="govuk-footer__inline-list">
+              <li class="govuk-footer__inline-list-item">
+                <a
+                  class="govuk-footer__link"
+                  href="https://github.com/tvararu/keepthingsopen.com"
+                  >View on GitHub</a
+                >
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" href="#sign">Sign</a>
+              </li>
+              <li class="govuk-footer__inline-list-item">
+                <a
+                  class="govuk-footer__link"
+                  href="mailto:signatures@keepthingsopen.com"
+                  >Email signatures@keepthingsopen.com</a
+                >
+              </li>
+            </ul>
+            <div class="govuk-footer__meta-custom">
+              Source available under the
+              <a
+                class="govuk-footer__link"
+                href="https://github.com/tvararu/keepthingsopen.com/blob/main/LICENSE"
+                >MIT licence</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+
+      (function () {
+        var form = document.getElementById("sign-form");
+        var btn = document.getElementById("sign-btn");
+        var confirmPanel = document.getElementById("confirm-panel");
+        var errorSummary = document.getElementById("error-summary");
+        var errorSummaryList = document.getElementById("error-summary-list");
+
+        var fieldIds = ["name", "email", "details", "role", "org"];
+        var allErrorIds = fieldIds.concat(["contributed"]);
+        var FIELD_ANCHORS = {
+          name: "f-name",
+          email: "f-email",
+          details: "f-details",
+          role: "f-role",
+          org: "f-org",
+          contributed: "f-contributed-yes",
+        };
+
+        var emailBtn = document.getElementById("email-btn");
+        var defaultEmailHref = emailBtn.getAttribute("href");
+
+        function val(id) {
+          return (document.getElementById("f-" + id).value || "").trim();
+        }
+
+        function escMd(s) {
+          return s.replace(/\|/g, "\\|");
+        }
+
+        function buildLine() {
+          var anonymous = document.getElementById("f-anonymous").checked;
+          var typed = escMd(val("name"));
+          if (!anonymous && !typed) return "";
+          var name = anonymous ? "Anonymous" : typed;
+          var role = escMd(val("role"));
+          var org = escMd(val("org"));
+          var tail = [role, org].filter(Boolean).join(", ");
+          var display = tail ? "**" + name + "**, " + tail : "**" + name + "**";
+          return "- " + display;
+        }
+
+        function buildMailto() {
+          var line = buildLine();
+          if (!line) return defaultEmailHref;
+          var subject = "Signature: " + val("name");
+          var body =
+            "Please add this signature to the open letter.\n\n" +
+            line +
+            "\n";
+          return (
+            "mailto:signatures@keepthingsopen.com?subject=" +
+            encodeURIComponent(subject) +
+            "&body=" +
+            encodeURIComponent(body)
+          );
+        }
+
+        function refreshMailto() {
+          emailBtn.setAttribute("href", buildMailto());
+        }
+
+        ["name", "role", "org"].forEach(function (id) {
+          document
+            .getElementById("f-" + id)
+            .addEventListener("input", refreshMailto);
+        });
+        document
+          .getElementById("f-anonymous")
+          .addEventListener("change", refreshMailto);
+
+        function syncConditionalReveals() {
+          var inputs = document.querySelectorAll(
+            ".govuk-radios__input[data-aria-controls]",
+          );
+          inputs.forEach(function (radio) {
+            var target = document.getElementById(
+              radio.getAttribute("data-aria-controls"),
+            );
+            if (!target) return;
+            target.classList.toggle(
+              "govuk-radios__conditional--hidden",
+              !radio.checked,
+            );
+          });
+        }
+        document
+          .querySelectorAll('input[name="contributed"]')
+          .forEach(function (radio) {
+            radio.addEventListener("change", syncConditionalReveals);
+          });
+        syncConditionalReveals();
+
+        function clearErrors() {
+          allErrorIds.forEach(function (id) {
+            var group = document.getElementById("g-" + id);
+            var err = document.getElementById("e-" + id);
+            if (group) group.classList.remove("govuk-form-group--error");
+            if (err) {
+              err.hidden = true;
+              err.querySelector("[data-error]").textContent = "";
+            }
+          });
+          clearSummary();
+        }
+
+        function showFieldError(id, message) {
+          var group = document.getElementById("g-" + id);
+          var err = document.getElementById("e-" + id);
+          if (group) group.classList.add("govuk-form-group--error");
+          if (err) {
+            err.querySelector("[data-error]").textContent = message;
+            err.hidden = false;
+          }
+        }
+
+        function clearSummary() {
+          errorSummary.hidden = true;
+          errorSummaryList.innerHTML = "";
+        }
+
+        function showSummary(items) {
+          errorSummaryList.innerHTML = "";
+          items.forEach(function (item) {
+            var li = document.createElement("li");
+            if (item.fieldId) {
+              var a = document.createElement("a");
+              a.href = "#" + item.fieldId;
+              a.textContent = item.message;
+              li.appendChild(a);
+            } else {
+              li.textContent = item.message;
+            }
+            errorSummaryList.appendChild(li);
+          });
+          errorSummary.hidden = false;
+          errorSummary.focus();
+          errorSummary.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+
+        function resetTurnstile() {
+          if (window.turnstile) {
+            try {
+              window.turnstile.reset("#turnstile-widget");
+            } catch (e) {}
+          }
+        }
+
+        function getTurnstileToken() {
+          var input = form.querySelector('input[name="cf-turnstile-response"]');
+          return input ? input.value : "";
+        }
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          clearErrors();
+          btn.disabled = true;
+
+          var payload = {};
+          fieldIds.forEach(function (id) {
+            payload[id] = val(id);
+          });
+          payload.anonymous = document.getElementById("f-anonymous").checked;
+          var contributedYes = document.getElementById("f-contributed-yes");
+          var contributedNo = document.getElementById("f-contributed-no");
+          payload.contributed = contributedYes.checked
+            ? "yes"
+            : contributedNo.checked
+              ? "no"
+              : "";
+          payload.turnstileToken = getTurnstileToken();
+
+          fetch("/sign", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          })
+            .then(function (res) {
+              return res.json().then(function (json) {
+                return { status: res.status, body: json };
+              });
+            })
+            .then(function (r) {
+              if (r.status === 200 && r.body.ok) {
+                form.hidden = true;
+                confirmPanel.hidden = false;
+                confirmPanel.scrollIntoView({ behavior: "smooth", block: "center" });
+                return;
+              }
+              btn.disabled = false;
+              resetTurnstile();
+              if (r.status === 400 && r.body.errors) {
+                var items = [];
+                Object.keys(r.body.errors).forEach(function (key) {
+                  var message = r.body.errors[key];
+                  var anchor = FIELD_ANCHORS[key];
+                  items.push({ message: message, fieldId: anchor || null });
+                  if (anchor) {
+                    showFieldError(key, message);
+                  }
+                });
+                showSummary(items);
+                return;
+              }
+              if (r.status === 400 && r.body.error) {
+                showSummary([{ message: r.body.error }]);
+                return;
+              }
+              showSummary([
+                { message: "Something went wrong. Try again or sign by email." },
+              ]);
+            })
+            .catch(function () {
+              btn.disabled = false;
+              resetTurnstile();
+              showSummary([
+                {
+                  message:
+                    "Couldn’t reach the server. Try again or sign by email.",
+                },
+              ]);
+            });
+        });
+      })();
+    </script>
+  </body>
+</html>

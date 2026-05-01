@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "keepthingsopen",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "dist",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "build": {
+    "command": "node scripts/build.mjs"
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "allowed_destination_addresses": [
+        "theo@vararu.org",
+        "vlad@vlad.website"
+      ]
+    }
+  ],
+  "vars": {
+    "FROM_ADDRESS": "noreply@keepthingsopen.com",
+    "MODERATORS": "theo@vararu.org,vlad@vlad.website"
+  }
+}

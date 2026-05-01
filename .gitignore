@@ -1,0 +1,13 @@
+tmp/*
+!tmp/.keep
+
+.claude/worktrees
+.playwright-mcp
+dist
+
+# wrangler files
+.wrangler
+.dev.vars*
+.env*
+!.env.example
+worker-configuration.d.ts

@@ -1,0 +1,28 @@
+[tools]
+bun = "latest"
+"npm:wrangler" = "latest"
+
+[settings]
+npm.package_manager = "bun"
+
+[env]
+BASIC_AUTH_USER = "dev"
+BASIC_AUTH_PASS = "dev"
+# Cloudflare always-pass test pair. Production uses the real key baked into
+# scripts/build.mjs (TURNSTILE_PROD) plus the Worker secret in the dashboard.
+TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
+TURNSTILE_SECRET = "1x0000000000000000000000000000000AA"
+
+[tasks.build]
+description = "Render dist/index.html from index.html + signatures/*.md"
+run = "bun scripts/build.mjs"
+
+[tasks.dev]
+description = "Run a local Worker dev server"
+depends = ["build"]
+run = "wrangler dev --var BASIC_AUTH_USER:$BASIC_AUTH_USER --var BASIC_AUTH_PASS:$BASIC_AUTH_PASS --var TURNSTILE_SECRET:$TURNSTILE_SECRET"
+
+[tasks.deploy]
+description = "Manual deploy. Cloudflare Workers Builds also deploys on push to main."
+depends = ["build"]
+run = "wrangler deploy"
