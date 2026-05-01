@@ -1,1 +1,1 @@
-- [**Theodor Vararu**, Software Engineer](https://vararu.org)
+- **Theodor Vararu**, Software Engineer

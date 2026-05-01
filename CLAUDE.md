@@ -42,8 +42,8 @@ Everything else falls through to `env.ASSETS.fetch(request)`. **The Worker does 
 This is where signature rendering happens. It:
 
 1. Reads every `.md` file in `signatures/` (sorted alphabetically by filename = handle).
-2. Parses each as a single markdown line of the form `- **Name**, role, org` or `- [**Name**, role, org](https://url)`. Lines that don't match are silently skipped.
-3. Renders to `<div class="sig">…</div>` cards via `renderCard`, with `escapeHtml` applied to every dynamic field. URLs are constrained to `https?://` by the parser regex.
+2. Parses each as a single markdown line of the form `- **Name**, role, org`. Lines that don't match are silently skipped.
+3. Renders to `<div class="sig">…</div>` cards via `renderCard`, with `escapeHtml` applied to every dynamic field.
 4. Reads source `index.html`, splices the cards into the `<!-- SIGNATURES -->` marker and the count into the `__SIG_COUNT__` marker (both defined as named constants at the top of the script).
 5. Writes the result to `dist/index.html`.
 

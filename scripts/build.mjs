@@ -44,16 +44,9 @@ console.log(`Built ${OUT} with ${sigs.length} signature(s).`);
 function parseLine(text) {
   const line = (text.trim().split("\n")[0] || "").trim();
   if (!line.startsWith("- ")) return null;
-  let body = line.slice(2);
-  let url = null;
-  const linkMatch = body.match(/^\[(.+)\]\((https?:\/\/.+)\)$/);
-  if (linkMatch) {
-    body = linkMatch[1];
-    url = linkMatch[2];
-  }
-  const m = body.match(/^\*\*(.+?)\*\*(?:, (.+))?$/);
+  const m = line.slice(2).match(/^\*\*(.+?)\*\*(?:, (.+))?$/);
   if (!m) return null;
-  return { name: m[1], rest: (m[2] || "").trim(), url };
+  return { name: m[1], rest: (m[2] || "").trim() };
 }
 
 function escapeHtml(s) {
@@ -66,12 +59,8 @@ function escapeHtml(s) {
 }
 
 function renderCard(s) {
-  const nameHtml = `<strong>${escapeHtml(s.name)}</strong>`;
-  const named = s.url
-    ? `<a class="govuk-link" href="${escapeHtml(s.url)}" rel="noopener">${nameHtml}</a>`
-    : nameHtml;
   const subtitle = s.rest
     ? `<div class="sig-role">${escapeHtml(s.rest)}</div>`
     : "";
-  return `<div class="sig">${named}${subtitle}</div>`;
+  return `<div class="sig"><strong>${escapeHtml(s.name)}</strong>${subtitle}</div>`;
 }
