@@ -1,0 +1,1 @@
+- **Richard Harris**, Software engineer (Vercel)
