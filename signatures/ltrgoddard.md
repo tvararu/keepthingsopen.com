@@ -1,1 +1,0 @@
-- **Louis Goddard**, Head of Research (Data Desk)

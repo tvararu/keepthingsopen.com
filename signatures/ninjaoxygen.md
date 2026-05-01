@@ -1,1 +1,0 @@
-- **Chris Poole**, Software Engineer

@@ -1,1 +1,0 @@
-- **Dr Cory Doctorow (h.c.)**

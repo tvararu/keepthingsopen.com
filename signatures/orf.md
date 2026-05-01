@@ -1,1 +1,0 @@
-- **Tom Forbes**, Software Engineer

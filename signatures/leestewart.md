@@ -1,1 +1,0 @@
-- **Lee Stewart**, Software Engineer

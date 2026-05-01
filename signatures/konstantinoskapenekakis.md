@@ -1,1 +1,0 @@
-- **Konstantinos Kapenekakis**, Full stack software engineer (Oranger LTD)

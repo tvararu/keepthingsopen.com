@@ -1,1 +1,0 @@
-- **Lenard Szolnoki**

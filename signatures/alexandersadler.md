@@ -1,1 +1,0 @@
-- **Alexander Sadler**, Software Engineer (CompliMind)

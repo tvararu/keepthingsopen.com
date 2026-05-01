@@ -1,1 +1,0 @@
-- **John Reilly**, Software engineer

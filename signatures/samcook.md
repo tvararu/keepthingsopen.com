@@ -1,1 +1,0 @@
-- **Sam Cook**, Software Engineer

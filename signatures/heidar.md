@@ -1,1 +1,0 @@
-- **Heidar Bernhardsson**, gov

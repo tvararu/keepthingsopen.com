@@ -1,0 +1,74 @@
+- **Adam Worley**, Senior Software Developer
+- **Adrian Duke**, Protocol Developer (Radicle), gov
+- **Alexander Sadler**, Software Engineer (CompliMind)
+- **Andrew Nesbitt**, Software Developer and Researcher (Ecosyste.ms)
+- **Anonymous**, Software Engineer (Sainsbury's)
+- **Anonymous**, Student
+- **Anonymous**, Systems Engineer (Higher Education)
+- **Anonymous**
+- **Anonymous**, Software Engineer
+- **Anonymous**, Software Engineer
+- **Anonymous**, Software Developer
+- **Anonymous**
+- **Anonymous**
+- **Ashley Heron**
+- **Awais Amjad**
+- **Ben Graves**, Software Engineer
+- **Cael O'Sullivan**, Product Designer (Giant Digital)
+- **Cameron Brown**, Software Engineer (Google)
+- **Chris Wait**, Head of Software (3ti Energy Hubs), gov
+- **Daniel Roe**, Core team lead (Nuxt)
+- **Dr Cory Doctorow (h.c.)**
+- **Donald Harvey**, Software Engineer
+- **Duncan Mortimer**, gov
+- **George David Tyson**, programmer
+- **Kunwar Grover**, Software Engineer
+- **Hasan Mohsin**, Software Engineer
+- **Heidar Bernhardsson**, gov
+- **Jamie Downsworth**, Software Developer
+- **James Uther**
+- **Jeffery Cobblesmith**
+- **Joachim Liptrot Sand**, Software Engineer (Apple)
+- **John Reilly**, Software engineer
+- **Jon Atkinson**, Software Engineer (Giant Digital)
+- **Julian Ng**, Lead Software Engineer
+- **Kevin Marks**, Developer, gov
+- **Konstantinos Kapenekakis**, Full stack software engineer (Oranger LTD)
+- **Kai James Patient**
+- **Robert Lee-Cann**, Senior Software Engineer, gov
+- **Lee Stewart**, Software Engineer
+- **Lenard Szolnoki**
+- **Dave Long**, Release manager (Drupal), gov
+- **Louis Escher**
+- **Louis Goddard**, Head of Research (Data Desk)
+- **dr Luca cerina**, researcher
+- **Luke Kirkpatrick**, CTO (AIP, Paloma)
+- **Martin van IJcken**, gov
+- **Matthew Bristow**
+- **Mike Wagstaff**, Technology manager
+- **Miranda Heath**, Researcher (University of Edinburgh)
+- **Misha Gorodnitzky**, Technical Architect, gov
+- **Neil Charlton**, Software Developer
+- **Chris Poole**, Software Engineer
+- **Tom Forbes**, Software Engineer
+- **Owen Jones**, Senior Frontend Developer (Government Digital Service), gov
+- **Marcus Baw**, GP, Clinical Informatician and Developer (Baw Medical, RCPCH, openEHR International), gov
+- **Matias Leandro Capeletto**, Open Source Developer (npmx)
+- **Paul Robert Lloyd**, Interaction designer, gov
+- **Peter Yates**, Programme Tech Lead (Department for Education), gov
+- **Richard Dyce**
+- **Richard James Baxter**, Medical Research
+- **Richard Harris**, Software engineer (Vercel)
+- **Robin Whittleton**, gov
+- **Rosia Evans**
+- **Sam Cook**, Software Engineer
+- **Ștefan Ilie**
+- **Steve Messer**, (Boring Magic), gov
+- **Stephen Tordoff**
+- **Thomas Leese**, Tech lead (NHS England), gov
+- **Toby Dimmick**
+- **Tom Booth**, gov
+- **Theodor Vararu**, Software Engineer, gov
+- **Vad Khory**
+- **Vlad-Stefan Harbuz**, Maintainer (Open Source Pledge)
+- **Zach Leatherman**, Creator of 11ty, gov

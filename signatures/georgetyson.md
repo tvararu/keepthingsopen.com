@@ -1,1 +1,0 @@
-- **George David Tyson**, programmer

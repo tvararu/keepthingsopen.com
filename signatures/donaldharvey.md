@@ -1,1 +1,0 @@
-- **Donald Harvey**, Software Engineer

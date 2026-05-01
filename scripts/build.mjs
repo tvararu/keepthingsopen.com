@@ -3,7 +3,6 @@ import { watch } from "node:fs";
 import { join } from "node:path";
 import { Resvg } from "@resvg/resvg-js";
 
-const SIGS_DIR = "signatures";
 const STATIC_DIR = "static";
 const SOURCE = "index.html";
 const OUT_DIR = "dist";
@@ -30,20 +29,10 @@ async function build() {
     staticFiles.map((f) => copyFile(join(STATIC_DIR, f), join(OUT_DIR, f))),
   );
 
-  let files = [];
-  try {
-    files = (await readdir(SIGS_DIR)).filter((f) => f.endsWith(".md")).sort();
-  } catch (e) {
-    if (e.code !== "ENOENT") throw e;
-  }
-
-  const sigs = (
-    await Promise.all(
-      files.map(async (f) =>
-        parseLine(await readFile(join(SIGS_DIR, f), "utf8")),
-      ),
-    )
-  ).filter(Boolean);
+  const sigLines = (await readFile("signatures.md", "utf8"))
+    .split("\n")
+    .sort((a, b) => a.localeCompare(b, 'en', {'sensitivity': 'base'}));
+  const sigs = sigLines.map(parseLine).filter(Boolean);
 
   const named = sigs.filter((s) => s.name !== "Anonymous");
   const anonCount = sigs.length - named.length;
@@ -75,7 +64,7 @@ if (process.argv.includes("--watch")) {
   const watchTargets = [
     { path: SOURCE, recursive: false },
     { path: "scripts", recursive: false },
-    { path: SIGS_DIR, recursive: true },
+    { path: "signatures.md", recursive: false },
     { path: STATIC_DIR, recursive: true },
   ];
 
