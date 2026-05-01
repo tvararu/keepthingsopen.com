@@ -145,7 +145,6 @@ function buildMime({ data, from, to, ip, ua }) {
     role,
     org,
   });
-  const today = new Date().toISOString().slice(0, 10);
 
   const detailsBlock =
     contributed === "yes"
@@ -162,7 +161,6 @@ function buildMime({ data, from, to, ip, ua }) {
     `Org:         ${org || "(none)"}`,
     `Email:       ${email}`,
     "",
-    `Suggested file: signatures/${today}.md`,
     'Suggested line:',
     cardLine,
     ...detailsBlock,
