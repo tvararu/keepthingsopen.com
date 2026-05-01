@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single-page open letter site addressed to NHS England technical leadership, asking them to reaffirm "make new source code open" as a default. The page is a manifesto + a list of signatories + a sign-this form. It's hosted on Cloudflare Workers Static Assets and gated by HTTP Basic Auth while the initial version is being polished pre-launch.
+A single-page open letter site addressed to NHS England technical leadership, asking them to reaffirm "make new source code open" as a default. The page is a manifesto + a list of signatories + a sign-this form. It's hosted on Cloudflare Workers Static Assets.
 
 ## Commands
 
@@ -16,9 +16,9 @@ mise dev         # Run a local Worker dev server (serves on http://localhost:878
 mise deploy      # Manual production deploy (CF Workers Builds also auto-deploys on push to main)
 ```
 
-Local-dev env (basic-auth creds, Turnstile test secret) lives in `mise.toml`'s `[env]` block — no `.dev.vars` to provision. Production secrets live in the Cloudflare dashboard as encrypted Worker secrets, not in code.
+Local-dev env (Turnstile test secret) lives in `mise.toml`'s `[env]` block; no `.dev.vars` to provision. Production secrets live in the Cloudflare dashboard as encrypted Worker secrets, not in code.
 
-Static-only preview without auth: `mise build && (cd dist && python3 -m http.server 8765)` — bypasses the Worker entirely, useful for visual spot-checks.
+Static-only preview: `mise build && (cd dist && python3 -m http.server 8765)` bypasses the Worker entirely, useful for visual spot-checks.
 
 **There is no test suite.** No `package.json`, no `node_modules`, no linter config — this is deliberate. End-to-end verification is by curl/browser against `mise dev`.
 
@@ -26,16 +26,11 @@ Static-only preview without auth: `mise build && (cd dist && python3 -m http.ser
 
 The site has three moving parts and a deliberate template/output split:
 
-### 1. The Worker (`src/index.js`) — auth gate + `POST /sign`
+### 1. The Worker (`src/index.js`) — `POST /sign`
 
-Two responsibilities:
+The Worker has one job: handle `POST /sign`. It accepts a JSON form submission, validates fields and a Cloudflare Turnstile token, and uses the native `send_email` binding to fan one email per moderator (verified destination addresses listed in `wrangler.jsonc`'s `allowed_destination_addresses`). The signer's email is the `Reply-To`. Submissions are NOT committed anywhere; the moderator reads the email and adds the signature file by hand.
 
-1. **Basic-auth gate** (the first check on every request). Compares the `Authorization` header against `env.BASIC_AUTH_USER` / `env.BASIC_AUTH_PASS`; on miss, returns 401 with a `WWW-Authenticate` header. Applies to every path including `/sign`.
-2. **`POST /sign`** — accepts a JSON form submission, validates fields and a Cloudflare Turnstile token, and uses the native `send_email` binding to fan one email per moderator (verified destination addresses listed in `wrangler.jsonc`'s `allowed_destination_addresses`). The signer's email is the `Reply-To`. Submissions are NOT committed anywhere — the moderator reads the email and adds the signature file by hand.
-
-Everything else falls through to `env.ASSETS.fetch(request)`. **The Worker does not render, parse, or template static assets.** When extending the site, keep this posture: a thin auth gate plus the one form endpoint.
-
-`wrangler.jsonc` has `assets.run_worker_first: true`, so the Worker runs before static assets are served. That's how the auth gate actually gates anything.
+Everything else falls through to `env.ASSETS.fetch(request)`. **The Worker does not render, parse, or template static assets.** When extending the site, keep this posture: a thin form endpoint and nothing else.
 
 ### 2. The build script (`scripts/build.mjs`) — ESM, zero dependencies
 
