@@ -72,7 +72,7 @@ function validate(data) {
   const org = trimHeader(data.org);
   const details = trimBody(data.details);
 
-  if (!name.length) errors.name = "Enter your name";
+  if (!name.length) errors.name = "Enter your full name";
   else if (name.length > 80)
     errors.name = "Name must be 80 characters or fewer";
 
