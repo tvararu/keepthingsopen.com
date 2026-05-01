@@ -300,7 +300,9 @@
         }
       }
       .sig {
+        position: relative;
         padding: 14px 16px;
+        padding-right: 42px;
         border-right: 1px solid var(--kto-rule);
         border-bottom: 1px solid var(--kto-rule);
         font-size: 16px;
@@ -309,6 +311,17 @@
       }
       .sig strong {
         font-weight: 700;
+      }
+      .sig:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 14px;
+        right: 16px;
+        width: 18px;
+        height: 18px;
+        background-image: url(/crown.svg);
+        background-size: cover;
       }
       .sig-role {
         color: var(--kto-muted);
