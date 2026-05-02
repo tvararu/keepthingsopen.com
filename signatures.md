@@ -96,7 +96,7 @@
 - **Jeremy Taylor**
 - **James Gunn**, Tech lead (DfE), Contributor
 - **Dani Brown**, Software Developer
-- **Alex Palcuie**, Member of Technical Staff (Anthropic PBC)
+- **Alex Palcuie**, Member of Technical Staff (Anthropic PBC), Contributor
 - **Oliver Turner**, Software engineer
 - **Adam Ashton**
 - **Peter Miller**
@@ -118,6 +118,7 @@
 - **Andrew Morgan**, Senior Software Engineer (Element)
 - **Richard Bensley**, DBA
 - **Justine Pocock**, (Chicken Digital Limited), Contributor
+- **Daniel Monteagudo**, Open Source Contributor
 - **Keri Szafir**
 - **Barry Fisher**, CEO (Pivale)
 - **Anonymous**
@@ -134,7 +135,7 @@
 - **Chad Whitacre**
 - **Nick Sargeant**, Technical Archittec (Mr)
 - **Rob Aley**, Digital Project Lead (Oxford Vaccine Group, University of Oxford), Contributor
-- **Nicola Rennie**
+- **Nicola Rennie**, Contributor
 - **Tim Clark**
 - **Mathieu Pasquet**, Software engineer (Doccla)
 - **James Abley**, Architect (NHS England), Contributor
@@ -143,7 +144,7 @@
 - **Joseph Holland**
 - **Nathan Gill**
 - **Kaspar Bumke**
-- **Raza Toosy**
+- **Raza Toosy**, Contributor
 - **Frazer Smith**, Contributor
 - **Michael Barton**, Contributor
 - **Charles Brent**
@@ -157,9 +158,9 @@
 - **Anonymous**, software developer (drug and alcohol rehabilitation software)
 - **John Knott**
 - **Keith Lewis**
-- **Dan Abramov**
+- **Dan Abramov**, Contributor
 - **Anonymous**
-- **Anonymous**
+- **Anonymous**, Contributor
 - **Tim Wisniewski**, Contributor
 - **Gavin Laking**, Engineering Manager
 - **H pragt**
@@ -175,7 +176,7 @@
 - **José Miguel Martinez**, Engineer, Contributor
 - **Anonymous**, Software Architect
 - **Jamie Scaife**, Security Engineer, Contributor
-- **Rowan Sil**, Chief clinical information officer (Leicestershire Leicester and Rutland ICB), Contributor
+- **Rowan Sil**, Chief clinical information officer (Leicestershire Leicester and Rutland ICB)
 - **Daniel Brownlow**
 - **William Burton**
 - **Jan Hancic**
