@@ -144,6 +144,7 @@ function buildMime({ data, from, to, ip, ua }) {
     name: anonymous ? "Anonymous" : name,
     role,
     org,
+    contributor: contributed === "yes",
   });
 
   const detailsBlock =
@@ -184,11 +185,12 @@ function buildMime({ data, from, to, ip, ua }) {
   return headers.join("\r\n") + "\r\n\r\n" + body;
 }
 
-function buildCardLine({ name, role, org }) {
-  let tail = "";
-  if (role && org) tail = `${role} (${org})`;
-  else if (role) tail = role;
-  else if (org) tail = `(${org})`;
-  const display = tail ? `**${name}**, ${tail}` : `**${name}**`;
-  return `- ${display}`;
+function buildCardLine({ name, role, org, contributor }) {
+  const parts = [];
+  if (role && org) parts.push(`${role} (${org})`);
+  else if (role) parts.push(role);
+  else if (org) parts.push(`(${org})`);
+  if (contributor) parts.push("Contributor");
+  const tail = parts.length ? `, ${parts.join(", ")}` : "";
+  return `- **${name}**${tail}`;
 }

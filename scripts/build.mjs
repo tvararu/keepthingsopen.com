@@ -1,5 +1,4 @@
 import { copyFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
-import { watch } from "node:fs";
 import { join } from "node:path";
 import { Resvg } from "@resvg/resvg-js";
 
@@ -59,50 +58,6 @@ async function build() {
 }
 
 await build();
-
-if (process.argv.includes("--watch")) {
-  const watchTargets = [
-    { path: SOURCE, recursive: false },
-    { path: "scripts", recursive: false },
-    { path: "signatures.md", recursive: false },
-    { path: STATIC_DIR, recursive: true },
-  ];
-
-  let pending = false;
-  let running = false;
-  const trigger = async () => {
-    if (running) {
-      pending = true;
-      return;
-    }
-    running = true;
-    try {
-      await build();
-    } catch (e) {
-      console.error("Build failed:", e.message);
-    }
-    running = false;
-    if (pending) {
-      pending = false;
-      trigger();
-    }
-  };
-
-  let timer = null;
-  const debounced = () => {
-    if (timer) clearTimeout(timer);
-    timer = setTimeout(trigger, 80);
-  };
-
-  for (const { path, recursive } of watchTargets) {
-    try {
-      watch(path, { recursive }, debounced);
-    } catch (e) {
-      console.warn(`Cannot watch ${path}: ${e.message}`);
-    }
-  }
-  console.log("Watching for changes. Press Ctrl-C to exit.");
-}
 
 function parseLine(text) {
   const line = (text.trim().split("\n")[0] || "").trim();

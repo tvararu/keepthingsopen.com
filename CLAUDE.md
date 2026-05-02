@@ -51,11 +51,9 @@ A single file containing inline `<style>` and `<script>`. **This is deliberate**
 
 The HTML uses [GOV.UK Frontend v5](https://design-system.service.gov.uk/) loaded from jsDelivr CDN for its components and CSS. **GDS Transport (the GOV.UK font) is intentionally not loaded** — the CSS variable `--kto-sans` overrides it with a system font stack, both for licence reasons (GDS Transport is restricted) and to keep this from looking like an official gov.uk page.
 
-The branding is also distinct on purpose: custom black topbar + square-frame wordmark instead of `govuk-header` (which would render the Crown). The phase banner reads "Open letter" so the page is read as commentary, not impersonation.
-
 ### 4. The signing flow
 
-Visitors fill in the form (Name, Email, Evidence, optional Role and Organisation). Submissions go via `POST /sign` to the Worker, which emails the moderators (via Cloudflare's native `send_email` binding). **Submissions are not committed anywhere** — public git history must not contain rejected/pending entries. The moderator reads the email, decides, and if approved appends a line to `signatures.md` using the markdown grammar (`- **Name**, role, org`). The Worker's email body suggests the line to add.
+Visitors fill in the form (Name, Email, Evidence, optional Role and Organisation). Submissions go via `POST /sign` to the Worker, which emails the moderators (via Cloudflare's native `send_email` binding). **Submissions are not committed anywhere** — public git history must not contain rejected/pending entries. The moderator reads the email, decides, and if approved appends a line to `signatures.md` using the markdown grammar (`- **Name**, optional role/org, optional Contributor`). The Worker's email body suggests the line to add.
 
 The on-page form is **progressively enhanced**:
 
@@ -86,12 +84,6 @@ Use Conventional Commits. Title is "what", body is "why":
 - **Almost never write comments.** Well-named identifiers do the job. Only add a comment when the *why* is non-obvious — a hidden constraint, a workaround, behavior that would surprise a reader. Don't narrate what the code does.
 - Inline JS in `index.html` uses `var` and IIFE wrapping. Keep it that way to match the prototype style.
 - The build script is ESM and only depends on `node:fs/promises` plus `@resvg/resvg-js` (for the OpenGraph rasteriser).
-
-### Branding constraints
-
-- **No Crown logo.** Don't add `govuk-header`, the GOV.UK Crown SVG, or anything that resembles official gov.uk branding.
-- **No GDS Transport or NHS Frutiger.** System fonts only. The Google Fonts request chain has been deliberately removed — don't add it back.
-- Colour customisation away from GDS defaults (e.g. swapping the green primary button for NHS-blue) is a known later concern.
 
 ### Files and directories
 

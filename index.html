@@ -687,8 +687,7 @@
                       Sign anonymously
                     </label>
                     <div class="govuk-hint govuk-checkboxes__hint">
-                      Your signature will appear as &ldquo;Anonymous&rdquo;,
-                      followed by your role and organisation if provided.
+                      Your signature will appear as &ldquo;Anonymous&rdquo;.
                       Personal data is deleted within 24 hours of verification.
                     </div>
                   </div>
@@ -957,9 +956,14 @@
           var name = anonymous ? "Anonymous" : typed;
           var role = escMd(val("role"));
           var org = escMd(val("org"));
-          var tail = [role, org].filter(Boolean).join(", ");
-          var display = tail ? "**" + name + "**, " + tail : "**" + name + "**";
-          return "- " + display;
+          var contributor = document.getElementById("f-contributed-yes").checked;
+          var parts = [];
+          if (role && org) parts.push(role + " (" + org + ")");
+          else if (role) parts.push(role);
+          else if (org) parts.push("(" + org + ")");
+          if (contributor) parts.push("Contributor");
+          var tail = parts.length ? ", " + parts.join(", ") : "";
+          return "- **" + name + "**" + tail;
         }
 
         function buildMailto() {
@@ -987,6 +991,12 @@
             .getElementById("f-" + id)
             .addEventListener("input", refreshMailto);
         });
+        document
+          .getElementById("f-contributed-yes")
+          .addEventListener("change", refreshMailto);
+        document
+          .getElementById("f-contributed-no")
+          .addEventListener("change", refreshMailto);
         document
           .getElementById("f-anonymous")
           .addEventListener("change", refreshMailto);
