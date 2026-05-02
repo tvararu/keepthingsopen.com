@@ -329,3 +329,17 @@
 - **Owen Blacker**, Lead technical architect, Contributor
 - **Rory Malcolm**, Software Engineer (Government Digital Service), Contributor
 - **Tony Shannon**, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, (OA.Works)
+- **Anonymous**, Contributor
+- **Aaron Leonard**, Software Developer
+- **Alex Hartley**
+- **Charles Tucker Barbour**, Software Engineer
+- **David Low**
+- **Erlend Sogge Heggen**
+- **Katie Evans**
+- **Mate Varga**, CTO (Patients Know Best)
+- **Mike Moran**, Principal Engineer
+- **Robin Conibere**, Pharmacist with interest in tech (Beacon Medical Group)
+- **Scott Nichol**
