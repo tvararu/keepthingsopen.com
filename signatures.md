@@ -348,3 +348,55 @@
 - **Hugh Greene**, Principal Software Engineer
 - **Marjorie Roome**, Former Civil Servant, Energy use modelling (DECC)
 - **Serkan Holat**, Owner (forCrowd)
+- **João Almeida**
+- **Chris Atkin**, Principal Engineer, Contributor
+- **Florin Ungur**, Site Reliability Engineer (Apple)
+- **Peter Russell**
+- **Cyrus Razavi**
+- **Anonymous**
+- **Patrick Stephens**
+- **Mark Chapman**, Contributor
+- **Laurence Pakenham-Smith**, Contributor
+- **Rachel Lawson**, Contributor
+- **Pollyanna Jones**, Founder (Emrys Health), Contributor
+- **Craig R Broughton**, Senior Software Engineer (Tillo)
+- **Gordon McMurray**
+- **Jamie Child**, Developer
+- **James Philip Hastings-Spital**, Principal Software Engineer (byJP Limited)
+- **David Thomson**
+- **John McFarland**
+- **Anonymous**
+- **Max Woolf**, Software Engineer
+- **Asher Payn**
+- **Anonymous**
+- **Jack Rodber**, Contributor
+- **Volodymyr Sydoruk**
+- **Tom O'Neill**, Contributor
+- **Athanasios Voutsadakis**, Contributor
+- **Anonymous**, Contributor
+- **Jonathan Adsetts**
+- **Anonymous**, Head of sales, Contributor
+- **Anonymous**
+- **Harry Bramley-Lack**, Senior Software Engineer
+- **Anonymous**, Contributor
+- **Nicklas de León Persson**, Head of Product (University of the Arts, London)
+- **Anonymous**, Lead Configuration Analyst (NHS), Contributor
+- **Anonymous**, Software developer, Contributor
+- **Samantha Giles**
+- **Maeve Roseveare**, Senior content designer, Contributor
+- **Anonymous**
+- **Benjamin Tulloch**, Strategic Manager (Durham County Council), Contributor
+- **Dion Williams**
+- **Paul Hayes**, Interaction designer and developer, Contributor
+- **Arran Walker**
+- **Christopher Moore**
+- **Mary Amanuel**, Contributor
+- **Harry Bond**, IT Technician (Imperial War Museums)
+- **Robyn**
+- **Chris Beeley**, Head of data science (Strategy Unit), Contributor
+- **Simon Hewison**
+- **Oscar Pocock**, DevOps (Opencast Software), Contributor
+- **Maciej Jacek Paprocki**, CTO
+- **Anonymous**, Product Manager, Contributor
+- **Russell McCreath**, Senior Analyst, Contributor
+- **thomas mead**
