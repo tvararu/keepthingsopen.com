@@ -343,3 +343,8 @@
 - **Mike Moran**, Principal Engineer
 - **Robin Conibere**, Pharmacist with interest in tech (Beacon Medical Group)
 - **Scott Nichol**
+- **Anonymous**, (British Antarctic Survey), Contributor
+- **David Miller**, Contributor
+- **Hugh Greene**, Principal Software Engineer
+- **Marjorie Roome**, Former Civil Servant, Energy use modelling (DECC)
+- **Serkan Holat**, Owner (forCrowd)
