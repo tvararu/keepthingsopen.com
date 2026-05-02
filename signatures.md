@@ -83,7 +83,7 @@
 - **Theodor Everley Rohrkasten**
 - **Anonymous**
 - **Harriet Boeing**
-- **Antony  Mackenzie-Jones**, CTO (Beyonk Ltd)
+- **Antony Mackenzie-Jones**, CTO (Beyonk Ltd)
 - **Isaac Esden**, platform engineer
 - **Duncan Gough**
 - **Roman Kornikov**
@@ -133,7 +133,7 @@
 - **Dave Mee**
 - **Calum Robinson**, Contributor
 - **Chad Whitacre**
-- **Nick Sargeant**, Technical Archittec (Mr)
+- **Nick Sargeant**, Technical Architect
 - **Rob Aley**, Digital Project Lead (Oxford Vaccine Group, University of Oxford), Contributor
 - **Nicola Rennie**, Contributor
 - **Tim Clark**
@@ -235,3 +235,42 @@
 - **Anonymous**
 - **Elly Loel**
 - **András Bárány**
+- **Daniel Quinn**, Technical Lead (UKTrade), Contributor
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, Contributor
+- **Bas van den Wollenberg**
+- **David Banks**
+- **Edward Catchpole**
+- **Lorenzo Wood**
+- **Oscar Wheeler**, EUC Engineer (Buckinghamshire Health Trust)
+- **Phil Pluckthun**, Software Engineer (Expo)
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Igor Clark**
+- **Jon Burger**
+- **Mason J. Wood**
+- **Andrew C Clapham**, Software developer
+- **Owain Jones**, Software Engineer (National Oceanography Centre), Contributor
+- **Anonymous**
+- **Anonymous**, Contributor
+- **Anonymous**, Contributor
+- **Andrew Charlwood**, Senior Pharmacist (NHS Norfolk & Suffolk ICB), Contributor
+- **Callum Gander**
+- **Daniel Cassidy**, Software Developer
+- **Daniel Patrick Fahey**
+- **Jack Burgess**, Software Engineer
+- **Mark Platt**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Anne Marie Cunningham**, GP, Contributor
+- **Dr Tom McLean**
+- **Hassan Khan**
+- **Mahied Maruf**
+- **Marcus Dickson**
+- **Murray Champernowne**, Frontend Web Developer, Contributor
+- **Suren Nihalani**, Software Development Manager (GovTron LLC)
+- **William Etheridge**
