@@ -320,3 +320,12 @@
 - **Mitchell Cash**
 - **Nicolas Coiffier**
 - **Samuel Littley**, Senior Software Engineer (Thought Machine)
+- **Anonymous**, Software Developer
+- **Hugo Tunius**, Senior Software Engineer
+- **Luke Stanley**, Engineering lead (Kendraio)
+- **Max Williams**
+- **Mohammad Al-Ubaydli**, CEO (Patients Know Best), Contributor
+- **Nadia Kuftinoff**, Digital Transformation Lead
+- **Owen Blacker**, Lead technical architect, Contributor
+- **Rory Malcolm**, Software Engineer (Government Digital Service), Contributor
+- **Tony Shannon**, Contributor
