@@ -1,5 +1,5 @@
 - **Adam Worley**, Senior Software Developer
-- **Adrian Duke**, Protocol Developer (Radicle), contributor
+- **Adrian Duke**, Protocol Developer (Radicle), Contributor
 - **Alexander Sadler**, Software Engineer (CompliMind)
 - **Andrew Nesbitt**, Software Developer and Researcher (Ecosyste.ms)
 - **Anonymous**, Software Engineer (Sainsbury's)
@@ -16,15 +16,15 @@
 - **Ben Graves**, Software Engineer
 - **Cael O'Sullivan**, Product Designer (Giant Digital)
 - **Cameron Brown**, Software Engineer (Google)
-- **Chris Wait**, Head of Software (3ti Energy Hubs), contributor
+- **Chris Wait**, Head of Software (3ti Energy Hubs), Contributor
 - **Daniel Roe**, Core team lead (Nuxt)
 - **Dr Cory Doctorow (h.c.)**
 - **Donald Harvey**, Software Engineer
-- **Duncan Mortimer**, contributor
+- **Duncan Mortimer**, Contributor
 - **George David Tyson**, programmer
 - **Kunwar Grover**, Software Engineer
 - **Hasan Mohsin**, Software Engineer
-- **Heidar Bernhardsson**, contributor
+- **Heidar Bernhardsson**, Contributor
 - **Jamie Downsworth**, Software Developer
 - **James Uther**
 - **Jeffery Cobblesmith**
@@ -32,54 +32,54 @@
 - **John Reilly**, Software engineer
 - **Jon Atkinson**, Software Engineer (Giant Digital)
 - **Julian Ng**, Lead Software Engineer
-- **Kevin Marks**, Developer, contributor
+- **Kevin Marks**, Developer, Contributor
 - **Konstantinos Kapenekakis**, Full stack software engineer (Oranger LTD)
 - **Kai James Patient**
-- **Robert Lee-Cann**, Senior Software Engineer, contributor
+- **Robert Lee-Cann**, Senior Software Engineer, Contributor
 - **Lee Stewart**, Software Engineer
 - **Lenard Szolnoki**
-- **Dave Long**, Release manager (Drupal), contributor
+- **Dave Long**, Release manager (Drupal), Contributor
 - **Louis Escher**
 - **Louis Goddard**, Head of Research (Data Desk)
 - **Dr Luca Cerina**, researcher
 - **Luke Kirkpatrick**, CTO (AIP, Paloma)
-- **Martin van IJcken**, contributor
+- **Martin van IJcken**, Contributor
 - **Matthew Bristow**
 - **Mike Wagstaff**, Technology manager
 - **Miranda Heath**, Researcher (University of Edinburgh)
-- **Misha Gorodnitzky**, Technical Architect, contributor
+- **Misha Gorodnitzky**, Technical Architect, Contributor
 - **Neil Charlton**, Software Developer
 - **Chris Poole**, Software Engineer
 - **Tom Forbes**, Software Engineer
-- **Owen Jones**, Senior Frontend Developer (Government Digital Service), contributor
-- **Marcus Baw**, GP, Clinical Informatician and Developer (Baw Medical, RCPCH, openEHR International), contributor
+- **Owen Jones**, Senior Frontend Developer (Government Digital Service), Contributor
+- **Marcus Baw**, GP, Clinical Informatician and Developer (Baw Medical, RCPCH, openEHR International), Contributor
 - **Matias Leandro Capeletto**, Open Source Developer (npmx)
-- **Paul Robert Lloyd**, Interaction designer, contributor
-- **Peter Yates**, Programme Tech Lead (Department for Education), contributor
+- **Paul Robert Lloyd**, Interaction designer, Contributor
+- **Peter Yates**, Programme Tech Lead (Department for Education), Contributor
 - **Richard Dyce**
 - **Richard James Baxter**, Medical Research
 - **Richard Harris**, Software engineer (Vercel)
-- **Robin Whittleton**, contributor
+- **Robin Whittleton**, Contributor
 - **Rosia Evans**
 - **Sam Cook**, Software Engineer
 - **Ștefan Ilie**
-- **Steve Messer**, (Boring Magic), contributor
+- **Steve Messer**, (Boring Magic), Contributor
 - **Stephen Tordoff**
-- **Thomas Leese**, Tech lead (NHS England), contributor
+- **Thomas Leese**, Tech lead (NHS England), Contributor
 - **Toby Dimmick**
-- **Tom Booth**, contributor
-- **Theodor Vararu**, Software Engineer, contributor
+- **Tom Booth**, Contributor
+- **Theodor Vararu**, Software Engineer, Contributor
 - **Vad Khory**
 - **Vlad-Stefan Harbuz**, Maintainer (Open Source Pledge)
-- **Zach Leatherman**, Creator of 11ty, contributor
+- **Zach Leatherman**, Creator of 11ty, Contributor
 - **Craig Sturdy**
 - **Liza McCarron**
 - **Tom Bannister**, Software engineer
 - **Yannick Retel Helmrich**
 - **Fergus Leahy**, Software engineer
-- **Anonymous**, Node.js core collaborator (OpenJS), contributor
+- **Anonymous**, Node.js core collaborator (OpenJS), Contributor
 - **Daniel Schuller**, Software Engineering Manager (Unity)
-- **Nigel Kendrick**, contributor
+- **Nigel Kendrick**, Contributor
 - **Theodor Everley Rohrkasten**
 - **Anonymous**
 - **Harriet Boeing**
@@ -92,9 +92,9 @@
 - **Malcolm Powell**
 - **Jakob Felix Eugen Rössner**
 - **Anonymous**
-- **Danny O’Brien**, Senior Fellow (Filecoin Foundation), contributor
+- **Danny O’Brien**, Senior Fellow (Filecoin Foundation), Contributor
 - **Jeremy Taylor**
-- **James Gunn**, Tech lead (DfE), contributor
+- **James Gunn**, Tech lead (DfE), Contributor
 - **Dani Brown**, Software Developer
 - **Alex Palcuie**, Member of Technical Staff (Anthropic PBC)
 - **Oliver Turner**, Software engineer
@@ -110,19 +110,19 @@
 - **Sam Martin**, Principal Cybersecurity Engineer
 - **Luke LaValva**, SWE Open Source (eBay)
 - **Anonymous**
-- **Jamie Tanna**, Open Source maintainer (Renovate), contributor
+- **Jamie Tanna**, Open Source maintainer (Renovate), Contributor
 - **Xiyue Zhang**
-- **Peter Murray**, Principal Consultant (Contino), contributor
+- **Peter Murray**, Principal Consultant (Contino), Contributor
 - **Richard Robinson**
 - **Phil Milburn**
 - **Andrew Morgan**, Senior Software Engineer (Element)
 - **Richard Bensley**, DBA
-- **Justine Pocock**, (Chicken Digital Limited), contributor
+- **Justine Pocock**, (Chicken Digital Limited), Contributor
 - **Keri Szafir**
 - **Barry Fisher**, CEO (Pivale)
 - **Anonymous**
 - **Ben Brown**, Engineer
-- **Simon Green**, contributor
+- **Simon Green**, Contributor
 - **David Boutcher**, Distinguished Engineer (Ocient UK Limited)
 - **Rob Tagg**, Software Engineer
 - **Oliver Lane**, Software Developer
@@ -130,22 +130,22 @@
 - **Rui Duarte**
 - **Chris Berry**
 - **Dave Mee**
-- **Calum Robinson**, contributor
+- **Calum Robinson**, Contributor
 - **Chad Whitacre**
 - **Nick Sargeant**, Technical Archittec (Mr)
-- **Rob Aley**, Digital Project Lead (Oxford Vaccine Group, University of Oxford), contributor
+- **Rob Aley**, Digital Project Lead (Oxford Vaccine Group, University of Oxford), Contributor
 - **Nicola Rennie**
 - **Tim Clark**
 - **Mathieu Pasquet**, Software engineer (Doccla)
-- **James Abley**, Architect (NHS England), contributor
-- **Richard Towers**, contributor
+- **James Abley**, Architect (NHS England), Contributor
+- **Richard Towers**, Contributor
 - **Anonymous**
 - **Joseph Holland**
 - **Nathan Gill**
 - **Kaspar Bumke**
 - **Raza Toosy**
-- **Frazer Smith**, contributor
-- **Michael Barton**, contributor
+- **Frazer Smith**, Contributor
+- **Michael Barton**, Contributor
 - **Charles Brent**
 - **Anonymous**
 - **Niels Mokkenstorm**, Software Engineer (Riotbyte)
@@ -160,7 +160,7 @@
 - **Dan Abramov**
 - **Anonymous**
 - **Anonymous**
-- **Tim Wisniewski**, contributor
+- **Tim Wisniewski**, Contributor
 - **Gavin Laking**, Engineering Manager
 - **H pragt**
 - **Benjamin Warrington**
@@ -169,13 +169,13 @@
 - **Gareth Williams**, Software Developer
 - **Anonymous**
 - **Ben Lefroy**
-- **Anton Macmillan-Parks**, contributor
+- **Anton Macmillan-Parks**, Contributor
 - **Anonymous**
 - **Barnaby Mannerings**
-- **José Miguel Martinez**, Engineer, contributor
+- **José Miguel Martinez**, Engineer, Contributor
 - **Anonymous**, Software Architect
-- **Jamie Scaife**, Security Engineer, contributor
-- **Rowan Sil**, Chief clinical information officer (Leicestershire Leicester and Rutland ICB), contributor
+- **Jamie Scaife**, Security Engineer, Contributor
+- **Rowan Sil**, Chief clinical information officer (Leicestershire Leicester and Rutland ICB), Contributor
 - **Daniel Brownlow**
 - **William Burton**
 - **Jan Hancic**
@@ -183,14 +183,14 @@
 - **David Daniel Lowe**
 - **Nick Savage**
 - **Anonymous**
-- **Jonny Rylands**, contributor
-- **Nancy Pickering**, Data Engineer (UKHSA), contributor
+- **Jonny Rylands**, Contributor
+- **Nancy Pickering**, Data Engineer (UKHSA), Contributor
 - **Anonymous**, Sysadmin (Self)
 - **Anonymous**
-- **Graham Pengelly**, Engineering lead (NHS England), contributor
-- **Ali Asad Lotia**, Team Lead (former) - HMRC Transaction Monitoring (HMRC), contributor
+- **Graham Pengelly**, Engineering lead (NHS England), Contributor
+- **Ali Asad Lotia**, Team Lead (former) - HMRC Transaction Monitoring (HMRC), Contributor
 - **Anonymous**
-- **bob walker**, contributor
+- **bob walker**, Contributor
 - **Anonymous**
 - **Anonymous**
 - **Anonymous**, Developer
@@ -198,7 +198,7 @@
 - **Colin Byrne**
 - **Andrei Jiroh Halili**, Open-source Developer (Recap Time Squad)
 - **Luke Warlow**, Web Platform Engineer
-- **Philip Norton**, Web Developer (Code Enigma), contributor
+- **Philip Norton**, Web Developer (Code Enigma), Contributor
 - **Luke Roslanowski**, Cloud Engineer (eMed)
 - **Hakan Ensari**
 - **Darren Hoyland**
@@ -207,27 +207,27 @@
 - **Alex Tingle**
 - **Anonymous**
 - **Anonymous**
-- **Alex Manning**, contributor
-- **Ashley Rolfmore**, contributor
-- **Chris Nesbitt-Smith**, contributor
+- **Alex Manning**, Contributor
+- **Ashley Rolfmore**, Contributor
+- **Chris Nesbitt-Smith**, Contributor
 - **Tao Bojlén**
 - **Amir Akrari**
 - **Michael Jesse Maximillian Davis**, Software Director (PsiQuantum)
-- **Paul Johnston**, Subject Matter Expert for Serverless at One Login (GDS), contributor
+- **Paul Johnston**, Subject Matter Expert for Serverless at One Login (GDS), Contributor
 - **Sven Döring**, Owner (moorwald | sven döring)
 - **Faiz Saleem**, CTO
-- **Reupen Shah**, contributor
+- **Reupen Shah**, Contributor
 - **Anonymous**
 - **Anonymous**
 - **James Addison**
 - **Ritesh Sinha**
 - **Anonymous**
 - **Brussel Been**
-- **David Lantos**, contributor
+- **David Lantos**, Contributor
 - **Tim Loukes**
 - **Bela Juhasz**, Software Developer (EMBL-EBI)
 - **Anonymous**
-- **Anonymous**, contributor
+- **Anonymous**, Contributor
 - **Anonymous**
 - **Anonymous**
 - **Iestyn Gage**, Software Engineer
