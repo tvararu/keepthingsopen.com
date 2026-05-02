@@ -291,3 +291,17 @@
 - **Nicholas Kent**
 - **Oscar Darwin**
 - **Tomomi Yamano**, (Burai limited)
+- **Anonymous**
+- **David Timms**
+- **Debo Adebayo**
+- **Edmund Shelton**
+- **Ian Ames**, (Discover Deliver Ltd)
+- **James O'Malley**, Writer and Journalist
+- **Kasper Henningsen**
+- **Matt Hancock**, Secretary of State (DHSC), Contributor
+- **Michael Davey**, CTOO (Signly Ltd)
+- **Michael Samy**, Software engineer (Composed Health Ltd)
+- **Osnat Katz Moon**
+- **Peter Mills**
+- **Sophie L**
+- **Andrei Constantinescu**, Software Engineer
