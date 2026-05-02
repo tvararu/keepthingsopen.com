@@ -274,3 +274,8 @@
 - **Murray Champernowne**, Frontend Web Developer, Contributor
 - **Suren Nihalani**, Software Development Manager (GovTron LLC)
 - **William Etheridge**
+- **Anonymous**, Developer, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Declan Chidlow**, Front-end Developer
+- **Robert Stonehouse**
