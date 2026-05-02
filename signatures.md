@@ -305,3 +305,18 @@
 - **Peter Mills**
 - **Sophie L**
 - **Andrei Constantinescu**, Software Engineer
+- **Anonymous**
+- **Anonymous**, Lead Software Engineer
+- **Anonymous**
+- **Anonymous**, Delivery manager (GDS), Contributor
+- **Alex Hardman**
+- **Antony Poveda**, (GDS), Contributor
+- **Ben Yafai**
+- **David Landon Cole**, Coordinator (ASEN)
+- **Lewis Eccles**
+- **Mark Retallack**
+- **Mary Hawking**, Retired GP. Committee member BCS PHCSG (no company - retired)
+- **Matthew Carter**
+- **Mitchell Cash**
+- **Nicolas Coiffier**
+- **Samuel Littley**, Senior Software Engineer (Thought Machine)
