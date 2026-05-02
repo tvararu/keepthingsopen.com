@@ -279,3 +279,15 @@
 - **Anonymous**
 - **Declan Chidlow**, Front-end Developer
 - **Robert Stonehouse**
+- **Alexander Lichter**, Developer Relations Engineer (VoidZero)
+- **Andrew Holway**
+- **Dan Kelley**
+- **Dave Hawkins**
+- **David Stansby**, Research Software Engineer (University College London)
+- **Harry Metcalfe**, Contributor
+- **John Wong**
+- **Martin Kuchta**
+- **Michael Measures**, Contributor
+- **Nicholas Kent**
+- **Oscar Darwin**
+- **Tomomi Yamano**, (Burai limited)
