@@ -27,7 +27,7 @@ Production also auto-deploys on push to `main` via Cloudflare Workers Builds.
 
 ## Signing
 
-Open the site, fill in the form, submit. Submissions land in moderator inboxes and are reviewed by hand; approved signatures get added to `signatures/`.
+Open the site, fill in the form, submit. Submissions land in moderator inboxes and are reviewed by hand; approved signatures get added to `signatures.md`.
 
 ## Licence
 

@@ -11,7 +11,13 @@
     "binding": "ASSETS"
   },
   "build": {
-    "command": "node scripts/build.mjs"
+    "command": "node scripts/build.mjs",
+    "watch_dir": [
+      "index.html",
+      "scripts",
+      "signatures.md",
+      "static"
+    ]
   },
   "compatibility_flags": ["nodejs_compat"],
   "send_email": [
