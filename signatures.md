@@ -70,7 +70,7 @@
 - **Tom Booth**, Contributor
 - **Theodor Vararu**, Software Engineer, Contributor
 - **Vad Khory**
-- **Vlad-Stefan Harbuz**, Maintainer (Open Source Pledge)
+- **Vlad-Stefan Harbuz**, Maintainer (Open Source Pledge), Contributor
 - **Zach Leatherman**, Creator of 11ty, Contributor
 - **Craig Sturdy**
 - **Liza McCarron**
