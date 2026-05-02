@@ -110,13 +110,13 @@ function parseLine(text) {
   const m = line.slice(2).match(/^\*\*(.+?)\*\*(?:, (.+))?$/);
   if (!m) return null;
   let rest = (m[2] || "").trim();
-  let gov = false;
-  const govSuffix = /(?:^|,\s*)gov$/i;
-  if (govSuffix.test(rest)) {
-    gov = true;
-    rest = rest.replace(govSuffix, "").trim();
+  let contributor = false;
+  const contributorSuffix = /(?:^|,\s*)contributor$/i;
+  if (contributorSuffix.test(rest)) {
+    contributor = true;
+    rest = rest.replace(contributorSuffix, "").trim();
   }
-  return { name: m[1], rest, gov };
+  return { name: m[1], rest, contributor };
 }
 
 function escapeHtml(s) {
@@ -129,7 +129,7 @@ function escapeHtml(s) {
 }
 
 function renderCard(s) {
-  const crown = s.gov
+  const crown = s.contributor
     ? `<img src="/crown.svg" alt="" class="sig-crown" title="Has contributed to UK public-sector software"><span class="govuk-visually-hidden">Has contributed to UK public-sector software</span>`
     : "";
   return `<div class="sig"><strong>${escapeHtml(s.name)}</strong>${crown}</div>`;
