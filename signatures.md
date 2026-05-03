@@ -400,3 +400,17 @@
 - **Anonymous**, Product Manager, Contributor
 - **Russell McCreath**, Senior Analyst, Contributor
 - **thomas mead**
+- **Anonymous**, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Alister Bulman**, Software Developer, Contributor
+- **Calvin Evans**, Contributor
+- **David Davies**
+- **Erik Renz**, Senior Data Analyst (UKHSA), Contributor
+- **Jan Ives**
+- **Mehmet Duran**, Developer (MoJ, Home Office, GDS, DfE), Contributor
+- **Olena Thomson**
+- **Paul Johnson**, Principal Data Scientist (NHS South, Central and West CSU), Contributor
+- **Sam Hollings**, Former Head of Coding and Data Standards (NHS England), Contributor
+- **Tom Smith**, (Nottingham University Hospitals NHS Trust), Contributor
