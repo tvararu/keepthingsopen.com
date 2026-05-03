@@ -414,3 +414,30 @@
 - **Paul Johnson**, Principal Data Scientist (NHS South, Central and West CSU), Contributor
 - **Sam Hollings**, Former Head of Coding and Data Standards (NHS England), Contributor
 - **Tom Smith**, (Nottingham University Hospitals NHS Trust), Contributor
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Alex Hunsley**, Contributor
+- **Chris Ward**, Software Development (Enterprise commercial)
+- **David Foord**
+- **Dr Dan Wright**, Contributor
+- **Francesco Mosca**
+- **John McLear**, Contributor
+- **Matthew Russell Bennion**, Senior NHS developer (University of Sheffield)
+- **Rachel Ilan Simpson**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Chris Newton**
+- **Dean Mawson**, Clinical Director (DPM Digital Health Consultancy Ltd), Contributor
+- **Dr Carl Reynolds**, Contributor
+- **Michael O'Sullivan**
+- **Michael Rogers**
+- **Sam Rusling**
+- **Anonymous**
+- **Gintas Vilkelis**
+- **Kamran Ali**, Software Engineer, Contributor
+- **Kevin Wilkinson**
+- **Lawrence Li**
+- **Oliver Theis**
+- **Rebekah Diski**
