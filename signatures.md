@@ -465,3 +465,11 @@
 - **Anonymous**, Data Analyst (NHS Digital)
 - **Anonymous**
 - **Jessica Rose Morley**, Associate Research Scientist (Digital Ethics Center, Yale University), Contributor
+- **Anonymous**
+- **Lauren Bevan**, Head of Health, Contributor
+- **Guy Martyn Gregory**
+- **Anonymous**
+- **Marc Belej**, Digital Health Consultant
+- **Mark Bartlett**, CEO (StoreGene), Contributor
+- **Anonymous**, Senior Evaluation and Insights Manager (UCLPartners)
+- **Sam Saffron**, Co CEO, Contributor
