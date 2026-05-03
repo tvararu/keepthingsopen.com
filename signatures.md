@@ -441,3 +441,27 @@
 - **Lawrence Li**
 - **Oliver Theis**
 - **Rebekah Diski**
+- **Anas El Boukhari**
+- **Claire ElizabethWelsh**, Contributor
+- **Sam Baldwin**
+- **Joshua Hunt**
+- **Andrew Fielding**, Policy and Insights Officer (General Chiropractic Council), Contributor
+- **Marcus Green**, Computer Programmer (Catalyst EU)
+- **Dafydd Vaughan**, Contributor
+- **Anonymous**, (UK civil service), Contributor
+- **James Doyle**, data manager (Brunel Pension Partnership)
+- **Anonymous**
+- **Anonymous**, Data analyst (NIHR RDNCC)
+- **Duncan Black**, GP, Research GP
+- **Anonymous**, Research Engineer
+- **Sf wellesley-miller**, (NHSE), Contributor
+- **Anonymous**, Contributor
+- **Matthew Timothy Coote**
+- **Jakevir Shoker**, Digital Safety Officer (Patients Know Best), Contributor
+- **Leo Riviera**, Innovation Lead (Voxa)
+- **Adam McGreggor**, Contributor
+- **Jaseem Abid**, Software Engineer (MongoDB)
+- **Anonymous**, Epidemiologist (UKHSA), Contributor
+- **Anonymous**, Data Analyst (NHS Digital)
+- **Anonymous**
+- **Jessica Rose Morley**, Associate Research Scientist (Digital Ethics Center, Yale University), Contributor
