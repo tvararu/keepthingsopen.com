@@ -499,3 +499,42 @@
 - **Stuart Ward**
 - **Andy Broomfield**, Contributor
 - **Brian Painting**, Founder (CattleGrid)
+- **Hassan Chaudhury HonFaPM**, Expert in Residence (King’s College London), Contributor
+- **Ben Edwards**
+- **Anonymous**
+- **James Petts**
+- **Brendan O'Sullivan**, Clinical Scientist (UHB NHS Foundation Trust)
+- **Mike Bird**
+- **Giles Turnbull**, Contributor
+- **Tom Pollard**, (Massachusetts Institute of Technology), Contributor
+- **Daniel Darlington**
+- **Hilary Wray**, PhD researcher in Ux/Ui in healthcare
+- **Anonymous**
+- **Anonymous**, Retired
+- **Greg Burch**, Joint CEO (Tiny Medical Apps)
+- **Anonymous**, (Isaree GmbH)
+- **Dr. David McBride**, Senior Technical Specialist, Contributor
+- **Anonymous**
+- **Michael Chambers**, Contributor
+- **Oliver Cronk**, Chief Architect (Cronk Advisory), Contributor
+- **Cori Crider**, Hon. Prof. of Practice (UCL Laws)
+- **Anonymous**
+- **Matt Sharpe**, Software engineer
+- **Malcolm Scott**, IT Infrastructure Specialist (University of Cambridge), Contributor
+- **Anonymous**, Tech Manager (Wellcome Trust)
+- **Jack Gilmore**, Co-founder (Open Data Scotland), Contributor
+- **Anonymous**
+- **Konstantin Vinogradov**
+- **Roz Foad**
+- **Robert Whittaker**
+- **Anonymous**, Data scientist (Imperial college NHS trust), Contributor
+- **P Taylor**, academic research
+- **Andrew McDonough**, CTO
+- **Matthew Upson**, Contributor
+- **Dr Martina Kunz**
+- **Caroline Morton**, software developer and epidemiologist, Contributor
+- **Anonymous**, Designer, Contributor
+- **Dr Bruce Scharlau**, Emeritus Senior Lecturer (University of Aberdeen)
+- **Jon Wood**, Software Developer (Demand Logic)
+- **Ivan Yohuno**, Senior Software Engineer (Legal Aid Agency), Contributor
+- **Rachel Sweet**
