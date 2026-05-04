@@ -442,7 +442,7 @@
 - **Oliver Theis**
 - **Rebekah Diski**
 - **Anas El Boukhari**
-- **Claire ElizabethWelsh**, Contributor
+- **Claire Elizabeth Welsh**, Contributor
 - **Sam Baldwin**
 - **Joshua Hunt**
 - **Andrew Fielding**, Policy and Insights Officer (General Chiropractic Council), Contributor
@@ -454,7 +454,7 @@
 - **Anonymous**, Data analyst (NIHR RDNCC)
 - **Duncan Black**, GP, Research GP
 - **Anonymous**, Research Engineer
-- **Sf wellesley-miller**, (NHSE), Contributor
+- **Simon Wellesley-Miller**, (NHSE), Contributor
 - **Anonymous**, Contributor
 - **Matthew Timothy Coote**
 - **Jakevir Shoker**, Digital Safety Officer (Patients Know Best), Contributor
