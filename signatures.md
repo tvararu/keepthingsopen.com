@@ -481,3 +481,10 @@
 - **Christopher Paul Mainey**, Head of Data Science (NHS Birmingham and Solihull ICB), Contributor
 - **Timothy Gfrerer**
 - **Tijmen Brommet**, Contributor
+- **Lucian Holland**, Senior Software Developer (Patients Know Best), Contributor
+- **Pedro Chambino**, Software Engineer (Carwow)
+- **Ceri Rose**
+- **Anonymous**, Web developer, Contributor
+- **Eleanor Payne**
+- **Peter Coetzee**, Contributor
+- **Anonymous**
