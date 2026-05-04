@@ -488,3 +488,14 @@
 - **Eleanor Payne**
 - **Peter Coetzee**, Contributor
 - **Anonymous**
+- **Roger Bullivant**
+- **Laura Birks**, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Bharat Sharma**, Lead Product Manager (NHS England), Contributor
+- **Paul Drake**
+- **Jack Fletcher**, Contributor
+- **Rachel Denholm**, Researcher (University of Bristol)
+- **Stuart Ward**
+- **Andy Broomfield**, Contributor
+- **Brian Painting**, Founder (CattleGrid)
