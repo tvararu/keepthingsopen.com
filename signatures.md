@@ -473,3 +473,7 @@
 - **Mark Bartlett**, CEO (StoreGene), Contributor
 - **Anonymous**, Senior Evaluation and Insights Manager (UCLPartners)
 - **Sam Saffron**, Co CEO, Contributor
+- **Anonymous**
+- **Anonymous**
+- **John Hartley**, Product Manager (Cardiophoenix.com)
+- **Thomas Stone**
