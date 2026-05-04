@@ -477,3 +477,7 @@
 - **Anonymous**
 - **John Hartley**, Product Manager (Cardiophoenix.com)
 - **Thomas Stone**
+- **Chris Nyunt**
+- **Christopher Paul Mainey**, Head of Data Science (NHS Birmingham and Solihull ICB), Contributor
+- **Timothy Gfrerer**
+- **Tijmen Brommet**, Contributor
