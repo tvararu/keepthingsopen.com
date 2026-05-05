@@ -631,3 +631,31 @@
 - **Ciaran Rooney**, CTO (xUnlocked)
 - **Anonymous**
 - **Anonymous**, Contributor
+- **Michael Robinson**, Contributor
+- **Anonymous**, CTO
+- **Chris Swan**, Contributor
+- **Michael John Spooner**
+- **Stuart Lowe**
+- **Murray Steele**, Contributor
+- **Rory Gibson**, CTO / CTPO (Cohesive Technology, consulting), Contributor
+- **Alastair Dodd**
+- **Uditha Atukorala**, Founder (Felk), Contributor
+- **Andy Hunt**, SRE (GDS), Contributor
+- **Anonymous**
+- **Carlos Martinez**, Contributor
+- **Thomas Hallam**, (NHSE), Contributor
+- **Fran L**, SRE (GDS), Contributor
+- **Max Keogh**
+- **Frank Wales**, CTO (Icebreaker One Limited), Contributor
+- **F.P. Wood**
+- **Romaric Pascal**, Senior Frontend Developer (GDS), Contributor
+- **Stefano Tronci**, Scientific Software Engineer
+- **James Gaskell**
+- **Peter Leese**
+- **Julia Higginbottom**, (Rewired State and CoMutiny Ltd), Contributor
+- **Quentin Hanley**
+- **Joel Chippindale**
+- **Adam Maddison**, Delivery, Contributor
+- **Seb Bacon**, Professor of Research Software Engineering (University of Oxford), Contributor
+- **Greg Harvey**, Director (Code Enigma), Contributor
+- **Robin Carswell**, Founder (The NoCode CTO), Contributor
