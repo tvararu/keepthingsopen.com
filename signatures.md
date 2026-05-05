@@ -18,7 +18,7 @@
 - **Cameron Brown**, Software Engineer (Google)
 - **Chris Wait**, Head of Software (3ti Energy Hubs), Contributor
 - **Daniel Roe**, Core team lead (Nuxt)
-- **Dr Cory Doctorow (h.c.)**
+- **Dr Cory Doctorow (h.c.)**, Verified
 - **Donald Harvey**, Software Engineer
 - **Duncan Mortimer**, Contributor
 - **George David Tyson**, programmer
@@ -298,7 +298,7 @@
 - **Ian Ames**, (Discover Deliver Ltd)
 - **James O'Malley**, Writer and Journalist
 - **Kasper Henningsen**
-- **Matt Hancock**, Secretary of State (DHSC), Contributor
+- **Matt Hancock**, Secretary of State (DHSC), Contributor, Verified
 - **Michael Davey**, CTOO (Signly Ltd)
 - **Michael Samy**, Software engineer (Composed Health Ltd)
 - **Osnat Katz Moon**

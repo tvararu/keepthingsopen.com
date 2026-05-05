@@ -66,12 +66,20 @@ function parseLine(text) {
   if (!m) return null;
   let rest = (m[2] || "").trim();
   let contributor = false;
+  let verified = false;
   const contributorSuffix = /(?:^|,\s*)contributor$/i;
-  if (contributorSuffix.test(rest)) {
-    contributor = true;
-    rest = rest.replace(contributorSuffix, "").trim();
+  const verifiedSuffix = /(?:^|,\s*)verified$/i;
+  for (let i = 0; i < 2; i++) {
+    if (verifiedSuffix.test(rest)) {
+      verified = true;
+      rest = rest.replace(verifiedSuffix, "").trim();
+    }
+    if (contributorSuffix.test(rest)) {
+      contributor = true;
+      rest = rest.replace(contributorSuffix, "").trim();
+    }
   }
-  return { name: m[1], rest, contributor };
+  return { name: m[1], rest, contributor, verified };
 }
 
 function escapeHtml(s) {
@@ -84,10 +92,15 @@ function escapeHtml(s) {
 }
 
 function renderCard(s) {
-  const crown = s.contributor
-    ? `<img src="/crown.svg" alt="" class="sig-crown" title="Has contributed to UK public-sector software"><span class="govuk-visually-hidden">Has contributed to UK public-sector software</span>`
-    : "";
-  return `<div class="sig"><strong>${escapeHtml(s.name)}</strong>${crown}</div>`;
+  let badge = "";
+  if (s.verified && s.contributor) {
+    badge = `<span class="sig-verified" title="Identity manually verified, has contributed to UK public-sector software"><img src="/crown.svg" alt=""></span><span class="govuk-visually-hidden">Identity manually verified, has contributed to UK public-sector software</span>`;
+  } else if (s.verified) {
+    badge = `<span class="sig-verified" title="Identity manually verified" aria-hidden="true"></span><span class="govuk-visually-hidden">Identity manually verified</span>`;
+  } else if (s.contributor) {
+    badge = `<img src="/crown.svg" alt="" class="sig-crown" title="Has contributed to UK public-sector software"><span class="govuk-visually-hidden">Has contributed to UK public-sector software</span>`;
+  }
+  return `<div class="sig"><strong>${escapeHtml(s.name)}</strong>${badge}</div>`;
 }
 
 function renderAnonymousGroup(n) {

@@ -337,11 +337,16 @@
         grid-column: 1 / -1;
         margin: 0;
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
         font-size: 14px;
         line-height: 1.4;
+      }
+      .sig-legend__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
       }
       .sig-legend__phrase {
         white-space: nowrap;
@@ -349,7 +354,7 @@
       @media (min-width: 769px) {
         .sig-legend {
           grid-column: 3 / 5;
-          justify-content: flex-end;
+          align-items: flex-end;
         }
       }
       .sig-legend__crown {
@@ -357,11 +362,37 @@
         height: 18px;
         flex-shrink: 0;
       }
+      .sig-legend__verified {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #000;
+        flex-shrink: 0;
+        display: inline-block;
+      }
       .sig-crown {
         width: 18px;
         height: 18px;
         margin-left: auto;
         flex-shrink: 0;
+      }
+      .sig-verified {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #000;
+        flex-shrink: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: -7px;
+        box-sizing: border-box;
+      }
+      .sig-verified img {
+        width: 18px;
+        height: 18px;
+        filter: brightness(0) invert(1);
       }
       .sig-empty {
         padding: 20px;
@@ -738,10 +769,16 @@
           <!-- SIGNATURES -->
           <div class="sig-bottom">
             <!-- ANON -->
-            <p class="sig-legend">
-              <img src="/crown.svg" alt="The GOV.UK crown logo" class="sig-legend__crown">
-              <span>Has contributed to <span class="sig-legend__phrase">UK public-sector software</span></span>
-            </p>
+            <div class="sig-legend">
+              <span class="sig-legend__item">
+                <span class="sig-legend__verified" aria-hidden="true"></span>
+                <span>Identity manually verified</span>
+              </span>
+              <span class="sig-legend__item">
+                <img src="/crown.svg" alt="The GOV.UK crown logo" class="sig-legend__crown">
+                <span>Has contributed to <span class="sig-legend__phrase">UK public-sector software</span></span>
+              </span>
+            </div>
           </div>
         </section>
 
