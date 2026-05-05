@@ -541,3 +541,56 @@
 - **Soraya Safazadeh**, Former Senior Information Analyst (NHS England)
 - **Anonymous**
 - **Brendan Delaney**, Chair in Medical Informatics (Imperial College London)
+- **Anonymous**, Contributor
+- **Sara Shaw**
+- **Matthew Knight**, Consultant (NHS)
+- **Anonymous**, (NHS MLCSU)
+- **Anonymous**
+- **Anonymous**, NHS Consultant (Gloucestershire Health & Care NHS Trust)
+- **felix cohen**, Director of Digital (Chancery Lane Project)
+- **Anonymous**, CEO (Onionio), Contributor
+- **Dave Postles**
+- **Gregory Clarke**, CEO (Team Netsol), Contributor
+- **Kev Sanderson**, SRE Lead (Patients Know Best)
+- **Marcos Fabietti**, Lead Analyst (North West Anglia Foundation Trust), Contributor
+- **Bruce Lawson**
+- **Rob Dyke**, Staff Security Engineer, Contributor
+- **Paul Barker**, Embedded Linux & Open Source Specialist
+- **Natalia Riley**, Lead Service Designer (TPXimpact), Contributor
+- **Becky Wassall**, Senior Lecturer/Hon Consultant in Special Care Dentistry (Newcastle University/NUTH), Contributor
+- **Rob Corp**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, Software Engineer
+- **Chris Rusbridge**, Contributor
+- **Dan Allibone**
+- **Patrick H. Lauke**
+- **Doug Belshaw**
+- **Nic Wistreich**, Design Project Lead (Netribution), Contributor
+- **Anonymous**, Contributor
+- **Ilias Akhmedov**
+- **Jonny Williams**, Chief Digital Adviser for UK Public Sector (Red Hat), Contributor
+- **Phil Booth**, Coordinator (medConfidential)
+- **Hector Sanchez Barrera**
+- **Neal Todd**, Head of Systems (Torchbox), Contributor
+- **Dan Smith**, (Code Enigma Ltd), Contributor
+- **Joseph William McDonald**, Founding Partner (Lone Fox IT Limited), Contributor
+- **Pete Prodoehl**
+- **Jonathan Lord**
+- **James Williams**, Senior Developer (ComputerMinds Ltd), Contributor
+- **Ben Dawson**, Contributor
+- **Matthew Lawrence**
+- **muhammad haque**
+- **Dyfrig Williams**
+- **Anonymous**, Data Scientist (The Strategy Unit, NHS), Contributor
+- **Anonymous**, Contributor
+- **Anonymous**, Pharmacist (NHS)
+- **anthony lincoln**
+- **Steve Laing**, Senior Developer (NHSE), Contributor
+- **Makepeace McEvoy**
+- **Simon Briggs**, Contributor
+- **Patricia Williams**
+- **Daniel Thompson**, Principal Software Engineer
+- **Laura Smith**, Designer (Unboxed), Contributor
+- **Peter Hibbert**, Software Developer
+- **Joash Lewis**, Senior Security Consultant
