@@ -749,3 +749,11 @@
 - **Anonymous**
 - **Anonymous**
 - **Anonymous**
+- **Kieran Bingham**
+- **Anonymous**, Data Analyst (Herefordshire and Worcestershire Health and Care Trust)
+- **Ilya Dmitrichenko**, Software Engineer
+- **Noel Murphy**
+- **Anonymous**, Security Consultant (Legal sector)
+- **Stuart Axon**, Developer, Contributor
+- **Dr David Nicholl**, Consultant Neurologist (Sandwell & West Birmingham NHS Trust)
+- **Anonymous**, Contributor
