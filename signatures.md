@@ -691,3 +691,5 @@
 - **Bobbu Abadeer**, Interaction & Product Designer, Contributor
 - **Steve Hook**, Senior Software Architect (NHS), Contributor
 - **Zachary Stevens**, CTO
+- **Melissa Graham**, Content Designer (NHSE), Contributor
+- **Connor Cartwright**
