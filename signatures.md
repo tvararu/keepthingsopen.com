@@ -604,3 +604,30 @@
 - **Ben Varney**
 - **Kimberly Grey**, Contributor
 - **William Mathewson**, Senior Software Engineer (Accurx)
+- **Anonymous**, DevSecOps Engineer
+- **James Smith**, Contributor
+- **Dave Riley**
+- **Daniel Solomon**
+- **Joshua Aspinall**
+- **Alex Vinokurov**
+- **James Stewart**, Contributor
+- **Ross Bale**
+- **Ross Burton**
+- **Anonymous**
+- **Sarah Surrall**, Chief Technology Officer (Health Navigator)
+- **Nik Silver**, Agile Coach (ONS and Ofsted), Contributor
+- **Daniel Silverstone**
+- **Mike Playle**
+- **Will Thompson**, Software Engineer
+- **Julian Blundell**
+- **Anonymous**, Software Developer (BBC), Contributor
+- **Sam Brierley**, Head of UCD (UKHO, CCEW, HMLR, HMCTS, NHS), Contributor
+- **Anonymous**, (NHS England), Contributor
+- **Anonymous**
+- **Chris Pointon**, Contributor
+- **Paddy Duke**
+- **Anonymous**
+- **Simon Mendoza**, CTO (Calero)
+- **Ciaran Rooney**, CTO (xUnlocked)
+- **Anonymous**
+- **Anonymous**, Contributor
