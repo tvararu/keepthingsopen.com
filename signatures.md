@@ -659,3 +659,24 @@
 - **Seb Bacon**, Professor of Research Software Engineering (University of Oxford), Contributor
 - **Greg Harvey**, Director (Code Enigma), Contributor
 - **Robin Carswell**, Founder (The NoCode CTO), Contributor
+- **Suzanne Hamilton**, Technical Lead, Contributor
+- **Helen Cook**
+- **Nigel Metheringham**, Contributor
+- **Stephen Thompson**, Research Software Engineer (UCL), Contributor
+- **Tim Whelan**
+- **Sabah Mahmood**, Contributor
+- **Tom Couch**, Research Software Engineer (UCL), Contributor
+- **Liz Rice**, Contributor
+- **Toby Abel**, Founder (Open Council Network)
+- **Anonymous**
+- **Anonymous**, Contributor
+- **Tuomas Koskela**, Research Software Engineer (UCL), Contributor
+- **Mal Ross**, Interaction Designer (NHSE), Contributor
+- **Mike Thompson**, Product Manager, Contributor
+- **Polly Gannaway**, User Researcher, Contributor
+- **David Hallworth**, Content Designer, Contributor
+- **Anonymous**
+- **John Henderson**, Software Developer, Contributor
+- **Anonymous**
+- **Amy Heather**, Postdoctoral Research Associate (University of Exeter), Contributor
+- **Dr Daniel Chalk**, Senior Research Fellow and HSMA Programme Director (NIHR Applied Research Collaboration South West, University of Exeter), Contributor
