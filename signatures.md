@@ -594,3 +594,13 @@
 - **Laura Smith**, Designer (Unboxed), Contributor
 - **Peter Hibbert**, Software Developer
 - **Joash Lewis**, Senior Security Consultant
+- **Alistair White-Horne**, Contributor
+- **Andrew White**, CTO (Unboxed Consulting), Contributor
+- **Anonymous**, Interaction Designer (DfE, Defra), Contributor
+- **Desmond Gilmartin**
+- **Anonymous**, Software Engineer
+- **Elias Lanfranconi**
+- **Jonathan Spencer**, Contributor
+- **Ben Varney**
+- **Kimberly Grey**, Contributor
+- **William Mathewson**, Senior Software Engineer (Accurx)
