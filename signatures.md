@@ -693,3 +693,59 @@
 - **Zachary Stevens**, CTO
 - **Melissa Graham**, Content Designer (NHSE), Contributor
 - **Connor Cartwright**
+- **Katherine Parkin**
+- **Tom Morris**
+- **Anonymous**, Service Designer
+- **David Mays**, Senior SRE (Tech Lead) (GOV.UK, Government Digital Service), Contributor
+- **James Billingham**, Contributor
+- **Jon Rowe**, Contributor
+- **Andy Piper**, Freelance technologist
+- **Julian Tait**, CEO (Open Data Manchester CIC)
+- **Alan Pope**, Contributor
+- **Anonymous**, Data analyst (NHS Scotland), Contributor
+- **Kevin Frost**
+- **Phil Weir**, Director (Flax & Teal), Contributor
+- **Robert F. Wood**
+- **Chris Ellis**, Head Of Technology (Nexteam), Contributor
+- **Brendan Abolivier**, Staff Software Engineer (Mozilla)
+- **Ian Phillips**
+- **Robin Parker Phillips**
+- **Anonymous**
+- **Ross Buggins**, Solution Architect (NHS England), Contributor
+- **Ilia Ryzhkov**, IT Consultant (DBAX), Contributor
+- **William M Browne**, (Emrys Health), Contributor
+- **Mark Lansbury**
+- **Liam Moat**
+- **Peter L Babbington-Fowles**, Technical Product Manager
+- **Patrick Roddy**, Senior Research Software Engineer (University College London), Contributor
+- **Nick Colley**, Contributor
+- **A Whittaker Percival**
+- **Eli Chadwick**, Contributor
+- **Philip Wills**
+- **Anonymous**, Research Software Engineer (University College London), Contributor
+- **James Derrick**, Solutions Architect, Contributor
+- **Sean Boots**, Open government program manager (Government of Yukon)
+- **Tom Stockton**, CEO (Fuzzy Labs), Contributor
+- **Phil Clifford**, Contributor
+- **Paul Edwin**, Software Consultant, Contributor
+- **Travis Lelle**, Principal Security Engineer (GuidePoint Security)
+- **Matthew Barlow**, Software Engineer
+- **Damon Jagger**, Engineering Manager (Kry), Contributor
+- **David Allan**, Nuclear Operations Engineer (EDF Energy)
+- **Jon Massey**, Senior Developer (Bennett Institute for Applied Data Science, University of Oxford), Contributor
+- **Dr Michael Bainbridge**, Clinical Architect, Contributor
+- **Dr Nicholas Plummer**, Consultant in adult critical care (Nottingham University Hospitals), Contributor
+- **Joshua Tuddenham**, Senior Software Engineer
+- **Mose Giordano**, Research Software Engineer (University College London)
+- **Anonymous**
+- **Duncan Whyte**
+- **Anonymous**
+- **Andrew Goodricke**
+- **Anonymous**
+- **Ben Secretan**
+- **Anonymous**, Consultant and chief clinical information officer (University Hospital Southampton)
+- **Lewin J Kelly**
+- **Stephen Abbott Pugh**, Technical consultant (Understand beneficial ownership), Contributor
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
