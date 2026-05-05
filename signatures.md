@@ -538,3 +538,6 @@
 - **Jon Wood**, Software Developer (Demand Logic)
 - **Ivan Yohuno**, Senior Software Engineer (Legal Aid Agency), Contributor
 - **Rachel Sweet**
+- **Soraya Safazadeh**, Former Senior Information Analyst (NHS England)
+- **Anonymous**
+- **Brendan Delaney**, Chair in Medical Informatics (Imperial College London)
