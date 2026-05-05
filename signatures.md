@@ -680,3 +680,14 @@
 - **Anonymous**
 - **Amy Heather**, Postdoctoral Research Associate (University of Exeter), Contributor
 - **Dr Daniel Chalk**, Senior Research Fellow and HSMA Programme Director (NIHR Applied Research Collaboration South West, University of Exeter), Contributor
+- **George Stevenson**
+- **Rob Agar**
+- **Chris Lowis**, (Go Free Range), Contributor
+- **Sammi Rosser**, Health Service Modelling Associates Trainer (University of Exeter), Contributor
+- **Anonymous**, Senior Analytical Manager (NHS England), Contributor
+- **Anonymous**, Microbiology Medical Lab Technologist (Labcorp)
+- **Prof Thomas Monks**, Associate Professor Health Data Science (University of Exeter), Contributor
+- **Brage Gording**, Lead DevOps Engineer, Contributor
+- **Bobbu Abadeer**, Interaction & Product Designer, Contributor
+- **Steve Hook**, Senior Software Architect (NHS), Contributor
+- **Zachary Stevens**, CTO
