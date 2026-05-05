@@ -484,7 +484,7 @@
 - **Lucian Holland**, Senior Software Developer (Patients Know Best), Contributor
 - **Pedro Chambino**, Software Engineer (Carwow)
 - **Ceri Rose**
-- **Anonymous**, Web developer, Contributor
+- **Anonymous**, Web Developer, Contributor
 - **Eleanor Payne**
 - **Peter Coetzee**, Contributor
 - **Anonymous**
@@ -499,7 +499,7 @@
 - **Stuart Ward**
 - **Andy Broomfield**, Contributor
 - **Brian Painting**, Founder (CattleGrid)
-- **Hassan Chaudhury HonFaPM**, Expert in Residence (King’s College London), Contributor
+- **Hassan Chaudhury HonFaPM**, Expert in Residence (King's College London), Contributor
 - **Ben Edwards**
 - **Anonymous**
 - **James Petts**
@@ -508,18 +508,18 @@
 - **Giles Turnbull**, Contributor
 - **Tom Pollard**, (Massachusetts Institute of Technology), Contributor
 - **Daniel Darlington**
-- **Hilary Wray**, PhD researcher in Ux/Ui in healthcare
+- **Hilary Wray**, PhD researcher in UX/UI in healthcare
 - **Anonymous**
 - **Anonymous**, Retired
 - **Greg Burch**, Joint CEO (Tiny Medical Apps)
 - **Anonymous**, (Isaree GmbH)
-- **Dr. David McBride**, Senior Technical Specialist, Contributor
+- **Dr David McBride**, Senior Technical Specialist, Contributor
 - **Anonymous**
 - **Michael Chambers**, Contributor
 - **Oliver Cronk**, Chief Architect (Cronk Advisory), Contributor
 - **Cori Crider**, Hon. Prof. of Practice (UCL Laws)
 - **Anonymous**
-- **Matt Sharpe**, Software engineer
+- **Matt Sharpe**, Software Engineer
 - **Malcolm Scott**, IT Infrastructure Specialist (University of Cambridge), Contributor
 - **Anonymous**, Tech Manager (Wellcome Trust)
 - **Jack Gilmore**, Co-founder (Open Data Scotland), Contributor
@@ -527,12 +527,12 @@
 - **Konstantin Vinogradov**
 - **Roz Foad**
 - **Robert Whittaker**
-- **Anonymous**, Data scientist (Imperial college NHS trust), Contributor
-- **P Taylor**, academic research
+- **Anonymous**, Data scientist (Imperial College NHS Trust), Contributor
+- **P Taylor**, Academic Researcher
 - **Andrew McDonough**, CTO
 - **Matthew Upson**, Contributor
 - **Dr Martina Kunz**
-- **Caroline Morton**, software developer and epidemiologist, Contributor
+- **Caroline Morton**, Software Developer and Epidemiologist, Contributor
 - **Anonymous**, Designer, Contributor
 - **Dr Bruce Scharlau**, Emeritus Senior Lecturer (University of Aberdeen)
 - **Jon Wood**, Software Developer (Demand Logic)
