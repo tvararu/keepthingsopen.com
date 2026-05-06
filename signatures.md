@@ -810,3 +810,15 @@
 - **Gideon Farrell**, CTO (Converge)
 - **Anonymous**, AI Researcher (theSDEs), Contributor
 - **Anonymous**, (Waterstons)
+- **Anonymous**
+- **Stefan Piatek**, Technical Programme Manager (UCLH), Contributor
+- **Ben Smith**, CTO (InReach Ventures)
+- **Anonymous**, (University of Sheffield), Contributor
+- **Robin Linacre**, Contributor
+- **Liam Guy Hiram Proven**, Technology writer (Situation Publishing)
+- **Hardeep Nagi**, CTO (Yordex)
+- **Madeline Gurriarán Nieto**, Open Source Maintainer
+- **Simon Phipps**, Contributor
+- **Dr Stephen Taylor**
+- **Anonymous**
+- **David Sugden**
