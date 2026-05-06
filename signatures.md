@@ -805,3 +805,8 @@
 - **Anonymous**
 - **Gemma Moulder**, (mySociety)
 - **George Burton**
+- **Tekin Süleyman**, Tech Lead (Join Together Co-operative), Contributor
+- **Anonymous**, Software Developer (NHSE), Contributor
+- **Gideon Farrell**, CTO (Converge)
+- **Anonymous**, AI Researcher (theSDEs), Contributor
+- **Anonymous**, (Waterstons)
