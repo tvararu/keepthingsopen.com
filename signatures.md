@@ -757,3 +757,35 @@
 - **Stuart Axon**, Developer, Contributor
 - **Dr David Nicholl**, Consultant Neurologist (Sandwell & West Birmingham NHS Trust)
 - **Anonymous**, Contributor
+- **Ian Hodge**
+- **Michael Dexter**, Community Organizer
+- **Karl McIntyre**, Head of Operations - Pathology (Liverpool University Hospitals NHS Trust)
+- **Anonymous**
+- **Rui Armando Ribeiro Gomes**, BI Analyst (Guys and St Thomas NHS Trust)
+- **Sam Williams**, Developer (MHCLG), Contributor
+- **Malcolm Box**, GM Engineering
+- **Mitchell Kent**, Senior Engineering Manager (NTT Data)
+- **Damon Hart-Davis**, Contributor
+- **Sau Fai Fong**, Developer (DfE), Contributor
+- **Duncan Harris**, Technologist
+- **Andrew Talbot**
+- **Patrick Blakey**, Contributor
+- **James Mead**, Director / Software Engineer (Go Free Range Ltd), Contributor
+- **Raymond Kennedy**
+- **Samantha Vautier**, Data Scientist, Contributor
+- **Ashley Unitt**, (Light 79 LLP)
+- **Ian Bellchambers**, Contributor
+- **Mrs R E Wingrove**
+- **Anonymous**, Product Manager
+- **Anonymous**, Contributor
+- **Philip Thiselton**, Contributor
+- **Chris Roos**, (Go Free Range Ltd), Contributor
+- **Jim Halfpenny**, Managing Director (Stackable), Contributor
+- **Anonymous**, Product Manager, Contributor
+- **Elliot Morris**, Software Engineer
+- **Anonymous**
+- **Gina Helfrich**
+- **Andy Wilson**, Analyst, Contributor
+- **Grace Dean**, Contributor
+- **Karen Bradley**
+- **Mark Simmons**
