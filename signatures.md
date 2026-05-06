@@ -789,3 +789,19 @@
 - **Grace Dean**, Contributor
 - **Karen Bradley**
 - **Mark Simmons**
+- **YiWen Hon**, Data Scientist (The Strategy Unit), Contributor
+- **Louise Crow**, Chief Executive (mySociety), Contributor
+- **Stuart Mumford**
+- **James Wild**, Developer (Aire Logic), Contributor
+- **Paul Battley**, Contributor
+- **Mike Spencer**, (Independent), Contributor
+- **Andrew Blackwood**, Software engineer
+- **Stuart Bertram**, Data Engineer
+- **Anonymous**
+- **Yotam Laufer**, CTO
+- **Gemma Whitehouse**, CTO (Ingeniva Consulting Ltd)
+- **Lucy Bridges**, Contributor
+- **James Bradley**, Software Developer (NHSE), Contributor
+- **Anonymous**
+- **Gemma Moulder**, (mySociety)
+- **George Burton**
