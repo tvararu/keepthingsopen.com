@@ -875,3 +875,19 @@
 - **Peter Durling**
 - **John Collis**
 - **James Barker**
+- **Philip Sargent**, Engineer Programmer (Dept. of Energy and Climate Change), Contributor
+- **Antony John Shepherd**
+- **Anonymous**
+- **Ben Evans**
+- **David Korn**, Software Engineer (Ubik)
+- **alain williams**, Consultant (Parliament Hill Computers), Contributor
+- **Vaughan Lewis**
+- **Anonymous**
+- **Archie Lamb**, Software Engineer (Stotles)
+- **Mark Poolman**, Senior Research Fellow (Oxford Brookes University)
+- **Rich Barlow**, Electronic Engineer
+- **Pouria Hadjibagheri**, Contributor
+- **Leo Vegoda**
+- **Omar Shahpo**, Contributor
+- **Christopher Pollock**
+- **David Howorth**
