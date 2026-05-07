@@ -163,7 +163,7 @@
 - **Anonymous**, Contributor
 - **Tim Wisniewski**, Contributor
 - **Gavin Laking**, Engineering Manager
-- **H pragt**
+- **H Pragt**
 - **Benjamin Warrington**
 - **Anonymous**, UX Engineer (Freelance)
 - **Isabel Roses**
@@ -931,7 +931,7 @@
 - **Robert Emery**
 - **Anonymous**
 - **Anonymous**
-- **Renaud colinet**
+- **Renaud Colinet**
 - **Anonymous**
 - **Alessandro Felder**, Senior Research Software Engineer (University College London), Contributor
 - **Neil Green**, Contributor
@@ -945,7 +945,7 @@
 - **Amelia Scott**
 - **Anonymous**, Data Scientist (NHSE), Contributor
 - **Andrew Michael Scaife**
-- **John heath**
+- **John Heath**
 - **Dave Lukes**
 - **Tom Lawton**, Contributor
 - **Matthew R Bennion**, (University of Sheffield), Contributor
