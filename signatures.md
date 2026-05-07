@@ -891,3 +891,11 @@
 - **Omar Shahpo**, Contributor
 - **Christopher Pollock**
 - **David Howorth**
+- **Ivan Arrdon**
+- **Chris Preston**
+- **Allan Jones**, IT Manager
+- **Anonymous**, Chief Technology Officer
+- **Anonymous**, Developer (mySociety)
+- **Keith Bathgate**
+- **James Nicholson**
+- **Victor Gavin**
