@@ -822,3 +822,56 @@
 - **Dr Stephen Taylor**
 - **Anonymous**
 - **David Sugden**
+- **Anonymous**, Product Designer
+- **Anonymous**
+- **Sebastian Crane**
+- **Nick Renwick**, Cyber Security Manager, Contributor
+- **Anonymous**
+- **Anonymous**, Software Developer (Wellcome Trust)
+- **Anonymous**, Software Engineer (Wikimedia)
+- **Wookey**, Developer (Debian)
+- **Joao Lapa**
+- **Sarah Keating**, (UCL), Contributor
+- **Vishal Dhokia**
+- **Wai Keong Wong**, Contributor
+- **Jake Kealey**, Analytics Manager (NCL Cancer Alliance), Contributor
+- **Anonymous**
+- **Tristan Keen**, Senior Developer (Lyst)
+- **Adrian Mouat**, DevRel (Chainguard)
+- **Chris Gannon**, Developer, Contributor
+- **Imdad Ahmed**, Tech Principal (Thoughtworks), Contributor
+- **Merlin Dunlop**, Contributor
+- **Johannes Näder**, Senior Policy Project Manager (Free Software Foundation Europe)
+- **Benjamin Nickolls**, Contributor
+- **Richard Grimmer**, Contributor
+- **Andrew Yates**, Director of Technology Strategy (Emergent Strategies)
+- **Anthony John Merritt**
+- **Anonymous**
+- **Matthew Hobbs**, Principal Frontend Engineer consulting for HMCTS (Solirius Consulting Ltd), Contributor
+- **James Coules**, Contributor
+- **William Beard**
+- **Adam Reichold**
+- **Stephen De Gabrielle**, Open Source Project Contributor for 20+ Years
+- **Christopher James Wareham**, Software Developer
+- **Gordon Alexander-Ralphs**, Developer (Skills for Health, NHS), Contributor
+- **Stephen J Smith**
+- **Christopher Gibson**
+- **Anonymous**
+- **Anonymous**
+- **Peter Wells**, Contributor
+- **Deepak Sharma**
+- **Diarmaid Crean**, CIO (Ex-NHS and DHSC/PHE SCS), Contributor
+- **Merul Patel**
+- **Dave Short**
+- **Rob Ruck**, Staff Software Engineer
+- **Simon Brunning**, Developer (NHSE), Contributor
+- **Scott Hammett**
+- **Ivy Turner**, (Love Computer)
+- **Anne McCrossan**, Contributor
+- **Anonymous**
+- **Mark Corti**
+- **Stanislaw Lewak**, CEO (praedictio.ai)
+- **Martin Wright**, Contributor
+- **Peter Durling**
+- **John Collis**
+- **James Barker**
