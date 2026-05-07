@@ -899,3 +899,105 @@
 - **Keith Bathgate**
 - **James Nicholson**
 - **Victor Gavin**
+- **Robin Bryce**
+- **David Monksfield**
+- **Anonymous**, Network Security SME
+- **Eray Koschell**, Software Engineer
+- **Anonymous**, Contributor
+- **Anonymous**
+- **Anonymous**, Scientific Software Engineer (Met Office), Contributor
+- **Adam Boutcher**, High Performance Computing (HPC) System Admin (Durham University)
+- **Thomas Babb**
+- **Anonymous**
+- **David Ilsley**
+- **Paul Cooper**, Retired, Contributor
+- **Anonymous**, Contributor
+- **Adam Perfect**
+- **Sam Cunliffe**, Research Software Engineer (University College London and UCLH), Contributor
+- **David Perez-Suarez**, (University College London)
+- **Milan Malfait**, Research Software Engineer (University College London), Contributor
+- **Anonymous**
+- **Mark Malone**
+- **Anonymous**, Research Software Engineer (UCL)
+- **Mark Kelly**
+- **Aaron Lewis Cunnington**
+- **Paul Clayton**, (soulchip.co.uk)
+- **Al Slater**, CTO (Essiell Ltd)
+- **Anonymous**, Clinical scientist (Westmarc nhs ggc)
+- **Matthew Forrester**
+- **Roger H Pilkington**
+- **Colin White**
+- **Philip Rooke**
+- **Robert Emery**
+- **Anonymous**
+- **Anonymous**
+- **Renaud colinet**
+- **Anonymous**
+- **Alessandro Felder**, Senior Research Software Engineer (University College London), Contributor
+- **Neil Green**, Contributor
+- **Ben Stokes**, Contributor
+- **Alex Kavanagh**
+- **Stephen Jones**, IT Manager (retired)
+- **Darren Woodrow**, IT Manager
+- **Dennis Hazell**, Nurse (NHS)
+- **Matthew Payne**, IT Trainer (Guys and St Thomas NHSFT), Contributor
+- **Amit Gurdasani**
+- **Amelia Scott**
+- **Anonymous**, Data Scientist (NHSE), Contributor
+- **Andrew Michael Scaife**
+- **John heath**
+- **Dave Lukes**
+- **Tom Lawton**, Contributor
+- **Matthew R Bennion**, (University of Sheffield), Contributor
+- **Anonymous**, Contributor
+- **Simon Hawkins**
+- **Joe Perry**, clinical scientist (Nhs)
+- **James Smith**
+- **Robert Xowe**
+- **Anonymous**
+- **Anonymous**
+- **Andrew Brampton**, SRE (Google), Contributor
+- **David Legg**, Retired CITP (Thales)
+- **Damon Hoggett**
+- **Anonymous**
+- **Anonymous**, Contributor (Code Europe)
+- **Alexander Monro**, Contributor
+- **Adam Williamson**, Senior Principal Software Engineer (Red Hat)
+- **Anonymous**, clinical scientist specialist in clinical computing (Sheffield teaching hospitals), Contributor
+- **Carly Walter**, Founder and cto, Contributor
+- **Zac McChesney**, Software Developer
+- **Calum Polwart**, (South Tees NHS Foundation trust), Contributor
+- **Deepankar Datta**
+- **Jasper Cain**, Principal Analyst (Nottingham University Hospital), Contributor
+- **Anonymous**, Developer (Home office), Contributor
+- **Liam McClean**
+- **Anonymous**
+- **Jason Bayton**
+- **Dan**
+- **Tor Holstein**, Managing director, Contributor
+- **Anonymous**, (Private individual)
+- **Anonymous**, GP (NHS)
+- **Dr Francis Sedgemore**
+- **Francis Martin McCallion**, Software Developer, Contributor
+- **Jon Green**
+- **Richard Eyles**, Pharmacist (Leeds Teaching Hospitals NHS Trust)
+- **Robert Scott Mitchell**
+- **Marco Vermeulen**, Principal Engineer (Equal Experts), Contributor
+- **Wilka Hudson**
+- **Anonymous**
+- **Anonymous**, (Royal Free London NHS Trust), Contributor
+- **Reuben Thompson**
+- **Anonymous**
+- **Peter Labib**, Surgeon (NHS)
+- **Anonymous**
+- **Anonymous**, Data Consultant, Contributor
+- **Alexander Dawson**
+- **Mark Blinman**, Systems Engineer
+- **Anonymous**, Senior Platform Engineer
+- **Shivaram Thirunavukkarasu**, Performance engineer (Ns90)
+- **David Ruck**, Software Engineer
+- **Liam Doyle**
+- **Adrian Portway**
+- **Besa Brahimi**, Interim Digital Lead Pharmacist (GWH), Contributor
+- **Iain Mason**
+- **Ian Cameron**
