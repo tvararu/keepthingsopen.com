@@ -1046,3 +1046,35 @@
 - **Anonymous**
 - **Rachael Brown**
 - **Graham Cobb**, Open Source Software Developer
+- **Misha Iakovlev**, MLOps Engineer (Fuzzy Labs)
+- **Anonymous**
+- **Brian Wray**
+- **Julian Dawson**, (MOD), Contributor
+- **Simon Price**
+- **Anonymous**
+- **Dr Emily Graham**
+- **Finley Bacon**, (University College London)
+- **Mark Gould**
+- **Samuel Edelsten**, Director / SWE (Bytemunch Studios)
+- **Vikki Lewis**
+- **Paul David Smith**
+- **Anonymous**, I.T. systems developer
+- **Robert Dillon**, Director
+- **jennifer kirk**
+- **Timothy Gentry**, Chief Technology Officer (HDI CIC), Contributor
+- **Simon Myers**, software developer
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, Contributor
+- **Anonymous**, Data engineer (Sdhis), Contributor
+- **Martin Meredith**, Staff Engineer (Inbox Trading (Chemist4U)), Contributor
+- **Jack Burgess**, Senior Software Engineer
+- **Robert Miller**
+- **Ben Lang**, Senior Developer, Contributor
+- **Farhad Hossen**, Contributor
+- **Gordon Kirk**
+- **peter ashworth**
+- **Keith Milner**
+- **Robert Golding**
+- **James Legg**
+- **Dave English**
