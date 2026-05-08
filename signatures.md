@@ -1001,3 +1001,48 @@
 - **Besa Brahimi**, Interim Digital Lead Pharmacist (GWH), Contributor
 - **Iain Mason**
 - **Ian Cameron**
+- **Robert O'Donnell**
+- **Robert Postill**
+- **Simon Gilbert Provost**, PhD Student (University of Kent), Contributor
+- **Nathaniel Bloom**
+- **Tom Nicolet**, Senior Software Engineer (Gardaworld)
+- **Claire Robinson**
+- **Anonymous**
+- **Wayne Cornish**
+- **Anonymous**, Lead Analyst (Guy's and St Thomas' Foundation NHS Trust), Contributor
+- **Neil Bird**
+- **Anonymous**
+- **Anonymous**
+- **Christoper Hornby**, Software Engineer
+- **Peter Fotheringham**
+- **Mattias Van Heetvelde**, Postdoc (Ghent University)
+- **Keith Summers**, Network DevOps Engineer
+- **Michael Bosland**
+- **Edward Hibbert**, Contributor
+- **David Bell**
+- **Ken Rohde-Bell**
+- **Eddie Davison**, Analytics Engineering Lead (NHS West and North London ICB), Contributor
+- **Graham Atkinson**
+- **Gareth Bennett**
+- **Chris Greening**, CTO
+- **Peter Bresser**
+- **Mike Hick**
+- **Steph Gray**, Director (Pentri), Contributor
+- **Nathan Steger**
+- **Anonymous**
+- **Anonymous**
+- **Harry Cutts**, Software Engineer
+- **Rob Beard**, Senior IT Support Technician
+- **Jan van der Post**
+- **Anonymous**
+- **Kornelis Sietsma**, Principal Engineer, Contributor
+- **Dr Paul Kuczora**
+- **Mark Daniel Addison**
+- **Anonymous**
+- **Anonymous**
+- **Duncan Gibb**, Director (Bourne Open Source Ltd), Contributor
+- **Tomos Porter**
+- **Beth Walton**, Content Designer (TPXimpact), Contributor
+- **Anonymous**
+- **Rachael Brown**
+- **Graham Cobb**, Open Source Software Developer
