@@ -1078,3 +1078,25 @@
 - **Robert Golding**
 - **James Legg**
 - **Dave English**
+- **Ed Siu**
+- **Anonymous**
+- **James Hamilton**, Software Engineer
+- **David Monks**, Lead DevOps Engineer
+- **Keshwarsingh Nadan**
+- **Mr Martin James Hardy**, Operations
+- **John Kirkwood**, Software Engineer
+- **David Norman**
+- **Anonymous**
+- **Agoney Garcia-Deniz**, Contributor
+- **lee jones**
+- **Gregory Clough**
+- **Alexander Sharp**, Chief Digital Officer (RutterKey Solutions), Contributor
+- **Anonymous**
+- **Sean Kearon**, Solution Architect, Contributor
+- **Dan Joyce**, Clinician (University of Liverpool)
+- **Leigh Burns**, Development Manager (Torbay and South Devon NHS Foundation Trust), Contributor
+- **Anonymous**
+- **Chris Cumberpatch**
+- **Anonymous**, Cyber Security (Retired)
+- **Anonymous**
+- **Ann Hooper**
