@@ -1100,3 +1100,22 @@
 - **Anonymous**, Cyber Security (Retired)
 - **Anonymous**
 - **Ann Hooper**
+- **Anonymous**
+- **Paul Keir**
+- **Davina Sirisena**, Director of Engineering (Pleo), Contributor
+- **Anonymous**, Research Software Engineer (University of Sheffield)
+- **Anonymous**, Computer Programmer
+- **Casey Kramer**
+- **Patrick Allen**
+- **Samuel Hinsley**
+- **Sweyn Hunter**
+- **Matthew Geraghty**, Orthotist (NHS)
+- **Steve Jones**, Cybersecurity Specialist (HSBC)
+- **Daniel Soutar**
+- **Jonathan Gerdes**, Managing Director (Blueloop Ltd)
+- **Vincent Thomson**, Developer (Just me), Contributor
+- **Anonymous**, Senior Software Engineer
+- **John Lambert**
+- **Anonymous**, Software Engineer (The Access Group)
+- **Nicholas Kolpin**, Expert Developer (WithSecure)
+- **Jock Busuttil**, Freelance Product Leader, Coach, Author (Product People Limited)
