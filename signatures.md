@@ -1664,3 +1664,19 @@
 - **Anonymous**
 - **Edwin Schäfer**
 - **William Dempsey**, (Flip Dempsey)
+- **Stephen Whitehead**
+- **Lukas Alberts**
+- **Francesco Poli**
+- **Robbie Morrison**, System Modeler (open energy modeling community)
+- **Eddy Wu**
+- **Manuel Bilderbeek**
+- **Joe Feely**
+- **Simon Lauckner**
+- **Reinhard Hennig**, Administrator (Tax Authority)
+- **Stephen Simmat**
+- **Nicholas Cummings**
+- **Marek Nečada**, Software Engineer (Furuno)
+- **Robert Markovski**
+- **Yvan Janet**, Lead DevSecOps
+- **Marc Gibert**
+- **André Reinald**, President (PeerStorage)
