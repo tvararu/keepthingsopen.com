@@ -1119,3 +1119,4 @@
 - **Anonymous**, Software Engineer (The Access Group)
 - **Nicholas Kolpin**, Expert Developer (WithSecure)
 - **Jock Busuttil**, Freelance Product Leader, Coach, Author (Product People Limited)
+- **Mr. Roke Julian Lockhart Beedell**, Co-Opted Digital Communications Lead (Norfolk Neighbourhood Watch Association)
