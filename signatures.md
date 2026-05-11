@@ -1664,4 +1664,3 @@
 - **Anonymous**
 - **Edwin Schäfer**
 - **William Dempsey**, (Flip Dempsey)
-- **Mr. Roke Julian Lockhart Beedell**, Co-Opted Digital Communications Lead (Norfolk Neighbourhood Watch Association)
