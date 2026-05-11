@@ -953,25 +953,21 @@
           return (document.getElementById("f-" + id).value || "").trim();
         }
 
-        function escMd(s) {
-          return s.replace(/\|/g, "\\|");
+        function csvField(s) {
+          return s === "" ? "" : '"' + s.replace(/"/g, '""') + '"';
         }
 
         function buildLine() {
           var anonymous = document.getElementById("f-anonymous").checked;
-          var typed = escMd(val("name"));
+          var typed = val("name");
           if (!anonymous && !typed) return "";
           var name = anonymous ? "Anonymous" : typed;
-          var role = escMd(val("role"));
-          var org = escMd(val("org"));
+          var role = val("role");
+          var org = val("org");
           var contributor = document.getElementById("f-contributed-yes").checked;
-          var parts = [];
-          if (role && org) parts.push(role + " (" + org + ")");
-          else if (role) parts.push(role);
-          else if (org) parts.push("(" + org + ")");
-          if (contributor) parts.push("Contributor");
-          var tail = parts.length ? ", " + parts.join(", ") : "";
-          return "- **" + name + "**" + tail;
+          return [name, role, org, contributor ? "true" : ""]
+            .map(csvField)
+            .join(",");
         }
 
         function buildMailto() {

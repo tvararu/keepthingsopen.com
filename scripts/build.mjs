@@ -28,10 +28,12 @@ async function build() {
     staticFiles.map((f) => copyFile(join(STATIC_DIR, f), join(OUT_DIR, f))),
   );
 
-  const sigLines = (await readFile("signatures.md", "utf8"))
-    .split("\n")
-    .sort((a, b) => a.localeCompare(b, 'en', {'sensitivity': 'base'}));
-  const sigs = sigLines.map(parseLine).filter(Boolean);
+  const csvText = await readFile("signatures.csv", "utf8");
+  const rows = parseCSV(csvText).slice(1);
+  const sigs = rows
+    .map(parseRow)
+    .filter(Boolean)
+    .sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
 
   const named = sigs.filter((s) => s.name !== "Anonymous");
   const anonCount = sigs.length - named.length;
@@ -59,19 +61,33 @@ async function build() {
 
 await build();
 
-function parseLine(text) {
-  const line = (text.trim().split("\n")[0] || "").trim();
-  if (!line.startsWith("- ")) return null;
-  const m = line.slice(2).match(/^\*\*(.+?)\*\*(?:, (.+))?$/);
-  if (!m) return null;
-  let rest = (m[2] || "").trim();
-  let contributor = false;
-  const contributorSuffix = /(?:^|,\s*)contributor$/i;
-  if (contributorSuffix.test(rest)) {
-    contributor = true;
-    rest = rest.replace(contributorSuffix, "").trim();
+function parseCSV(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') inQuotes = false;
+      else field += c;
+    } else if (c === '"') inQuotes = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; }
+    else if (c !== "\r") field += c;
   }
-  return { name: m[1], rest, contributor };
+  if (field !== "" || row.length > 0) {
+    row.push(field);
+    rows.push(row);
+  }
+  return rows;
+}
+
+function parseRow(row) {
+  const name = row[0];
+  if (!name) return null;
+  return { name, contributor: row[3] === "true" };
 }
 
 function escapeHtml(s) {
