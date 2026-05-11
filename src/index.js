@@ -186,11 +186,11 @@ function buildMime({ data, from, to, ip, ua }) {
 }
 
 function buildCardLine({ name, role, org, contributor }) {
-  const parts = [];
-  if (role && org) parts.push(`${role} (${org})`);
-  else if (role) parts.push(role);
-  else if (org) parts.push(`(${org})`);
-  if (contributor) parts.push("Contributor");
-  const tail = parts.length ? `, ${parts.join(", ")}` : "";
-  return `- **${name}**${tail}`;
+  return [name, role, org, contributor ? "true" : ""]
+    .map(csvField)
+    .join(",");
+}
+
+function csvField(s) {
+  return s === "" ? "" : '"' + s.replace(/"/g, '""') + '"';
 }
