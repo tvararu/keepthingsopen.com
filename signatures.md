@@ -1119,4 +1119,549 @@
 - **Anonymous**, Software Engineer (The Access Group)
 - **Nicholas Kolpin**, Expert Developer (WithSecure)
 - **Jock Busuttil**, Freelance Product Leader, Coach, Author (Product People Limited)
+- **Berwyn Powell**, Contributor
+- **Anonymous**
+- **Joseph Carter**, Senior Software Engineer
+- **David Scott**, Laboratory Staff (NHS)
+- **Anonymous**
+- **Dylan Myers**
+- **Arun Isaac**, Research fellow (University College London)
+- **Anonymous**, (Somerset Foundation Trust), Contributor
+- **David Lowe Larsson**, Techlead (Sveriges Utbildnignsradio AB), Contributor
+- **Peter Andrews**, Analyst (Barts Health)
+- **Anonymous**
+- **Adam Straughan**, Engineering Lead, Contributor
+- **Ross Spencer**, Digital preservation researcher (The National Archives, UK), Contributor
+- **David Hewett**, IT Manager
+- **Francis Devereux**, Software development consultant, Contributor
+- **Anonymous**, Staff Scientist (University of Sheffield)
+- **Alaric Snell-Pym**, Member of Technical Staff (Register Dynamics), Contributor
+- **Andy Bennett**, Director (Register Dynamics), Contributor
+- **Anonymous**, Contributor
+- **Martin Frost**
+- **Anonymous**, TA (MoJ), Contributor
+- **Edd Hannay**
+- **Abbey James**
+- **Henry Hiles**
+- **Tristan Teasdale**
+- **Mike Farrell**
+- **Rhian Davies**, Data Scientist (The Strategy Unit), Contributor
+- **henk janse**
+- **Anonymous**
+- **Jaime Herazo**
+- **Anonymous**, CTO
+- **Anonymous**
+- **Predrag Tasevski**
+- **Martin Lentink**
+- **Michael Fischer**
+- **Tom Yates**, Director (Gatekeeper Technology Ltd.)
+- **Giorgio Caddeo**
+- **Dr Martin Senftleben**, Citizen (retired)
+- **Markus Ojala**
+- **Dan Jensen**
+- **Anonymous**
+- **Anonymous**
+- **João Manuel Calixto Figueira**
+- **Basile Starynkevitch**, open source developer (b-star-y.tech)
+- **Jonás del Campo de Melo**
+- **Loïc d'Anterroches**
+- **Valerio Bozzolan**
+- **Daniel Trujillo**, Research engineer (Barcelona Supercomputing Center)
+- **Anonymous**, Student
+- **Anonymous**
+- **Michael Hasler**
+- **David Shaw**, Software analyst (DSTL)
+- **Anonymous**, developer
+- **Michel Krämer**
+- **Kjetil Torgrim Homme**, Free software developer
+- **Karel De Vriendt**, Former head of unit IDA, IDABC programs (Europen Commission)
+- **Christoph Fellmann**
+- **Anonymous**
+- **Albert Lindgren**
+- **Anonymous**
+- **Stuart Mackintosh**, (Open Digital Consulting), Contributor
+- **Ask Kæreby**, Computer scientist
+- **Charles Galambos**
+- **Anonymous**
+- **Friedemann Gerster-Streit**, Developer (Consultant)
+- **Martin Nicolay**
+- **Simon Sobisch**, GNU maintainer
+- **Anonymous**
+- **Klaus Lichtenwalder**
+- **Samuel Oliveira Cersosimo**
+- **Matteo Fulgheri**
+- **Charles Bird**
+- **Joel Body**
+- **Marc Paré**, (LibreCanada - Open Source Blog)
+- **Martin Johnson**
+- **Anonymous**
+- **Anonymous**
+- **Willow Liquorice**
+- **Bernhard E. Reiter**, (Intevation GmbH)
+- **Dr Stephan Gromer**, Medical Team Lead Hematology
+- **Cyril Leven**, Pharmacist (Brest University Hospital (France))
+- **Dieter Walter**, European citizen
+- **Ottavio Di Sauro**
+- **Kristupas Trečiokas**
+- **Jan Parthey**
+- **Paolo Dongilli**
+- **Florian Norbisrath**
+- **Benjamin Orgis**, (101LAB)
+- **Peter Stirnberg**
+- **Pablo Vicente Munuera**, Postdoctoral scientist (University College London), Contributor
+- **Anonymous**
+- **Kai Aschenbach**
+- **Ryan Bestford**, Solicitor (Greater Manchester Immigration Aid Unit)
+- **Karsten Fink**
+- **Borjan Tchakaloff**
+- **Anonymous**
+- **Anonymous**
+- **Dr Andreas Müller**
+- **Adam Dingwell**
+- **Rainer Schuermann**
+- **Askan Wenning**
+- **Ramon Barrenetxea**, (Reciclanet Asociacion Educativa)
+- **Elke Fink**
+- **Holger Kienle**, OSH Evangelist (Open Source Ecology Germany e.V.)
+- **Benjamin Magill**
+- **Claus Brunzema**
+- **Anonymous**
+- **Anonymous**
+- **Felix Rath**, Software Engineer (Cloudflare), Contributor
+- **Kristian Deimel**, Founder (Deimel ICT Advies)
+- **Maximilian van der Heijden**
+- **Juan Miguel Garcia Hernandez**
+- **Jonas Hofmann**
+- **Arnt Karlsen**
+- **Kira Duwe**
+- **Stefan Gassner**
+- **Ace Suares**
+- **W. van Engen**, Tech lead (A health- and sustainability-related NGO also active in the UK)
+- **Sebastian Miele**
+- **Richard Moor**
+- **Anonymous**
+- **Dr Thomas Sefzick**
+- **Madhu Ahrens**, Private (Private)
+- **Anonymous**
+- **Joel Bergtholdt**
+- **Alejandro Giner Páez**
+- **Robert Pollak**
+- **Anonymous**
+- **Anonymous**
+- **Kai Radtke**
+- **Noel Light-Hilary**
+- **Javier Viñal**
+- **Frank Elsinga**, SDE (TUM)
+- **Mathias Schäffler**
+- **Halim Djerroud**
+- **Anonymous**
+- **Ignaz Forster**, Software Engineer
+- **Johannes Keyser**, Technical lab manager (University of Hamburg), Contributor
+- **Viktor Horvath**
+- **James Fryer**, (Invocrown Ltd)
+- **Mario Ebenhofer**
+- **Anonymous**
+- **Andrew Montgomery**
+- **Nikolas Ovaskainen**, Research Scientist
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, Developer
+- **Dr Matthias Schünemann**, (retired)
+- **Alexander Matrunich**
+- **Martin Garton**, Technology & software consultant (Garton technology consulting ltd.)
+- **Víctor Domènech**
+- **Claudio Martins**, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Adam Schmalhofer**
+- **Stefan Neufeind**
+- **Faruk Kujundžić**, System Administrator (JKU)
+- **Michel Rudelle**
+- **Robert Wunderer**
+- **Graham Mitchell**
+- **Anonymous**
+- **Grégoire Deveaux**
+- **Richard Bowers**, IT Consultant (retired)
+- **Anonymous**
+- **Kumi Mitterer**, Chairperson (Private.coffee)
+- **Lætitia Delvaux**, (GÉANT), Contributor
+- **Alexander Müller**
+- **Matthias Nadenau**
+- **Frank Staal**
+- **Anonymous**
+- **Anonymous**
+- **Thomas Dorner**
+- **Paul Boddie**
+- **Jeffrey Wack**
+- **Anonymous**, (Debian)
+- **Richard Turner**
+- **Neil Stoker**, (Stoker.Dev)
+- **Maciej Romanski**
+- **Anonymous**, Software Architect
+- **Anonymous**, Platform engineer
+- **Yohann Paris**
+- **Anonymous**
+- **Robert Oostenveld**, Associate Professor (Radboud University), Contributor
+- **Anonymous**
+- **Thomas Deeb**, Full Stack Development Engineer
+- **Pete Morgan**, Dev
+- **Peter Mechels**
+- **Steffen Hartwig**
+- **michael thevenet**, (permaculturist.org)
+- **Kevin Mandura**
+- **Håvard Moen**
+- **Daniel Caixinha**
+- **Andreas Zweili**, System Engineer
+- **Anonymous**
+- **Bodin**, Contributor
+- **Michael Vockel**
+- **Christian Krause**
+- **Robert Rutkowski**
+- **Patrick Kox**
+- **Lukas Döhler**
+- **Rely Constant**, It specialist (Walloon)
+- **Anonymous**
+- **Jan Suhr**, CEO (Nitrokey GmbH)
+- **Manuel Dejonghe**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Carlos Miguel Lopes Ferreira**
+- **Daniel Hurtado**
+- **Anonymous**
+- **Allan Dukat**, member (FSFE)
+- **Uwe Bosse**, teacher (public school)
+- **Antonio Melillo**
+- **Andrzej Głuszak**, Software Developer
+- **Guy Carre**
+- **Anonymous**, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Roberto Plà Aragonés**, Hobbyist (I do side projects) (Private)
+- **Natassa Sillignaki**
+- **Graham Lee**
+- **Anonymous**
+- **Anonymous**, Developer (Eu healthcare organisation)
+- **Anonymous**, (Humboldt-Universität zu Berlin)
+- **Chris Taylor**
+- **Anonymous**
+- **André Scholz**, Backend Developer
+- **Anonymous**
+- **Anonymous**, (University of Glasgow)
+- **Robert Güntherberg**
+- **Oliver Mas Otero**
+- **Steven Maddox**
+- **Cédric Couralet**
+- **Steve Woods**
+- **Marc Perilleux**
+- **Ganael Laplanche**
+- **Anonymous**, Professor (Cybersecurity & Computer Science) (University of Exeter)
+- **Ruwen Reddig**
+- **James Stuart Tait**, Free Software Developer and Advocate (Wyrd Dreams Internet Solutions)
+- **Matti Lammi**
+- **Eckhard Weber**
+- **Nicolò Maria Semprini**
+- **Anthony Wylie**
+- **Armando João Isaías Ferreira dos Santos**
+- **Jean-Marc Prévot**
+- **Decollogne Michel**
+- **Maarten Bijster**, Enterprise architect
+- **Darius M.**
+- **Charlie MacFarlane Brodie**, (East Slope Ltd)
+- **Anonymous**, (År)
+- **Miguel Ángel Ocaña Silva**
+- **Eric Leijonmarck**, Software Engineer (Grafana)
+- **reinhard alexiewicz**
+- **Jürgen Wemheuer**
+- **Anonymous**
+- **Anonymous**
+- **Christian Mauderer**
+- **Alexander Schwinn**, Software Developer (GSI / FAIR Darmstadt)
+- **Sam Nooij**, biology researcher
+- **Dennis Brakhane**
+- **Guillaume Branchard**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **Michael Stolz**
+- **Maciej Sopyło**
+- **Dr Bruce Simpson**, Principal Networking Contributor (The FreeBSD Project)
+- **Dr Konstantin Hirsch**
+- **Gianluca Maestra**, Teacher (Secondary School)
+- **Antonio Liccardo**
+- **Anonymous**, (privat)
+- **Alexander Dahl**
+- **ramiro rivera**, Contributor
+- **Peter Talbot**
+- **Matthew Ludkin**
+- **Henning Ramm**
+- **Benjamin Alexander Arctander**, Student (CompSci) (University of Inland Norway, Hamar)
+- **Dan Holden**
+- **François Chevallier**
+- **Dmitri Smirnov**
+- **Nathanael Inkson**, Software Engineer
+- **Anonymous**
+- **Anonymous**, developer
+- **Roke Julian Lockhart Bedell**, Co-Opted Digital Communications Lead (Norfolk Neighbourhood Watch Association), Contributor
+- **Anonymous**
+- **Thomas Källman**, Manager at KI Biobank
+- **Michael Baumgartner**
+- **Robert Williams**
+- **Ralf Eilers**
+- **Sylvain Le Doaré**
+- **Benjamin Setzer**
+- **Peter Van Den Bossche**
+- **Anonymous**
+- **Baltasar Ortega Bort**
+- **Thomas Zenker**
+- **Anonymous**
+- **José Narváez**
+- **Max Hartenstein**
+- **Anonymous**
+- **Andrew Smith**
+- **Florian Echtler**, Associate Professor (Aalborg University)
+- **Massimiliano Pagani**
+- **Aymeric Wibo**, Software Engineer (The FreeBSD Foundation)
+- **Schalk Neethling**, Software Engineer
+- **Valentin Hilbig**, IT-Admin
+- **Pete Prodoehl**
+- **bruno caldas vianna**
+- **Anonymous**
+- **chee rabbits**, Researcher (Ink & Switch)
+- **Adolfo Santiago**, Software Engineer
+- **Daniel Sauvard**, (INRAE)
+- **Anonymous**, Software Engineer; University Lecturer
+- **Benjamin**
+- **John Michael Futcher**
+- **Anonymous**, Software Engineer
+- **Anonymous**
+- **Andrea Turchi**, developer (SEAB Bolzano)
+- **Erik Schaber**, User
+- **Bruno Cornec**
+- **Hermann Kirschner**
+- **Jörg Heidemann**
+- **Armando Bustamante Elu**
+- **Karlheinz Spiegelt**
+- **Anonymous**
+- **Walter Gussmann**
+- **Fabian Raab**
+- **Eric Wayte**
+- **Ben Haubeck**
+- **Anonymous**
+- **Anonymous**
+- **David Eberhardt**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, Senior Software Architect
+- **Anonymous**
+- **Tom Fallon**
+- **Wolf Duttlinger**
+- **Anonymous**
+- **Johan Lörne**
+- **Brent Frère**, (Abil'I.T. s.à r.l.)
+- **Anonymous**
+- **Anonymous**
+- **Chris Andrew**
+- **Anonymous**
+- **Samuel E Riffle**
+- **Valter Mura**
+- **Alexander McKenna**
+- **Nastasia Holm**, Masters Law Student
+- **Harald Wehnes**, (Uni Würzburg)
+- **Anonymous**
+- **Jure Varlec**, Contributor
+- **Tomás Cardoso da Rocha Antunes**, Web Developer (Novoscanais)
+- **Sayak Naskar**
+- **Batuhan Cagri Yapan**
+- **Anonymous**
+- **Anonymous**, Software Developer
+- **Anonymous**
+- **Anonymous**
+- **Markus Blatt**
+- **Damian Fajfer**, President (Fundacja Wolnego Oprogramowania Reszka)
+- **Alan Fernando Velasco Astorga**, Software Engineer
+- **Rainer Nitsche**
+- **Jan Rempe**
+- **Szókovács Róbert**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**, (tuta)
+- **Primož Dovč**
+- **Anonymous**
+- **Nicola Soranzo**, (Earlham Institute), Contributor
+- **Eva Guenther**
+- **Martin Schönegg**
+- **Clemens Bieg**
+- **Harald Okun**
+- **Alexander Wetzel**
+- **Anonymous**
+- **gerhard öttl**
+- **Kaya Kupferschmidt**
+- **Wookey**, Developer (Debian)
+- **Eric Dekkers**
+- **Anonymous**
+- **Ole Husgaard**
+- **Jarkko Yli-Heikkuri**, web developer
+- **Trond Tynnøl**
+- **Anonymous**
+- **J.Fossy Weinzinger**
+- **Thomas Biehl**
+- **Pim Bliek**
+- **Anonymous**
+- **Staf Wagemakers**, (Mask27.dev)
+- **David Marceau**, Software Developer
+- **Martin Schreiber**
+- **Anna Papitto**, Software Engineer
+- **Kevin Kettle**
+- **C Willams**
+- **Anonymous**
+- **Artturi Lehikoinen**
+- **Anonymous**, IT-System-Engineer
+- **Klaus Degen**
+- **Joanna Żelek**
+- **Jordi Saez Dominguez**, Contributor
+- **Kris Siwiec**, Head of Solutions and Services (New Verve Consulting)
+- **Dunstan Edward Vavasour**
+- **Christian M. Grube**, Linux Systemadministrator (DHBW Präsidium Germany)
+- **Francois Gerin**
+- **Anonymous**, Developer
+- **Jacques Pignon**
+- **Paolo Debortoli**
+- **John Connett**
+- **Stewart Dickson**, (Wolfram Alpha LLC (Retired))
+- **Marco Antonucci**
+- **Harry Vos**, Former GDS Product Manager, Contributor
+- **Ricardo Wurmus**
+- **Jakub Velikovsky**
+- **Christoph Bohl**
+- **Tabea Weiß**
+- **Darryl Alexander**, Software engineer, Contributor
+- **Anonymous**
+- **Thibaut Renaux**
+- **Anonymous**
+- **Anonymous**, Information Security Officer (public sector)
+- **James Fleming**
+- **Raimond Kurz**
+- **Gabriele Bertolucci**
+- **Bjarke Felbo**
+- **Frans Spiesschaert**
+- **Olivier Duquesne**, SRE
+- **Steven Coltman**
+- **Stefan Monnier**, (Université de Montréal)
+- **Anonymous**, (Netlife e.V.)
+- **Anonymous**
+- **Anonymous**, (keine)
+- **Alexander Irrgang**
+- **Pablo Arias**, Web developer
+- **David Martinez Peña**
+- **Line Laudrup**, Chief advisor
+- **Anonymous**
+- **Bernard Chu**
+- **Franzoni Leandro**
+- **Björn Persson**
+- **Goncalo Cardoso Lopes**, Director (NeuroGEARS Ltd)
+- **Richard Neill**, CEO (Neill Consulting Ltd)
+- **Alex Muntada**, Developer (Debian)
+- **Jörg Honegger-Giglio**
+- **Anonymous**
+- **Leonore Dietrich**
+- **Marcus Pedersén**
+- **Anonymous**
+- **Caroline Danon**, IT Consultant
+- **Leo Stewen**
+- **Anonymous**
+- **Oliver Niebuhr**
+- **Adrien Taudière**
+- **Jakob Haufe**
+- **Chris Mueller**, Software Engineer
+- **René Pieske**
+- **Peder Bacher**
+- **Erik Flodin**
+- **Anonymous**, Software Engineer
+- **Ivan Vilata-i-Balaguer**, Computer engineer
+- **Sándor Haász**
+- **Nicholas John Denham Jacobs**, Software developer
+- **Massimo Argo**
+- **Roger Blummer**
+- **Anonymous**
+- **Nicolas Schier**, Linux kbuild Maintainer, Contributor
+- **Alexandre Bonnaudeau**
+- **Árpád Fekete**
+- **Haris Papadopoulos**
+- **Anonymous**
+- **Marcus Werner**, CEO (holozone GmbH)
+- **Christopher Trotter**
+- **Leonardo Fraga**, Software Engineer
+- **Theo Holloway**, Contributor
+- **Romain Thouvenin**
+- **Anonymous**
+- **Arpad Bogothy**
+- **Matt Williams**
+- **Samuel Orman-Chan**, IT Technician (GDST)
+- **Achilles Kappis**, Researcher (University of Southampton)
+- **John Orbell**
+- **Anonymous**
+- **Anonymous**, MTS Software Developer
+- **Anonymous**, System Developer - Operating Systems and Software
+- **Anonymous**, Software Engineer (Advanced Micro Devices)
+- **Mark Podesta**, ceo (Medical physics consutancy), Contributor
+- **Hartmut Goebel**
+- **Kristjan Koppel**
+- **Sebastiaan Ammerlaan**
+- **Rae Knowler**, Software developer
+- **Alex Good**
+- **Laurent Joubert**
+- **Anonymous**
+- **Björn Linzer**, General Practitioners
+- **Mårten Wadenbäck**
+- **Anonymous**
+- **Anonymous**
+- **Anonymous**
+- **J. Lucas**
+- **Anonymous**, (Free Software Supporter)
+- **Sergio Antonio Delgado Quero**
+- **Alexander Girke-Duchstein**
+- **Anonymous**
+- **Anonymous**
+- **Dennis Meier**, Data Scientist (UBS)
+- **Carlos Sabando Grasa**, GeoWeb Area Manager (Tracasa Instrumental)
+- **Anonymous**, senior software developer
+- **Anonymous**
+- **Nick Elliott**
+- **Björn Molin**
+- **René Kraneis**
+- **Tony Dunn**, Contributor
+- **Anonymous**
+- **Anonymous**
+- **Konstantinos Karakatsianopoulos**, Ex President (National Centre for Emergency Care of Greece)
+- **Jenő Krajczár**
+- **Anonymous**, Systems Engineer
+- **Anonymous**
+- **Leonardo Borges**
+- **Anonymous**
+- **Janez Pavel Žebovec**
+- **Christoph Zimmermann**
+- **Massimo Bologna**
+- **Torsten Long**
+- **Michael Kiermaier**
+- **Luis Javier Sancho Fernandez**
+- **Péter Tokodi**
+- **Anonymous**
+- **Martin Zoller**, Open-source ERP Developer
+- **Mortier Benoit**, CEO (FusionDirectory)
+- **Sofía Aritz**, Policy Consultant (Free Software Foundation Europe e.V.)
+- **Alexander Meinhardt Scheurer-Volkmann**
+- **Dario Ragazzi**
+- **Michael Tatge**
+- **Louis Sewell-Hampton**, Senior Software Engineer
+- **Anonymous**
+- **Christian Barth**
+- **Georg Baumann**
+- **Olav Seyfarth**
+- **Lorenzo Bruno Garavelli**
+- **Dominik Welke**, Postdoc researcher (University of Leeds)
+- **Clément Lagrange**
+- **Anonymous**
+- **Edwin Schäfer**
+- **William Dempsey**, (Flip Dempsey)
 - **Mr. Roke Julian Lockhart Beedell**, Co-Opted Digital Communications Lead (Norfolk Neighbourhood Watch Association)
