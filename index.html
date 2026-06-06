@@ -9,7 +9,10 @@
       content="An open letter to NHS England technical leadership: code paid for with public money should, by default, be open to the public."
     />
 
-    <meta property="og:title" content="An open letter asking NHS England to keep its code open." />
+    <meta
+      property="og:title"
+      content="An open letter asking NHS England to keep its code open."
+    />
     <meta
       property="og:description"
       content="Code paid for with public money should, by default, be open to the public."
@@ -19,12 +22,24 @@
     <meta property="og:image" content="https://keepthingsopen.com/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="An open letter asking NHS England to keep its code open." />
+    <meta
+      property="og:image:alt"
+      content="An open letter asking NHS England to keep its code open."
+    />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="An open letter asking NHS England to keep its code open." />
-    <meta name="twitter:description" content="Code paid for with public money should, by default, be open to the public." />
+    <meta
+      name="twitter:title"
+      content="An open letter asking NHS England to keep its code open."
+    />
+    <meta
+      name="twitter:description"
+      content="Code paid for with public money should, by default, be open to the public."
+    />
     <meta name="twitter:image" content="https://keepthingsopen.com/og.png" />
-    <meta name="twitter:image:alt" content="An open letter asking NHS England to keep its code open." />
+    <meta
+      name="twitter:image:alt"
+      content="An open letter asking NHS England to keep its code open."
+    />
 
     <link
       rel="icon"
@@ -32,10 +47,7 @@
       href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230b0c0c'/><rect x='6' y='6' width='20' height='20' fill='%23ffffff'/><rect x='11' y='11' width='10' height='10' fill='%230b0c0c'/></svg>"
     />
 
-    <link
-      rel="stylesheet"
-      href="/govuk-frontend.min.css"
-    />
+    <link rel="stylesheet" href="/govuk-frontend.min.css" />
 
     <script
       src="https://challenges.cloudflare.com/turnstile/v0/api.js"
@@ -408,7 +420,9 @@
         background-color: #0054af;
         box-shadow: 0 2px 0 #002347;
       }
-      .govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):hover {
+      .govuk-button:not(.govuk-button--secondary):not(
+          .govuk-button--warning
+        ):hover {
         background-color: #003e85;
       }
 
@@ -426,7 +440,7 @@
       <main class="govuk-main-wrapper" id="main">
         <section class="kto-hero">
           <h1 class="govuk-heading-xl">
-            An open letter<br>asking NHS England<br>to keep its code open
+            An open letter<br />asking NHS England<br />to keep its code open
           </h1>
           <p class="govuk-body-l kto-lede">
             Code paid for with public money should be open to the public. This
@@ -434,7 +448,9 @@
             the NHS Service Standard. It is now being walked back. We are
             signing this to restate the case.
           </p>
-          <p class="govuk-body-l"><strong>__SIG_COUNT__ signatures</strong> since 1 May 2026</p>
+          <p class="govuk-body-l">
+            <strong>__SIG_COUNT__ signatures</strong> since 1 May 2026
+          </p>
           <p class="kto-hero-cta">
             <a class="govuk-link" href="#sign">Add your signature &rarr;</a>
           </p>
@@ -468,8 +484,8 @@
 
             <p>
               Closed source allows that work to be skipped. It substitutes
-              obscurity for depth, and obscurity buys you precious little
-              when a sufficiently motivated attacker is involved.
+              obscurity for depth, and obscurity buys you precious little when a
+              sufficiently motivated attacker is involved.
             </p>
 
             <div class="govuk-warning-text">
@@ -483,9 +499,9 @@
             </div>
 
             <p>
-              If you agree, sign your name using the form below.
-              Submissions are reviewed by hand and you&rsquo;ll appear on the
-              page once approved.
+              If you agree, sign your name using the form below. Submissions are
+              reviewed by hand and you&rsquo;ll appear on the page once
+              approved.
             </p>
           </div>
         </section>
@@ -494,237 +510,242 @@
           <div class="govuk-grid-column-two-thirds">
             <h2 class="govuk-heading-l">Add your signature</h2>
 
-          <div
-            class="govuk-error-summary kto-js-only"
-            id="error-summary"
-            tabindex="-1"
-            hidden
-          >
-            <div role="alert">
-              <h2 class="govuk-error-summary__title">There is a problem</h2>
-              <div class="govuk-error-summary__body">
-                <ul
-                  class="govuk-list govuk-error-summary__list"
-                  id="error-summary-list"
-                ></ul>
-              </div>
-            </div>
-          </div>
-
-          <form id="sign-form" novalidate>
-            <div class="govuk-form-group" id="g-name">
-              <label class="govuk-label govuk-label--s" for="f-name"
-                >Full name</label
-              >
-              <p class="govuk-error-message" id="e-name" hidden>
-                <span class="govuk-visually-hidden">Error:</span>
-                <span data-error></span>
-              </p>
-              <input
-                class="govuk-input govuk-input--width-30"
-                id="f-name"
-                name="name"
-                type="text"
-                autocomplete="name"
-                maxlength="80"
-                required
-              />
-            </div>
-
-            <div class="govuk-form-group" id="g-email">
-              <label class="govuk-label govuk-label--s" for="f-email"
-                >Email address</label
-              >
-              <div class="govuk-hint">
-                We&rsquo;ll only use this to contact you about your signature. It won&rsquo;t be published.
-              </div>
-              <p class="govuk-error-message" id="e-email" hidden>
-                <span class="govuk-visually-hidden">Error:</span>
-                <span data-error></span>
-              </p>
-              <input
-                class="govuk-input govuk-input--width-30"
-                id="f-email"
-                name="email"
-                type="email"
-                autocomplete="email"
-                spellcheck="false"
-                maxlength="200"
-                required
-              />
-            </div>
-
-            <div class="govuk-form-group" id="g-contributed">
-              <fieldset
-                class="govuk-fieldset"
-                aria-describedby="contributed-hint"
-              >
-                <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
-                  Have you contributed to UK public-sector software?
-                </legend>
-                <div class="govuk-hint" id="contributed-hint">
-                  This can be technical or non-technical, public or private.
+            <div
+              class="govuk-error-summary kto-js-only"
+              id="error-summary"
+              tabindex="-1"
+              hidden
+            >
+              <div role="alert">
+                <h2 class="govuk-error-summary__title">There is a problem</h2>
+                <div class="govuk-error-summary__body">
+                  <ul
+                    class="govuk-list govuk-error-summary__list"
+                    id="error-summary-list"
+                  ></ul>
                 </div>
-                <p class="govuk-error-message" id="e-contributed" hidden>
+              </div>
+            </div>
+
+            <form id="sign-form" novalidate>
+              <div class="govuk-form-group" id="g-name">
+                <label class="govuk-label govuk-label--s" for="f-name"
+                  >Full name</label
+                >
+                <p class="govuk-error-message" id="e-name" hidden>
                   <span class="govuk-visually-hidden">Error:</span>
                   <span data-error></span>
                 </p>
-                <div class="govuk-radios">
-                  <div class="govuk-radios__item">
-                    <input
-                      class="govuk-radios__input"
-                      id="f-contributed-yes"
-                      name="contributed"
-                      type="radio"
-                      value="yes"
-                      data-aria-controls="conditional-contributed-yes"
-                    />
-                    <label
-                      class="govuk-label govuk-radios__label"
-                      for="f-contributed-yes"
-                    >
-                      Yes
-                    </label>
-                  </div>
-                  <div
-                    class="govuk-radios__conditional govuk-radios__conditional--hidden"
-                    id="conditional-contributed-yes"
+                <input
+                  class="govuk-input govuk-input--width-30"
+                  id="f-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  maxlength="80"
+                  required
+                />
+              </div>
+
+              <div class="govuk-form-group" id="g-email">
+                <label class="govuk-label govuk-label--s" for="f-email"
+                  >Email address</label
+                >
+                <div class="govuk-hint">
+                  We&rsquo;ll only use this to contact you about your signature.
+                  It won&rsquo;t be published.
+                </div>
+                <p class="govuk-error-message" id="e-email" hidden>
+                  <span class="govuk-visually-hidden">Error:</span>
+                  <span data-error></span>
+                </p>
+                <input
+                  class="govuk-input govuk-input--width-30"
+                  id="f-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  spellcheck="false"
+                  maxlength="200"
+                  required
+                />
+              </div>
+
+              <div class="govuk-form-group" id="g-contributed">
+                <fieldset
+                  class="govuk-fieldset"
+                  aria-describedby="contributed-hint"
+                >
+                  <legend
+                    class="govuk-fieldset__legend govuk-fieldset__legend--s"
                   >
-                    <div class="govuk-form-group" id="g-details">
+                    Have you contributed to UK public-sector software?
+                  </legend>
+                  <div class="govuk-hint" id="contributed-hint">
+                    This can be technical or non-technical, public or private.
+                  </div>
+                  <p class="govuk-error-message" id="e-contributed" hidden>
+                    <span class="govuk-visually-hidden">Error:</span>
+                    <span data-error></span>
+                  </p>
+                  <div class="govuk-radios">
+                    <div class="govuk-radios__item">
+                      <input
+                        class="govuk-radios__input"
+                        id="f-contributed-yes"
+                        name="contributed"
+                        type="radio"
+                        value="yes"
+                        data-aria-controls="conditional-contributed-yes"
+                      />
                       <label
-                        class="govuk-label govuk-label--s"
-                        for="f-details"
+                        class="govuk-label govuk-radios__label"
+                        for="f-contributed-yes"
                       >
-                        Tell us about your contribution
+                        Yes
                       </label>
-                      <div class="govuk-hint">
-                        A link to a commit or profile is enough. It won&rsquo;t be published.
+                    </div>
+                    <div
+                      class="govuk-radios__conditional govuk-radios__conditional--hidden"
+                      id="conditional-contributed-yes"
+                    >
+                      <div class="govuk-form-group" id="g-details">
+                        <label
+                          class="govuk-label govuk-label--s"
+                          for="f-details"
+                        >
+                          Tell us about your contribution
+                        </label>
+                        <div class="govuk-hint">
+                          A link to a commit or profile is enough. It
+                          won&rsquo;t be published.
+                        </div>
+                        <p class="govuk-error-message" id="e-details" hidden>
+                          <span class="govuk-visually-hidden">Error:</span>
+                          <span data-error></span>
+                        </p>
+                        <textarea
+                          class="govuk-textarea kto-evidence"
+                          id="f-details"
+                          name="details"
+                          maxlength="2000"
+                        ></textarea>
                       </div>
-                      <p class="govuk-error-message" id="e-details" hidden>
-                        <span class="govuk-visually-hidden">Error:</span>
-                        <span data-error></span>
-                      </p>
-                      <textarea
-                        class="govuk-textarea kto-evidence"
-                        id="f-details"
-                        name="details"
-                        maxlength="2000"
-                      ></textarea>
+                    </div>
+                    <div class="govuk-radios__item">
+                      <input
+                        class="govuk-radios__input"
+                        id="f-contributed-no"
+                        name="contributed"
+                        type="radio"
+                        value="no"
+                      />
+                      <label
+                        class="govuk-label govuk-radios__label"
+                        for="f-contributed-no"
+                      >
+                        No
+                      </label>
                     </div>
                   </div>
-                  <div class="govuk-radios__item">
-                    <input
-                      class="govuk-radios__input"
-                      id="f-contributed-no"
-                      name="contributed"
-                      type="radio"
-                      value="no"
-                    />
-                    <label
-                      class="govuk-label govuk-radios__label"
-                      for="f-contributed-no"
-                    >
-                      No
-                    </label>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
+                </fieldset>
+              </div>
 
-            <div class="govuk-form-group" id="g-role">
-              <label class="govuk-label govuk-label--s" for="f-role">
-                Role <span class="kto-optional">(optional)</span>
-              </label>
-              <p class="govuk-error-message" id="e-role" hidden>
-                <span class="govuk-visually-hidden">Error:</span>
-                <span data-error></span>
-              </p>
-              <input
-                class="govuk-input govuk-input--width-20"
-                id="f-role"
-                name="role"
-                type="text"
-                maxlength="80"
-              />
-            </div>
+              <div class="govuk-form-group" id="g-role">
+                <label class="govuk-label govuk-label--s" for="f-role">
+                  Role <span class="kto-optional">(optional)</span>
+                </label>
+                <p class="govuk-error-message" id="e-role" hidden>
+                  <span class="govuk-visually-hidden">Error:</span>
+                  <span data-error></span>
+                </p>
+                <input
+                  class="govuk-input govuk-input--width-20"
+                  id="f-role"
+                  name="role"
+                  type="text"
+                  maxlength="80"
+                />
+              </div>
 
-            <div class="govuk-form-group" id="g-org">
-              <label class="govuk-label govuk-label--s" for="f-org">
-                Organisation <span class="kto-optional">(optional)</span>
-              </label>
-              <p class="govuk-error-message" id="e-org" hidden>
-                <span class="govuk-visually-hidden">Error:</span>
-                <span data-error></span>
-              </p>
-              <input
-                class="govuk-input govuk-input--width-20"
-                id="f-org"
-                name="org"
-                type="text"
-                maxlength="80"
-              />
-            </div>
+              <div class="govuk-form-group" id="g-org">
+                <label class="govuk-label govuk-label--s" for="f-org">
+                  Organisation <span class="kto-optional">(optional)</span>
+                </label>
+                <p class="govuk-error-message" id="e-org" hidden>
+                  <span class="govuk-visually-hidden">Error:</span>
+                  <span data-error></span>
+                </p>
+                <input
+                  class="govuk-input govuk-input--width-20"
+                  id="f-org"
+                  name="org"
+                  type="text"
+                  maxlength="80"
+                />
+              </div>
 
-            <div class="govuk-form-group">
-              <fieldset class="govuk-fieldset">
-                <legend class="govuk-fieldset__legend govuk-visually-hidden">
-                  Anonymity
-                </legend>
-                <div class="govuk-checkboxes">
-                  <div class="govuk-checkboxes__item">
-                    <input
-                      class="govuk-checkboxes__input"
-                      id="f-anonymous"
-                      name="anonymous"
-                      type="checkbox"
-                    />
-                    <label
-                      class="govuk-label govuk-checkboxes__label"
-                      for="f-anonymous"
-                    >
-                      Sign anonymously
-                    </label>
-                    <div class="govuk-hint govuk-checkboxes__hint">
-                      Your signature will appear as &ldquo;Anonymous&rdquo;,
-                      followed by your role and organisation if provided.
-                      Personal data is deleted within 24 hours of verification.
+              <div class="govuk-form-group">
+                <fieldset class="govuk-fieldset">
+                  <legend class="govuk-fieldset__legend govuk-visually-hidden">
+                    Anonymity
+                  </legend>
+                  <div class="govuk-checkboxes">
+                    <div class="govuk-checkboxes__item">
+                      <input
+                        class="govuk-checkboxes__input"
+                        id="f-anonymous"
+                        name="anonymous"
+                        type="checkbox"
+                      />
+                      <label
+                        class="govuk-label govuk-checkboxes__label"
+                        for="f-anonymous"
+                      >
+                        Sign anonymously
+                      </label>
+                      <div class="govuk-hint govuk-checkboxes__hint">
+                        Your signature will appear as &ldquo;Anonymous&rdquo;,
+                        followed by your role and organisation if provided.
+                        Personal data is deleted within 24 hours of
+                        verification.
+                      </div>
                     </div>
                   </div>
-                </div>
-              </fieldset>
+                </fieldset>
+              </div>
+
+              <div
+                class="cf-turnstile kto-js-only"
+                id="turnstile-widget"
+                data-sitekey="__TURNSTILE_SITE_KEY__"
+                data-appearance="interaction-only"
+              ></div>
+
+              <div class="govuk-button-group">
+                <button
+                  type="submit"
+                  class="govuk-button kto-js-only"
+                  id="sign-btn"
+                >
+                  Add your signature
+                </button>
+                <a
+                  class="govuk-button govuk-button--secondary kto-no-js-only"
+                  id="email-btn"
+                  href="mailto:signatures@keepthingsopen.com"
+                >
+                  Sign by email
+                </a>
+              </div>
+            </form>
+
+            <div class="kto-confirm" id="confirm-panel" hidden>
+              <p class="govuk-body">
+                Thank you, your submission has been accepted. We will review it
+                by hand and contact you if we need any further information.
+              </p>
             </div>
-
-            <div
-              class="cf-turnstile kto-js-only"
-              id="turnstile-widget"
-              data-sitekey="__TURNSTILE_SITE_KEY__"
-              data-appearance="interaction-only"
-            ></div>
-
-            <div class="govuk-button-group">
-              <button
-                type="submit"
-                class="govuk-button kto-js-only"
-                id="sign-btn"
-              >
-                Add your signature
-              </button>
-              <a
-                class="govuk-button govuk-button--secondary kto-no-js-only"
-                id="email-btn"
-                href="mailto:signatures@keepthingsopen.com"
-              >
-                Sign by email
-              </a>
-            </div>
-          </form>
-
-          <div class="kto-confirm" id="confirm-panel" hidden>
-            <p class="govuk-body">
-              Thank you, your submission has been accepted. We will review it
-              by hand and contact you if we need any further information.
-            </p>
-          </div>
           </div>
         </section>
 
@@ -739,8 +760,17 @@
           <div class="sig-bottom">
             <!-- ANON -->
             <p class="sig-legend">
-              <img src="/crown.svg" alt="The GOV.UK crown logo" class="sig-legend__crown">
-              <span>Has contributed to <span class="sig-legend__phrase">UK public-sector software</span></span>
+              <img
+                src="/crown.svg"
+                alt="The GOV.UK crown logo"
+                class="sig-legend__crown"
+              />
+              <span
+                >Has contributed to
+                <span class="sig-legend__phrase"
+                  >UK public-sector software</span
+                ></span
+              >
             </p>
           </div>
         </section>
@@ -863,15 +893,11 @@
             </div>
             <div class="govuk-footer__meta-custom">
               Curated by
-              <a
-                class="govuk-footer__link"
-                href="https://vararu.org/"
+              <a class="govuk-footer__link" href="https://vararu.org/"
                 >Theodor Vararu</a
               >
               and
-              <a
-                class="govuk-footer__link"
-                href="https://vlad.website"
+              <a class="govuk-footer__link" href="https://vlad.website"
                 >Vlad-Stefan Harbuz</a
               >.
             </div>
@@ -880,11 +906,13 @@
                 <summary>Privacy policy</summary>
                 <div>
                   <p>
-                    We collect your name, role, and organisation, if you choose to provide them. This information is
-                    displayed publicly on the website. We also collect your email address and contribution details,
-                    which are never displayed publicly. Your email address is never used unless we have reason to
-                    contact you about your signature. Your information is not used for any other purposes and not shared
-                    with anyone else.
+                    We collect your name, role, and organisation, if you choose
+                    to provide them. This information is displayed publicly on
+                    the website. We also collect your email address and
+                    contribution details, which are never displayed publicly.
+                    Your email address is never used unless we have reason to
+                    contact you about your signature. Your information is not
+                    used for any other purposes and not shared with anyone else.
                   </p>
                   <p>
                     Our
@@ -894,26 +922,28 @@
                       target="_blank"
                       >lawful basis</a
                     >
-                    for collecting your information is <em>consent</em>.
-                    We have permission from you to collect this data after we have given you all the relevant
-                    information.
-                    All of your
+                    for collecting your information is <em>consent</em>. We have
+                    permission from you to collect this data after we have given
+                    you all the relevant information. All of your
                     <a
                       class="govuk-footer__link"
                       href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/"
                       target="_blank"
                       >data protection rights</a
                     >
-                    may apply, except the right to object. To be clear, you do have the right to withdraw your consent
-                    at any time.
+                    may apply, except the right to object. To be clear, you do
+                    have the right to withdraw your consent at any time.
                   </p>
                   <p>
-                    We keep the aforementioned information for the duration of this website's lifetime. There is one
-                    exception: if you decide to sign anonymously, we will delete all of your information from our
-                    records within 24 hours of processing your signature.
+                    We keep the aforementioned information for the duration of
+                    this website's lifetime. There is one exception: if you
+                    decide to sign anonymously, we will delete all of your
+                    information from our records within 24 hours of processing
+                    your signature.
                   </p>
                   <p>
-                    If you need to contact us about your data, you can reach us at
+                    If you need to contact us about your data, you can reach us
+                    at
                     <a
                       class="govuk-footer__link"
                       href="mailto:signatures@keepthingsopen.com"
@@ -921,7 +951,8 @@
                     >.
                   </p>
                   <p>
-                    If you have a complaint about our handling of your data, you can
+                    If you have a complaint about our handling of your data, you
+                    can
                     <a
                       class="govuk-footer__link"
                       href="https://ico.org.uk/make-a-complaint/"
@@ -978,7 +1009,8 @@
           var name = anonymous ? "Anonymous" : typed;
           var role = val("role");
           var org = val("org");
-          var contributor = document.getElementById("f-contributed-yes").checked;
+          var contributor =
+            document.getElementById("f-contributed-yes").checked;
           return [name, role, org, contributor ? "true" : ""]
             .map(csvField)
             .join(",");
@@ -989,9 +1021,7 @@
           if (!line) return defaultEmailHref;
           var subject = "Signature: " + val("name");
           var body =
-            "Please add this signature to the open letter.\n\n" +
-            line +
-            "\n";
+            "Please add this signature to the open letter.\n\n" + line + "\n";
           return (
             "mailto:signatures@keepthingsopen.com?subject=" +
             encodeURIComponent(subject) +
@@ -1134,7 +1164,10 @@
               if (r.status === 200 && r.body.ok) {
                 form.hidden = true;
                 confirmPanel.hidden = false;
-                confirmPanel.scrollIntoView({ behavior: "smooth", block: "center" });
+                confirmPanel.scrollIntoView({
+                  behavior: "smooth",
+                  block: "center",
+                });
                 return;
               }
               btn.disabled = false;
@@ -1157,7 +1190,9 @@
                 return;
               }
               showSummary([
-                { message: "Something went wrong. Try again or sign by email." },
+                {
+                  message: "Something went wrong. Try again or sign by email.",
+                },
               ]);
             })
             .catch(function () {
