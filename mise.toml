@@ -12,7 +12,7 @@ TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
 TURNSTILE_SECRET = "1x0000000000000000000000000000000AA"
 
 [tasks.build]
-description = "Render dist/index.html from index.html + signatures.md"
+description = "Render dist/index.html from index.html + signatures.csv"
 run = "bun scripts/build.mjs"
 
 [tasks.dev]

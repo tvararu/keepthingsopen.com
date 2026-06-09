@@ -15,7 +15,7 @@
     "watch_dir": [
       "index.html",
       "scripts",
-      "signatures.md",
+      "signatures.csv",
       "static"
     ]
   },
